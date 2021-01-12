@@ -335,5 +335,25 @@
     <property role="3GE5qa" value="Types" />
     <property role="TrG5h" value="CsIntRangeType" />
   </node>
+  <node concept="1TIwiD" id="5ZIt4Jprp9G">
+    <property role="EcuMT" value="6912590347179496044" />
+    <property role="TrG5h" value="CsEnumModifierProtected" />
+    <property role="34LRSv" value="protected" />
+    <property role="3GE5qa" value="Enum" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5ZIt4Jprp9H" role="PzmwI">
+      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5ZIt4Jprp9I">
+    <property role="EcuMT" value="6912590347179496046" />
+    <property role="TrG5h" value="CsEnumModifierPrivate" />
+    <property role="34LRSv" value="private" />
+    <property role="3GE5qa" value="Enum" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="5ZIt4Jprp9J" role="PzmwI">
+      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
+    </node>
+  </node>
 </model>
 

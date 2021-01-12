@@ -354,6 +354,9 @@
     <node concept="PrWs8" id="5ZIt4JpvNfs" role="PzmwI">
       <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
     </node>
+    <node concept="PrWs8" id="5ZIt4JpNmwC" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpNmw1" resolve="CsInterfaceModifier" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Bh">
     <property role="EcuMT" value="6912590347180071377" />
@@ -366,6 +369,9 @@
     </node>
     <node concept="PrWs8" id="5ZIt4JpvNfl" role="PzmwI">
       <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+    <node concept="PrWs8" id="5ZIt4JpNmwv" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpNmw1" resolve="CsInterfaceModifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Bj">
@@ -380,6 +386,9 @@
     <node concept="PrWs8" id="5ZIt4JpvNfe" role="PzmwI">
       <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
     </node>
+    <node concept="PrWs8" id="5ZIt4JpNmwm" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpNmw1" resolve="CsInterfaceModifier" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Bl">
     <property role="EcuMT" value="6912590347180071381" />
@@ -392,6 +401,9 @@
     </node>
     <node concept="PrWs8" id="5ZIt4JpvNf7" role="PzmwI">
       <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+    <node concept="PrWs8" id="5ZIt4JpNmw6" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpNmw1" resolve="CsInterfaceModifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpu97P">
@@ -444,6 +456,9 @@
     <node concept="PrWs8" id="5ZIt4JpxLdJ" role="PzmwI">
       <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
     </node>
+    <node concept="PrWs8" id="5ZIt4JpNmwe" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpNmw1" resolve="CsInterfaceModifier" />
+    </node>
   </node>
   <node concept="PlHQZ" id="5ZIt4JpCfIs">
     <property role="EcuMT" value="6912590347182865308" />
@@ -463,6 +478,48 @@
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5ZIt4JpCfIs" resolve="CsInheritableType" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5ZIt4JpNmw1">
+    <property role="EcuMT" value="6912590347185776640" />
+    <property role="TrG5h" value="CsInterfaceModifier" />
+    <property role="3GE5qa" value="Interface" />
+  </node>
+  <node concept="1TIwiD" id="5ZIt4JpO8w5">
+    <property role="EcuMT" value="6912590347185981445" />
+    <property role="3GE5qa" value="Interface" />
+    <property role="TrG5h" value="CsInterfaceDeclaration" />
+    <property role="34LRSv" value="interface" />
+    <property role="R4oN_" value="Interface declaration" />
+    <ref role="1TJDcQ" node="7XCVW6Buf3x" resolve="CsTypeDeclaration" />
+    <node concept="1TJgyj" id="5ZIt4JpO8w7" role="1TKVEi">
+      <property role="IQ2ns" value="6912590347185981447" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="modifiers" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5ZIt4JpNmw1" resolve="CsInterfaceModifier" />
+    </node>
+    <node concept="1TJgyj" id="5ZIt4JpR_Nj" role="1TKVEi">
+      <property role="IQ2ns" value="6912590347186887891" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="baseInterfaces" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5ZIt4JpR_Nh" resolve="CsInterfaceTypeReference" />
+    </node>
+    <node concept="PrWs8" id="5ZIt4JpO8w9" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpCfIs" resolve="CsInheritableType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5ZIt4JpR_Nh">
+    <property role="EcuMT" value="6912590347186887889" />
+    <property role="3GE5qa" value="Interface" />
+    <property role="TrG5h" value="CsInterfaceTypeReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5ZIt4JpR_Ni" role="1TKVEi">
+      <property role="IQ2ns" value="6912590347186887890" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5ZIt4JpO8w5" resolve="CsInterfaceDeclaration" />
     </node>
   </node>
 </model>

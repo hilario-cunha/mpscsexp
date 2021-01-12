@@ -61,7 +61,6 @@
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
-      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -149,12 +148,6 @@
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
-      </concept>
-    </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="6332851714983831325" name="jetbrains.mps.baseLanguage.logging.structure.MsgStatement" flags="ng" index="2xdQw9">
-        <property id="6332851714983843871" name="severity" index="2xdLsb" />
-        <child id="5721587534047265374" name="message" index="9lYJi" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -1137,56 +1130,6 @@
         <node concept="3Tqbb2" id="5ZIt4JpExKY" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="5ZIt4JpExKZ" role="3clF45">
-        <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-      </node>
-    </node>
-    <node concept="13i0hz" id="5ZIt4JpEy6r" role="13h7CS">
-      <property role="TrG5h" value="getScope" />
-      <ref role="13i0hy" to="tpcu:52_Geb4QFgX" resolve="getScope" />
-      <node concept="3Tm1VV" id="5ZIt4JpEy6s" role="1B3o_S" />
-      <node concept="3clFbS" id="5ZIt4JpEy6D" role="3clF47">
-        <node concept="2xdQw9" id="5ZIt4JpG6Ay" role="3cqZAp">
-          <property role="2xdLsb" value="gZ5fh_4/error" />
-          <node concept="Xl_RD" id="5ZIt4JpG6Az" role="9lYJi">
-            <property role="Xl_RC" value="scope2" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="5ZIt4JpG6yr" role="3cqZAp" />
-        <node concept="3clFbF" id="5ZIt4JpEy6R" role="3cqZAp">
-          <node concept="2OqwBi" id="5ZIt4JpEy6O" role="3clFbG">
-            <node concept="13iAh5" id="5ZIt4JpEy6P" role="2Oq$k0">
-              <ref role="3eA5LN" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-            </node>
-            <node concept="2qgKlT" id="5ZIt4JpEy6Q" role="2OqNvi">
-              <ref role="37wK5l" to="tpcu:52_Geb4QFgX" resolve="getScope" />
-              <node concept="37vLTw" id="5ZIt4JpEy6L" role="37wK5m">
-                <ref role="3cqZAo" node="5ZIt4JpEy6E" resolve="kind" />
-              </node>
-              <node concept="37vLTw" id="5ZIt4JpEy6M" role="37wK5m">
-                <ref role="3cqZAo" node="5ZIt4JpEy6G" resolve="link" />
-              </node>
-              <node concept="37vLTw" id="5ZIt4JpEy6N" role="37wK5m">
-                <ref role="3cqZAo" node="5ZIt4JpEy6I" resolve="index" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="5ZIt4JpEy6E" role="3clF46">
-        <property role="TrG5h" value="kind" />
-        <node concept="3bZ5Sz" id="5ZIt4JpEy6F" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="5ZIt4JpEy6G" role="3clF46">
-        <property role="TrG5h" value="link" />
-        <node concept="3uibUv" id="5ZIt4JpEy6H" role="1tU5fm">
-          <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="5ZIt4JpEy6I" role="3clF46">
-        <property role="TrG5h" value="index" />
-        <node concept="10Oyi0" id="5ZIt4JpEy6J" role="1tU5fm" />
-      </node>
-      <node concept="3uibUv" id="5ZIt4JpEy6K" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
       </node>
     </node>

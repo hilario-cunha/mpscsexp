@@ -47,5 +47,15 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="5ZIt4JpTEJX">
+    <property role="3GE5qa" value="Interface" />
+    <ref role="1M2myG" to="l3hf:5ZIt4JpR_Nh" resolve="CsInterfaceTypeReference" />
+    <node concept="1N5Pfh" id="5ZIt4JpTEKM" role="1Mr941">
+      <ref role="1N5Vy1" to="l3hf:5ZIt4JpR_Ni" resolve="ref" />
+      <node concept="1dDu$B" id="5ZIt4JpTEKN" role="1N6uqs">
+        <ref role="1dDu$A" to="l3hf:5ZIt4JpO8w5" resolve="CsInterfaceDeclaration" />
+      </node>
+    </node>
+  </node>
 </model>
 

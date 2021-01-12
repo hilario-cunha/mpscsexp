@@ -7,9 +7,17 @@
   <imports />
   <registry>
     <language id="8b52b239-5ffe-49c7-b425-cd04be7b015d" name="CsExp">
+      <concept id="6912590347186887889" name="CsExp.structure.CsInterfaceTypeReference" flags="ng" index="26c2yq">
+        <reference id="6912590347186887890" name="ref" index="26c2yp" />
+      </concept>
+      <concept id="6912590347185981445" name="CsExp.structure.CsInterfaceDeclaration" flags="ng" index="26fJLe">
+        <child id="6912590347186887891" name="baseInterfaces" index="26c2yo" />
+        <child id="6912590347185981447" name="modifiers" index="26fJLc" />
+      </concept>
       <concept id="6912590347182865316" name="CsExp.structure.CsInheritableTypeReference" flags="ng" index="26jCZJ">
         <reference id="6912590347182865317" name="ref" index="26jCZI" />
       </concept>
+      <concept id="6912590347181167470" name="CsExp.structure.CsPartialModifier" flags="ng" index="26qms_" />
       <concept id="6912590347180071374" name="CsExp.structure.CsPublicModifier" flags="ng" index="26A2Q5" />
       <concept id="6912590347180071379" name="CsExp.structure.CsPrivateModifier" flags="ng" index="26A2Qo" />
       <concept id="6912590347179782131" name="CsExp.structure.CsClassDeclaration" flags="ng" index="26BTIS">
@@ -89,6 +97,18 @@
         <node concept="26A2Qo" id="5ZIt4JpxL2Y" role="3$GvF9" />
       </node>
       <node concept="3o4JVR" id="5ZIt4JpA0Ej" role="3o41Wj" />
+      <node concept="26fJLe" id="5ZIt4JpQGHP" role="3o41Wj">
+        <property role="TrG5h" value="I1" />
+        <node concept="26A2Q5" id="5ZIt4JpQGIL" role="26fJLc" />
+        <node concept="26qms_" id="5ZIt4JpQGIT" role="26fJLc" />
+      </node>
+      <node concept="26fJLe" id="5ZIt4JpSByw" role="3o41Wj">
+        <property role="TrG5h" value="I2" />
+        <node concept="26c2yq" id="5ZIt4JpVLX2" role="26c2yo">
+          <ref role="26c2yp" node="5ZIt4JpQGHP" resolve="I1" />
+        </node>
+      </node>
+      <node concept="3o4JVR" id="5ZIt4JpWP_f" role="3o41Wj" />
       <node concept="26BTIS" id="5ZIt4JpA0E1" role="3o41Wj">
         <property role="TrG5h" value="C1" />
       </node>
@@ -103,8 +123,18 @@
       <node concept="3o4JVR" id="5ZIt4JpKYEn" role="3o41Wj" />
       <node concept="26BTIS" id="5ZIt4JpKYF6" role="3o41Wj">
         <property role="TrG5h" value="C3" />
-        <node concept="26jCZJ" id="5ZIt4JpNkwa" role="26s71u">
-          <ref role="26jCZI" node="5ZIt4JpExFU" resolve="C2" />
+        <node concept="26jCZJ" id="5ZIt4JpVMBC" role="26s71u">
+          <ref role="26jCZI" node="5ZIt4JpSByw" resolve="I2" />
+        </node>
+      </node>
+      <node concept="3o4JVR" id="5ZIt4JpWP_L" role="3o41Wj" />
+      <node concept="26fJLe" id="5ZIt4JpVLX$" role="3o41Wj">
+        <property role="TrG5h" value="I3" />
+        <node concept="26c2yq" id="5ZIt4JpWP$2" role="26c2yo">
+          <ref role="26c2yp" node="5ZIt4JpQGHP" resolve="I1" />
+        </node>
+        <node concept="26c2yq" id="5ZIt4JpWP$9" role="26c2yo">
+          <ref role="26c2yp" node="5ZIt4JpSByw" resolve="I2" />
         </node>
       </node>
     </node>

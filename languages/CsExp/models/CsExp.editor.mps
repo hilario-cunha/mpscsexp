@@ -415,5 +415,80 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="5ZIt4JpOVgm">
+    <property role="3GE5qa" value="Interface" />
+    <ref role="1XX52x" to="l3hf:5ZIt4JpO8w5" resolve="CsInterfaceDeclaration" />
+    <node concept="3EZMnI" id="5ZIt4JpOVgr" role="2wV5jI">
+      <node concept="_tjkj" id="5ZIt4JpOVji" role="3EZMnx">
+        <node concept="3F2HdR" id="5ZIt4JpOVjj" role="_tjki">
+          <ref role="1NtTu8" to="l3hf:5ZIt4JpO8w7" resolve="modifiers" />
+        </node>
+        <node concept="ZYGn8" id="5ZIt4JpOVjk" role="ZWbT9">
+          <node concept="3clFbS" id="5ZIt4JpOVjl" role="2VODD2">
+            <node concept="3clFbF" id="5ZIt4JpOVjm" role="3cqZAp">
+              <node concept="Xl_RD" id="5ZIt4JpOVjn" role="3clFbG">
+                <property role="Xl_RC" value=" " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5ZIt4JpOVgy" role="3EZMnx">
+        <property role="3F0ifm" value="interface" />
+      </node>
+      <node concept="3F0A7n" id="5ZIt4JpOVkX" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="_tjkj" id="5ZIt4JpR_OP" role="3EZMnx">
+        <node concept="3EZMnI" id="5ZIt4JpR_P7" role="_tjki">
+          <node concept="3F0ifn" id="5ZIt4JpR_Pg" role="3EZMnx">
+            <property role="3F0ifm" value=":" />
+          </node>
+          <node concept="3F2HdR" id="5ZIt4JpR_Pm" role="3EZMnx">
+            <property role="2czwfO" value="," />
+            <ref role="1NtTu8" to="l3hf:5ZIt4JpR_Nj" resolve="baseInterfaces" />
+            <node concept="2iRfu4" id="5ZIt4JpR_Po" role="2czzBx" />
+          </node>
+          <node concept="2iRfu4" id="5ZIt4JpR_Pa" role="2iSdaV" />
+          <node concept="VPM3Z" id="5ZIt4JpR_Pb" role="3F10Kt" />
+        </node>
+        <node concept="ZYGn8" id="5ZIt4JpR_Ps" role="ZWbT9">
+          <node concept="3clFbS" id="5ZIt4JpR_Pt" role="2VODD2">
+            <node concept="3clFbF" id="5ZIt4JpR_P_" role="3cqZAp">
+              <node concept="Xl_RD" id="5ZIt4JpR_P$" role="3clFbG">
+                <property role="Xl_RC" value=":" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5ZIt4JpOVgu" role="2iSdaV" />
+      <node concept="3F0ifn" id="5ZIt4JpQGKo" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <node concept="pVoyu" id="5ZIt4JpQGKU" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5ZIt4JpQGKI" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="pVoyu" id="5ZIt4JpQGKW" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5ZIt4JpSBzr">
+    <property role="3GE5qa" value="Interface" />
+    <ref role="1XX52x" to="l3hf:5ZIt4JpR_Nh" resolve="CsInterfaceTypeReference" />
+    <node concept="1iCGBv" id="5ZIt4JpSBzt" role="2wV5jI">
+      <ref role="1NtTu8" to="l3hf:5ZIt4JpR_Ni" resolve="ref" />
+      <node concept="1sVBvm" id="5ZIt4JpSBzu" role="1sWHZn">
+        <node concept="3F0A7n" id="5ZIt4JpSBzv" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -26,6 +26,9 @@
       <concept id="6135045524127475732" name="CsExp.structure.CsIntLiteral" flags="ng" index="1JkYtM">
         <property id="6135045524127632712" name="value" index="1Jn$8I" />
       </concept>
+      <concept id="6135045524127919351" name="CsExp.structure.CsCharLiteral" flags="ng" index="1JmEeh">
+        <property id="6135045524127919355" name="value" index="1JmEet" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -45,22 +48,34 @@
             <property role="1Jn$8I" value="11111111" />
           </node>
         </node>
+        <node concept="3o4ZVH" id="5ZIt4JpluY6" role="3o4ZVI">
+          <property role="TrG5h" value="a2" />
+          <node concept="1JmEeh" id="5ZIt4JpluY7" role="1JkdMW">
+            <property role="1JmEet" value="'\u00FF'" />
+          </node>
+        </node>
+        <node concept="3o4ZVH" id="5ZIt4JpluY8" role="3o4ZVI">
+          <property role="TrG5h" value="a3" />
+          <node concept="1JmEeh" id="5ZIt4JpluY9" role="1JkdMW">
+            <property role="1JmEet" value="'\x00FF'" />
+          </node>
+        </node>
+        <node concept="3o4ZVH" id="5ZIt4JpluYa" role="3o4ZVI">
+          <property role="TrG5h" value="a4" />
+          <node concept="1JmEeh" id="5ZIt4JpluYb" role="1JkdMW">
+            <property role="1JmEet" value="'ç'" />
+          </node>
+        </node>
       </node>
       <node concept="3o41Wg" id="4MuTFUoriSb" role="3o41Wj">
         <property role="TrG5h" value="b" />
         <node concept="3o4ZVH" id="4MuTFUoriSn" role="3o4ZVI">
           <property role="TrG5h" value="b1" />
           <node concept="1JkYtM" id="4MuTFUoriSt" role="1JkdMW">
-            <property role="1Jn$8I" value="122" />
+            <property role="1Jn$8I" value="132" />
           </node>
         </node>
-        <node concept="3o4ZVH" id="4MuTFUotsKv" role="3o4ZVI">
-          <property role="TrG5h" value="b2" />
-          <node concept="1JkYtM" id="4MuTFUotUzy" role="1JkdMW">
-            <property role="1Jn$8I" value="143" />
-          </node>
-        </node>
-        <node concept="3kYmi$" id="3z61_roZcbU" role="3_nDz$" />
+        <node concept="3kYmi$" id="5ZIt4JpluXY" role="3_nDz$" />
         <node concept="3$Eo2v" id="4MuTFUoAe7c" role="3$GvF9" />
       </node>
     </node>

@@ -80,6 +80,9 @@
     <node concept="PrWs8" id="7XCVW6Buf30" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="5ZIt4JpExK$" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="7XCVW6Buf3i" role="1TKVEi">
       <property role="IQ2ns" value="9180851455412203730" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -180,16 +183,6 @@
     <property role="TrG5h" value="CsCharValue" />
     <property role="FLfZY" value="'(\\\\u[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]|\\\\U[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]|\\\\'|\\\\\&quot;|\\\\\\\\|\\\\0|\\\\a|\\\\b|\\\\f|\\\\n|\\\\r|\\\\t|\\\\v|\\\\x[0-9A-Fa-f][0-9A-Fa-f]?[0-9A-Fa-f]?[0-9A-Fa-f]?|[^\\\\'])'" />
     <property role="3GE5qa" value="Literals" />
-  </node>
-  <node concept="1TIwiD" id="5Ot11ATH8i6">
-    <property role="EcuMT" value="6709523528388215942" />
-    <property role="TrG5h" value="CsEnumModifierPublic" />
-    <property role="34LRSv" value="public" />
-    <property role="3GE5qa" value="Enum" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1TpIy7UHeMS" role="PzmwI">
-      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
-    </node>
   </node>
   <node concept="PlHQZ" id="1TpIy7UGVxU">
     <property role="EcuMT" value="2186983749167855738" />
@@ -300,16 +293,6 @@
       <ref role="PrY4T" node="4MuTFUovrO_" resolve="CsIntRangeType" />
     </node>
   </node>
-  <node concept="1TIwiD" id="1TpIy7UL5wj">
-    <property role="EcuMT" value="2186983749168945171" />
-    <property role="TrG5h" value="CsEnumModifierInternal" />
-    <property role="34LRSv" value="internal" />
-    <property role="3GE5qa" value="Enum" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1TpIy7UL5wk" role="PzmwI">
-      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1TpIy7UT6aw">
     <property role="EcuMT" value="2186983749171045024" />
     <property role="3GE5qa" value="Literals" />
@@ -335,24 +318,151 @@
     <property role="3GE5qa" value="Types" />
     <property role="TrG5h" value="CsIntRangeType" />
   </node>
-  <node concept="1TIwiD" id="5ZIt4Jprp9G">
-    <property role="EcuMT" value="6912590347179496044" />
-    <property role="TrG5h" value="CsEnumModifierProtected" />
-    <property role="34LRSv" value="protected" />
-    <property role="3GE5qa" value="Enum" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5ZIt4Jprp9H" role="PzmwI">
-      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
+  <node concept="1TIwiD" id="5ZIt4JpsuZN">
+    <property role="EcuMT" value="6912590347179782131" />
+    <property role="TrG5h" value="CsClassDeclaration" />
+    <property role="34LRSv" value="class" />
+    <property role="3GE5qa" value="Class" />
+    <property role="R4oN_" value="Class declaration" />
+    <ref role="1TJDcQ" node="7XCVW6Buf3x" resolve="CsTypeDeclaration" />
+    <node concept="PrWs8" id="5ZIt4JpCfIw" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpCfIs" resolve="CsInheritableType" />
+    </node>
+    <node concept="1TJgyj" id="5ZIt4JpwmX2" role="1TKVEi">
+      <property role="IQ2ns" value="6912590347180797762" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="modifiers" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+    <node concept="1TJgyj" id="5ZIt4JpBwgl" role="1TKVEi">
+      <property role="IQ2ns" value="6912590347182670869" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="inheritedTypes" />
+      <ref role="20lvS9" node="5ZIt4JpCfI$" resolve="CsInheritableTypeReference" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5ZIt4Jprp9I">
-    <property role="EcuMT" value="6912590347179496046" />
-    <property role="TrG5h" value="CsEnumModifierPrivate" />
-    <property role="34LRSv" value="private" />
-    <property role="3GE5qa" value="Enum" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5ZIt4Jprp9J" role="PzmwI">
+  <node concept="1TIwiD" id="5ZIt4Jpt_Be">
+    <property role="EcuMT" value="6912590347180071374" />
+    <property role="TrG5h" value="CsPublicModifier" />
+    <property role="34LRSv" value="public" />
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1TJDcQ" node="5ZIt4Jpu97P" resolve="CsModifier" />
+    <node concept="PrWs8" id="5ZIt4Jpt_Bf" role="PzmwI">
       <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
+    </node>
+    <node concept="PrWs8" id="5ZIt4JpvNfs" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5ZIt4Jpt_Bh">
+    <property role="EcuMT" value="6912590347180071377" />
+    <property role="TrG5h" value="CsProtectedModifier" />
+    <property role="34LRSv" value="protected" />
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1TJDcQ" node="5ZIt4Jpu97P" resolve="CsModifier" />
+    <node concept="PrWs8" id="5ZIt4Jpt_Bi" role="PzmwI">
+      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
+    </node>
+    <node concept="PrWs8" id="5ZIt4JpvNfl" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5ZIt4Jpt_Bj">
+    <property role="EcuMT" value="6912590347180071379" />
+    <property role="TrG5h" value="CsPrivateModifier" />
+    <property role="34LRSv" value="private" />
+    <property role="3GE5qa" value="Modifiers" />
+    <ref role="1TJDcQ" node="5ZIt4Jpu97P" resolve="CsModifier" />
+    <node concept="PrWs8" id="5ZIt4Jpt_Bk" role="PzmwI">
+      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
+    </node>
+    <node concept="PrWs8" id="5ZIt4JpvNfe" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5ZIt4Jpt_Bl">
+    <property role="EcuMT" value="6912590347180071381" />
+    <property role="TrG5h" value="CsInternalModifier" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="34LRSv" value="internal" />
+    <ref role="1TJDcQ" node="5ZIt4Jpu97P" resolve="CsModifier" />
+    <node concept="PrWs8" id="5ZIt4Jpt_Bm" role="PzmwI">
+      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
+    </node>
+    <node concept="PrWs8" id="5ZIt4JpvNf7" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5ZIt4Jpu97P">
+    <property role="EcuMT" value="6912590347180216821" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="TrG5h" value="CsModifier" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="5ZIt4JpvNeW">
+    <property role="EcuMT" value="6912590347180651452" />
+    <property role="TrG5h" value="CsAbstractModifier" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="34LRSv" value="abstract" />
+    <ref role="1TJDcQ" node="5ZIt4Jpu97P" resolve="CsModifier" />
+    <node concept="PrWs8" id="5ZIt4JpvNf2" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5ZIt4JpvNeY">
+    <property role="EcuMT" value="6912590347180651454" />
+    <property role="TrG5h" value="CsSealedModifier" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="34LRSv" value="sealed" />
+    <ref role="1TJDcQ" node="5ZIt4Jpu97P" resolve="CsModifier" />
+    <node concept="PrWs8" id="5ZIt4JpvNfw" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5ZIt4JpvNeZ">
+    <property role="EcuMT" value="6912590347180651455" />
+    <property role="TrG5h" value="CsStaticModifier" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="34LRSv" value="static" />
+    <ref role="1TJDcQ" node="5ZIt4Jpu97P" resolve="CsModifier" />
+    <node concept="PrWs8" id="5ZIt4JpvNfy" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5ZIt4JpvNf1">
+    <property role="TrG5h" value="CsClassModifier" />
+    <property role="3GE5qa" value="Class" />
+    <property role="EcuMT" value="6912590347180651457" />
+  </node>
+  <node concept="1TIwiD" id="5ZIt4JpxLdI">
+    <property role="EcuMT" value="6912590347181167470" />
+    <property role="TrG5h" value="CsPartialModifier" />
+    <property role="3GE5qa" value="Modifiers" />
+    <property role="34LRSv" value="partial" />
+    <ref role="1TJDcQ" node="5ZIt4Jpu97P" resolve="CsModifier" />
+    <node concept="PrWs8" id="5ZIt4JpxLdJ" role="PzmwI">
+      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5ZIt4JpCfIs">
+    <property role="EcuMT" value="6912590347182865308" />
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="CsInheritableType" />
+    <node concept="PrWs8" id="5ZIt4JpDLbN" role="PrDN$">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5ZIt4JpCfI$">
+    <property role="EcuMT" value="6912590347182865316" />
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="CsInheritableTypeReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5ZIt4JpCfI_" role="1TKVEi">
+      <property role="IQ2ns" value="6912590347182865317" />
+      <property role="20kJfa" value="ref" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5ZIt4JpCfIs" resolve="CsInheritableType" />
     </node>
   </node>
 </model>

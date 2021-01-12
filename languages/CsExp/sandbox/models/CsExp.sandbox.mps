@@ -7,6 +7,15 @@
   <imports />
   <registry>
     <language id="8b52b239-5ffe-49c7-b425-cd04be7b015d" name="CsExp">
+      <concept id="6912590347182865316" name="CsExp.structure.CsInheritableTypeReference" flags="ng" index="26jCZJ">
+        <reference id="6912590347182865317" name="ref" index="26jCZI" />
+      </concept>
+      <concept id="6912590347180071374" name="CsExp.structure.CsPublicModifier" flags="ng" index="26A2Q5" />
+      <concept id="6912590347180071379" name="CsExp.structure.CsPrivateModifier" flags="ng" index="26A2Qo" />
+      <concept id="6912590347179782131" name="CsExp.structure.CsClassDeclaration" flags="ng" index="26BTIS">
+        <child id="6912590347180797762" name="modifiers" index="26rLG9" />
+        <child id="6912590347182670869" name="inheritedTypes" index="26s71u" />
+      </concept>
       <concept id="5521103899477901850" name="CsExp.structure.CsByteType" flags="ng" index="3kYmi$" />
       <concept id="9180851455412203729" name="CsExp.structure.CsEnumDeclaration" flags="ng" index="3o41Wg">
         <child id="9180851455412343087" name="members" index="3o4ZVI" />
@@ -19,10 +28,10 @@
       <concept id="9180851455412197040" name="CsExp.structure.CsNamespaceDeclaration" flags="ng" index="3o43_L">
         <child id="9180851455412203730" name="typesDeclaration" index="3o41Wj" />
       </concept>
+      <concept id="9180851455412277558" name="CsExp.structure.CsEmptyTypeDeclaration" flags="ng" index="3o4JVR" />
       <concept id="9180851455412343084" name="CsExp.structure.CsEnumMemberDeclaration" flags="ng" index="3o4ZVH">
         <child id="6135045524127273946" name="value" index="1JkdMW" />
       </concept>
-      <concept id="6709523528388215942" name="CsExp.structure.CsEnumModifierPublic" flags="ng" index="3$Eo2v" />
       <concept id="6135045524127475732" name="CsExp.structure.CsIntLiteral" flags="ng" index="1JkYtM">
         <property id="6135045524127632712" name="value" index="1Jn$8I" />
       </concept>
@@ -67,6 +76,7 @@
           </node>
         </node>
       </node>
+      <node concept="3o4JVR" id="5ZIt4JpxL2j" role="3o41Wj" />
       <node concept="3o41Wg" id="4MuTFUoriSb" role="3o41Wj">
         <property role="TrG5h" value="b" />
         <node concept="3o4ZVH" id="4MuTFUoriSn" role="3o4ZVI">
@@ -76,7 +86,26 @@
           </node>
         </node>
         <node concept="3kYmi$" id="5ZIt4JpluXY" role="3_nDz$" />
-        <node concept="3$Eo2v" id="4MuTFUoAe7c" role="3$GvF9" />
+        <node concept="26A2Qo" id="5ZIt4JpxL2Y" role="3$GvF9" />
+      </node>
+      <node concept="3o4JVR" id="5ZIt4JpA0Ej" role="3o41Wj" />
+      <node concept="26BTIS" id="5ZIt4JpA0E1" role="3o41Wj">
+        <property role="TrG5h" value="C1" />
+      </node>
+      <node concept="3o4JVR" id="5ZIt4JpKYE1" role="3o41Wj" />
+      <node concept="26BTIS" id="5ZIt4JpExFU" role="3o41Wj">
+        <property role="TrG5h" value="C2" />
+        <node concept="26A2Q5" id="5ZIt4JpExGn" role="26rLG9" />
+        <node concept="26jCZJ" id="5ZIt4JpKYDY" role="26s71u">
+          <ref role="26jCZI" node="5ZIt4JpA0E1" resolve="C1" />
+        </node>
+      </node>
+      <node concept="3o4JVR" id="5ZIt4JpKYEn" role="3o41Wj" />
+      <node concept="26BTIS" id="5ZIt4JpKYF6" role="3o41Wj">
+        <property role="TrG5h" value="C3" />
+        <node concept="26jCZJ" id="5ZIt4JpNkwa" role="26s71u">
+          <ref role="26jCZI" node="5ZIt4JpExFU" resolve="C2" />
+        </node>
       </node>
     </node>
   </node>

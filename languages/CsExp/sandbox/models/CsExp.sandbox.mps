@@ -13,6 +13,7 @@
       <concept id="6912590347185981445" name="CsExp.structure.CsInterfaceDeclaration" flags="ng" index="26fJLe">
         <child id="6912590347186887891" name="baseInterfaces" index="26c2yo" />
         <child id="6912590347185981447" name="modifiers" index="26fJLc" />
+        <child id="3048856059991048398" name="variantTypeParameters" index="3LnZqw" />
       </concept>
       <concept id="6912590347182865316" name="CsExp.structure.CsInheritableTypeReference" flags="ng" index="26jCZJ">
         <reference id="6912590347182865317" name="ref" index="26jCZI" />
@@ -46,6 +47,7 @@
       <concept id="6135045524127919351" name="CsExp.structure.CsCharLiteral" flags="ng" index="1JmEeh">
         <property id="6135045524127919355" name="value" index="1JmEet" />
       </concept>
+      <concept id="3048856059991048395" name="CsExp.structure.CsVariantTypeParameter" flags="ng" index="3LnZq_" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -107,6 +109,12 @@
         <property role="TrG5h" value="I2" />
         <node concept="26c2yq" id="5ZIt4JpVLX2" role="26c2yo">
           <ref role="26c2yp" node="5ZIt4JpQGHP" resolve="I1" />
+        </node>
+        <node concept="3LnZq_" id="2DfHAVr5eDe" role="3LnZqw">
+          <property role="TrG5h" value="T1" />
+        </node>
+        <node concept="3LnZq_" id="2DfHAVr5eDg" role="3LnZqw">
+          <property role="TrG5h" value="T2" />
         </node>
       </node>
       <node concept="3o4JVR" id="5ZIt4JpWP_f" role="3o41Wj" />

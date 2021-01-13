@@ -16,7 +16,7 @@
         <child id="6912590347185981447" name="modifiers" index="26fJLc" />
         <child id="3048856059991048398" name="variantTypeParameters" index="3LnZqw" />
       </concept>
-      <concept id="6912590347182865316" name="CsExp.structure.CsInheritableTypeReference" flags="ng" index="26jCZJ">
+      <concept id="6912590347182865316" name="CsExp.structure.CsUserDefinedTypeReference" flags="ng" index="26jCZJ">
         <reference id="6912590347182865317" name="ref" index="26jCZI" />
       </concept>
       <concept id="6912590347181167470" name="CsExp.structure.CsPartialModifier" flags="ng" index="26qms_" />
@@ -42,8 +42,6 @@
       <concept id="9180851455412343084" name="CsExp.structure.CsEnumMemberDeclaration" flags="ng" index="3o4ZVH">
         <child id="6135045524127273946" name="value" index="1JkdMW" />
       </concept>
-      <concept id="2186983749168689527" name="CsExp.structure.CsLongType" flags="ng" index="3$AsHm" />
-      <concept id="2186983749168080332" name="CsExp.structure.CsIntType" flags="ng" index="3$VDZH" />
       <concept id="6135045524127475732" name="CsExp.structure.CsIntLiteral" flags="ng" index="1JkYtM">
         <property id="6135045524127632712" name="value" index="1Jn$8I" />
       </concept>
@@ -51,8 +49,8 @@
         <property id="6135045524127919355" name="value" index="1JmEet" />
       </concept>
       <concept id="3048856059991048395" name="CsExp.structure.CsVariantTypeParameter" flags="ng" index="3LnZq_" />
-      <concept id="3048856059993563276" name="CsExp.structure.CsBuiltInTypeReference" flags="ng" index="3Luhry">
-        <child id="3048856059993563277" name="type" index="3Luhrz" />
+      <concept id="3048856060000429447" name="CsExp.structure.CsInheritableTypeReference" flags="ng" index="3LOdfD">
+        <reference id="3048856060000429448" name="ref" index="3LOdfA" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -131,15 +129,15 @@
       <node concept="26BTIS" id="5ZIt4JpExFU" role="3o41Wj">
         <property role="TrG5h" value="C2" />
         <node concept="26A2Q5" id="5ZIt4JpExGn" role="26rLG9" />
-        <node concept="26jCZJ" id="2DfHAVr6r4O" role="26s71u">
-          <ref role="26jCZI" node="5ZIt4JpA0E1" resolve="C1" />
+        <node concept="3LOdfD" id="2DfHAVrDcQR" role="26s71u">
+          <ref role="3LOdfA" node="5ZIt4JpA0E1" resolve="C1" />
         </node>
       </node>
       <node concept="3o4JVR" id="5ZIt4JpKYEn" role="3o41Wj" />
       <node concept="26BTIS" id="5ZIt4JpKYF6" role="3o41Wj">
         <property role="TrG5h" value="C3" />
-        <node concept="26jCZJ" id="5ZIt4JpVMBC" role="26s71u">
-          <ref role="26jCZI" node="5ZIt4JpSByw" resolve="I2" />
+        <node concept="3LOdfD" id="2DfHAVrEzUJ" role="26s71u">
+          <ref role="3LOdfA" node="5ZIt4JpSByw" resolve="I2" />
         </node>
       </node>
       <node concept="3o4JVR" id="5ZIt4JpWP_L" role="3o41Wj" />
@@ -148,13 +146,13 @@
         <node concept="26c2yq" id="5ZIt4JpZgjR" role="26c2yo">
           <ref role="26c2yp" node="5ZIt4JpQGHP" resolve="I1" />
         </node>
-        <node concept="26c2yq" id="2DfHAVrrKLa" role="26c2yo">
+        <node concept="26c2yq" id="2DfHAVrFVHh" role="26c2yo">
           <ref role="26c2yp" node="5ZIt4JpSByw" resolve="I2" />
-          <node concept="3Luhry" id="2DfHAVrt6L6" role="3LuhrV">
-            <node concept="3$VDZH" id="2DfHAVrt6Ld" role="3Luhrz" />
+          <node concept="26jCZJ" id="2DfHAVrFVHo" role="3LuhrV">
+            <ref role="26jCZI" node="5ZIt4JpA0E1" resolve="C1" />
           </node>
-          <node concept="3Luhry" id="2DfHAVrus9c" role="3LuhrV">
-            <node concept="3$AsHm" id="2DfHAVrvLo0" role="3Luhrz" />
+          <node concept="26jCZJ" id="2DfHAVrFVHu" role="3LuhrV">
+            <ref role="26jCZI" node="1TpIy7UVuhS" resolve="a" />
           </node>
         </node>
       </node>

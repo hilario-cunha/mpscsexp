@@ -1058,8 +1058,8 @@
                       </node>
                     </node>
                     <node concept="v3k3i" id="5ZIt4JpI_3i" role="2OqNvi">
-                      <node concept="chp4Y" id="5ZIt4JpI_6_" role="v3oSu">
-                        <ref role="cht4Q" to="l3hf:5ZIt4JpCfIs" resolve="CsInheritableType" />
+                      <node concept="chp4Y" id="2DfHAVrAwjZ" role="v3oSu">
+                        <ref role="cht4Q" to="l3hf:2DfHAVrx8v_" resolve="CsUserDefinedType" />
                       </node>
                     </node>
                   </node>
@@ -1098,8 +1098,8 @@
               <ref role="3cqZAo" node="5ZIt4JpExKV" resolve="kind" />
             </node>
             <node concept="2Zo12i" id="5ZIt4JpEyVK" role="2OqNvi">
-              <node concept="chp4Y" id="5ZIt4JpIs3W" role="2Zo12j">
-                <ref role="cht4Q" to="l3hf:5ZIt4JpCfIs" resolve="CsInheritableType" />
+              <node concept="chp4Y" id="2DfHAVrzNWw" role="2Zo12j">
+                <ref role="cht4Q" to="l3hf:2DfHAVrx8v_" resolve="CsUserDefinedType" />
               </node>
             </node>
           </node>

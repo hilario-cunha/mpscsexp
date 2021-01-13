@@ -39,11 +39,11 @@
   </registry>
   <node concept="1M2fIO" id="5ZIt4JpExGR">
     <property role="3GE5qa" value="" />
-    <ref role="1M2myG" to="l3hf:5ZIt4JpCfI$" resolve="CsInheritableTypeReference" />
+    <ref role="1M2myG" to="l3hf:5ZIt4JpCfI$" resolve="CsUserDefinedTypeReference" />
     <node concept="1N5Pfh" id="5ZIt4JpExGS" role="1Mr941">
       <ref role="1N5Vy1" to="l3hf:5ZIt4JpCfI_" resolve="ref" />
       <node concept="1dDu$B" id="5ZIt4JpExHE" role="1N6uqs">
-        <ref role="1dDu$A" to="l3hf:5ZIt4JpCfIs" resolve="CsInheritableType" />
+        <ref role="1dDu$A" to="l3hf:2DfHAVrx8v_" resolve="CsUserDefinedType" />
       </node>
     </node>
   </node>
@@ -54,6 +54,16 @@
       <ref role="1N5Vy1" to="l3hf:5ZIt4JpR_Ni" resolve="ref" />
       <node concept="1dDu$B" id="5ZIt4JpTEKN" role="1N6uqs">
         <ref role="1dDu$A" to="l3hf:5ZIt4JpO8w5" resolve="CsInterfaceDeclaration" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="2DfHAVrDdyg">
+    <property role="3GE5qa" value="" />
+    <ref role="1M2myG" to="l3hf:2DfHAVrBQm7" resolve="CsInheritableTypeReference" />
+    <node concept="1N5Pfh" id="2DfHAVrDdyh" role="1Mr941">
+      <ref role="1N5Vy1" to="l3hf:2DfHAVrBQm8" resolve="ref" />
+      <node concept="1dDu$B" id="2DfHAVrDdzV" role="1N6uqs">
+        <ref role="1dDu$A" to="l3hf:5ZIt4JpCfIs" resolve="CsInheritableType" />
       </node>
     </node>
   </node>

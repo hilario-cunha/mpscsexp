@@ -188,19 +188,11 @@
     <property role="EcuMT" value="2186983749167855738" />
     <property role="3GE5qa" value="Enum" />
     <property role="TrG5h" value="CsEnumBaseType" />
-    <node concept="PrWs8" id="4MuTFUox4Zp" role="PrDN$">
-      <ref role="PrY4T" node="1TpIy7UHMn9" resolve="CsType" />
-    </node>
   </node>
   <node concept="PlHQZ" id="1TpIy7UHeMR">
     <property role="TrG5h" value="CsEnumModifier" />
     <property role="3GE5qa" value="Enum" />
     <property role="EcuMT" value="6709523528387722956" />
-  </node>
-  <node concept="PlHQZ" id="1TpIy7UHMn9">
-    <property role="EcuMT" value="2186983749168080329" />
-    <property role="TrG5h" value="CsType" />
-    <property role="3GE5qa" value="Types" />
   </node>
   <node concept="1TIwiD" id="1TpIy7UHMnc">
     <property role="EcuMT" value="2186983749168080332" />
@@ -213,6 +205,9 @@
     </node>
     <node concept="PrWs8" id="4MuTFUowqVX" role="PzmwI">
       <ref role="PrY4T" node="4MuTFUovrO_" resolve="CsIntRangeType" />
+    </node>
+    <node concept="PrWs8" id="2DfHAVriDbA" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
     </node>
   </node>
   <node concept="1TIwiD" id="1TpIy7UK75J">
@@ -227,6 +222,9 @@
     <node concept="PrWs8" id="4MuTFUozFZC" role="PzmwI">
       <ref role="PrY4T" node="4MuTFUovrO_" resolve="CsIntRangeType" />
     </node>
+    <node concept="PrWs8" id="2DfHAVrt6M9" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1TpIy7UK75L">
     <property role="EcuMT" value="2186983749168689521" />
@@ -239,6 +237,9 @@
     </node>
     <node concept="PrWs8" id="4MuTFUozGbg" role="PzmwI">
       <ref role="PrY4T" node="4MuTFUovrO_" resolve="CsIntRangeType" />
+    </node>
+    <node concept="PrWs8" id="2DfHAVrt6Mi" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
     </node>
   </node>
   <node concept="1TIwiD" id="1TpIy7UK75N">
@@ -253,6 +254,9 @@
     <node concept="PrWs8" id="4MuTFUozGfG" role="PzmwI">
       <ref role="PrY4T" node="4MuTFUovrO_" resolve="CsIntRangeType" />
     </node>
+    <node concept="PrWs8" id="2DfHAVrt6MH" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1TpIy7UK75P">
     <property role="EcuMT" value="2186983749168689525" />
@@ -265,6 +269,9 @@
     </node>
     <node concept="PrWs8" id="4MuTFUozGpE" role="PzmwI">
       <ref role="PrY4T" node="4MuTFUovrO_" resolve="CsIntRangeType" />
+    </node>
+    <node concept="PrWs8" id="2DfHAVrt6Mr" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
     </node>
   </node>
   <node concept="1TIwiD" id="1TpIy7UK75R">
@@ -279,6 +286,9 @@
     <node concept="PrWs8" id="4MuTFUozH$G" role="PzmwI">
       <ref role="PrY4T" node="4MuTFUovrO_" resolve="CsIntRangeType" />
     </node>
+    <node concept="PrWs8" id="2DfHAVrnPf8" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1TpIy7UK75T">
     <property role="EcuMT" value="2186983749168689529" />
@@ -291,6 +301,9 @@
     </node>
     <node concept="PrWs8" id="4MuTFUozHMq" role="PzmwI">
       <ref role="PrY4T" node="4MuTFUovrO_" resolve="CsIntRangeType" />
+    </node>
+    <node concept="PrWs8" id="2DfHAVrt6M$" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
     </node>
   </node>
   <node concept="1TIwiD" id="1TpIy7UT6aw">
@@ -311,6 +324,9 @@
     </node>
     <node concept="PrWs8" id="4MuTFUovtb$" role="PzmwI">
       <ref role="PrY4T" node="4MuTFUovrO_" resolve="CsIntRangeType" />
+    </node>
+    <node concept="PrWs8" id="2DfHAVrt6M0" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
     </node>
   </node>
   <node concept="PlHQZ" id="4MuTFUovrO_">
@@ -479,6 +495,9 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5ZIt4JpCfIs" resolve="CsInheritableType" />
     </node>
+    <node concept="PrWs8" id="2DfHAVrdE2h" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVrdE2g" resolve="CsTypeReference" />
+    </node>
   </node>
   <node concept="PlHQZ" id="5ZIt4JpNmw1">
     <property role="EcuMT" value="6912590347185776640" />
@@ -528,6 +547,13 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5ZIt4JpO8w5" resolve="CsInterfaceDeclaration" />
     </node>
+    <node concept="1TJgyj" id="2DfHAVrdE2l" role="1TKVEi">
+      <property role="IQ2ns" value="3048856059993563285" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="innerTypes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2DfHAVrdE2g" resolve="CsTypeReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2DfHAVr443b">
     <property role="EcuMT" value="3048856059991048395" />
@@ -537,6 +563,31 @@
     <node concept="PrWs8" id="2DfHAVr443c" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="2DfHAVrdE2c">
+    <property role="EcuMT" value="3048856059993563276" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="CsBuiltInTypeReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2DfHAVrdE2d" role="1TKVEi">
+      <property role="IQ2ns" value="3048856059993563277" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2DfHAVriDaX" resolve="CsBuiltInType" />
+    </node>
+    <node concept="PrWs8" id="2DfHAVrdE2j" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVrdE2g" resolve="CsTypeReference" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2DfHAVrdE2g">
+    <property role="TrG5h" value="CsTypeReference" />
+    <property role="EcuMT" value="3048856059993563279" />
+  </node>
+  <node concept="PlHQZ" id="2DfHAVriDaX">
+    <property role="TrG5h" value="CsBuiltInType" />
+    <property role="3GE5qa" value="Types" />
+    <property role="EcuMT" value="3048856059994870460" />
   </node>
 </model>
 

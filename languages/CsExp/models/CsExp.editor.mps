@@ -330,13 +330,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="1TpIy7UJc1w">
-    <property role="3GE5qa" value="Types" />
-    <ref role="1XX52x" to="l3hf:1TpIy7UHMn9" resolve="CsType" />
-    <node concept="PMmxH" id="1TpIy7UJc1y" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-    </node>
-  </node>
   <node concept="24kQdi" id="5ZIt4Jpt2oK">
     <property role="3GE5qa" value="Class" />
     <ref role="1XX52x" to="l3hf:5ZIt4JpsuZN" resolve="CsClassDeclaration" />
@@ -517,12 +510,50 @@
   <node concept="24kQdi" id="5ZIt4JpSBzr">
     <property role="3GE5qa" value="Interface" />
     <ref role="1XX52x" to="l3hf:5ZIt4JpR_Nh" resolve="CsInterfaceTypeReference" />
-    <node concept="1iCGBv" id="5ZIt4JpSBzt" role="2wV5jI">
-      <ref role="1NtTu8" to="l3hf:5ZIt4JpR_Ni" resolve="ref" />
-      <node concept="1sVBvm" id="5ZIt4JpSBzu" role="1sWHZn">
-        <node concept="3F0A7n" id="5ZIt4JpSBzv" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+    <node concept="3EZMnI" id="2DfHAVrg2uK" role="2wV5jI">
+      <node concept="2iRfu4" id="2DfHAVrg2uL" role="2iSdaV" />
+      <node concept="1iCGBv" id="5ZIt4JpSBzt" role="3EZMnx">
+        <ref role="1NtTu8" to="l3hf:5ZIt4JpR_Ni" resolve="ref" />
+        <node concept="1sVBvm" id="5ZIt4JpSBzu" role="1sWHZn">
+          <node concept="3F0A7n" id="5ZIt4JpSBzv" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="_tjkj" id="2DfHAVrg2v5" role="3EZMnx">
+        <node concept="3EZMnI" id="2DfHAVrg2ve" role="_tjki">
+          <node concept="3F0ifn" id="2DfHAVrg2vn" role="3EZMnx">
+            <property role="3F0ifm" value="&lt;" />
+            <node concept="11L4FC" id="2DfHAVrhlIG" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="11LMrY" id="2DfHAVrhlIL" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F2HdR" id="2DfHAVrg2vt" role="3EZMnx">
+            <property role="2czwfO" value="," />
+            <ref role="1NtTu8" to="l3hf:2DfHAVrdE2l" resolve="innerTypes" />
+            <node concept="2iRfu4" id="2DfHAVrg2vv" role="2czzBx" />
+          </node>
+          <node concept="3F0ifn" id="2DfHAVrg2vC" role="3EZMnx">
+            <property role="3F0ifm" value="&gt;" />
+            <node concept="11L4FC" id="2DfHAVrhlIR" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="2iRfu4" id="2DfHAVrg2vh" role="2iSdaV" />
+          <node concept="VPM3Z" id="2DfHAVrg2vi" role="3F10Kt" />
+        </node>
+        <node concept="ZYGn8" id="2DfHAVrg2vI" role="ZWbT9">
+          <node concept="3clFbS" id="2DfHAVrg2vJ" role="2VODD2">
+            <node concept="3clFbF" id="2DfHAVrg2wo" role="3cqZAp">
+              <node concept="Xl_RD" id="2DfHAVrg2wn" role="3clFbG">
+                <property role="Xl_RC" value="&lt;" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -533,6 +564,29 @@
     <node concept="3F0A7n" id="2DfHAVr5eHG" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
+  </node>
+  <node concept="24kQdi" id="2DfHAVrjVpx">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="l3hf:2DfHAVrdE2c" resolve="CsBuiltInTypeReference" />
+    <node concept="1kIj98" id="2DfHAVrqrsi" role="2wV5jI">
+      <node concept="3F1sOY" id="2DfHAVrqrsm" role="1kIj9b">
+        <ref role="1NtTu8" to="l3hf:2DfHAVrdE2d" resolve="type" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2DfHAVrp7zx">
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="l3hf:2DfHAVriDaX" resolve="CsBuiltInType" />
+    <node concept="1kIj98" id="2DfHAVrp7zz" role="2wV5jI">
+      <node concept="PMmxH" id="2DfHAVrp7zD" role="1kIj9b">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+    </node>
+  </node>
+  <node concept="22mcaB" id="2DfHAVrrKLF">
+    <property role="3GE5qa" value="Types" />
+    <ref role="aqKnT" to="l3hf:2DfHAVrdE2c" resolve="CsBuiltInTypeReference" />
+    <node concept="22hDWj" id="2DfHAVrrKLG" role="22hAXT" />
   </node>
 </model>
 

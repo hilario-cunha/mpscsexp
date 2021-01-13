@@ -9,6 +9,7 @@
     <language id="8b52b239-5ffe-49c7-b425-cd04be7b015d" name="CsExp">
       <concept id="6912590347186887889" name="CsExp.structure.CsInterfaceTypeReference" flags="ng" index="26c2yq">
         <reference id="6912590347186887890" name="ref" index="26c2yp" />
+        <child id="3048856059993563285" name="innerTypes" index="3LuhrV" />
       </concept>
       <concept id="6912590347185981445" name="CsExp.structure.CsInterfaceDeclaration" flags="ng" index="26fJLe">
         <child id="6912590347186887891" name="baseInterfaces" index="26c2yo" />
@@ -41,6 +42,8 @@
       <concept id="9180851455412343084" name="CsExp.structure.CsEnumMemberDeclaration" flags="ng" index="3o4ZVH">
         <child id="6135045524127273946" name="value" index="1JkdMW" />
       </concept>
+      <concept id="2186983749168689527" name="CsExp.structure.CsLongType" flags="ng" index="3$AsHm" />
+      <concept id="2186983749168080332" name="CsExp.structure.CsIntType" flags="ng" index="3$VDZH" />
       <concept id="6135045524127475732" name="CsExp.structure.CsIntLiteral" flags="ng" index="1JkYtM">
         <property id="6135045524127632712" name="value" index="1Jn$8I" />
       </concept>
@@ -48,6 +51,9 @@
         <property id="6135045524127919355" name="value" index="1JmEet" />
       </concept>
       <concept id="3048856059991048395" name="CsExp.structure.CsVariantTypeParameter" flags="ng" index="3LnZq_" />
+      <concept id="3048856059993563276" name="CsExp.structure.CsBuiltInTypeReference" flags="ng" index="3Luhry">
+        <child id="3048856059993563277" name="type" index="3Luhrz" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -95,7 +101,7 @@
             <property role="1Jn$8I" value="132" />
           </node>
         </node>
-        <node concept="3kYmi$" id="5ZIt4JpluXY" role="3_nDz$" />
+        <node concept="3kYmi$" id="2DfHAVrvLnX" role="3_nDz$" />
         <node concept="26A2Qo" id="5ZIt4JpxL2Y" role="3$GvF9" />
       </node>
       <node concept="3o4JVR" id="5ZIt4JpA0Ej" role="3o41Wj" />
@@ -142,8 +148,14 @@
         <node concept="26c2yq" id="5ZIt4JpZgjR" role="26c2yo">
           <ref role="26c2yp" node="5ZIt4JpQGHP" resolve="I1" />
         </node>
-        <node concept="26c2yq" id="5ZIt4JpZgjX" role="26c2yo">
+        <node concept="26c2yq" id="2DfHAVrrKLa" role="26c2yo">
           <ref role="26c2yp" node="5ZIt4JpSByw" resolve="I2" />
+          <node concept="3Luhry" id="2DfHAVrt6L6" role="3LuhrV">
+            <node concept="3$VDZH" id="2DfHAVrt6Ld" role="3Luhrz" />
+          </node>
+          <node concept="3Luhry" id="2DfHAVrus9c" role="3LuhrV">
+            <node concept="3$AsHm" id="2DfHAVrvLo0" role="3Luhrz" />
+          </node>
         </node>
       </node>
     </node>

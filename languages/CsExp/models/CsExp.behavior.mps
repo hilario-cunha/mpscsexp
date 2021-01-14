@@ -1328,5 +1328,47 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="7f2RN42mxmZ">
+    <property role="3GE5qa" value="Interface" />
+    <ref role="13h7C2" to="l3hf:7f2RN42cKe7" resolve="CsInterfaceMemberMethodDeclaration" />
+    <node concept="13hLZK" id="7f2RN42mxn0" role="13h7CW">
+      <node concept="3clFbS" id="7f2RN42mxn1" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7f2RN42mxna" role="13h7CS">
+      <property role="TrG5h" value="getScope" />
+      <ref role="13i0hy" to="tpcu:52_Geb4QDV$" resolve="getScope" />
+      <node concept="3Tm1VV" id="7f2RN42mxnb" role="1B3o_S" />
+      <node concept="3clFbS" id="7f2RN42mxnk" role="3clF47">
+        <node concept="3cpWs6" id="7f2RN42pZLD" role="3cqZAp">
+          <node concept="2YIFZM" id="7f2RN42pZLE" role="3cqZAk">
+            <ref role="37wK5l" to="o8zo:7ipADkTevQ_" resolve="createComposite" />
+            <ref role="1Pybhc" to="o8zo:7ipADkTevLt" resolve="CompositeScope" />
+            <node concept="2YIFZM" id="7f2RN42pZLF" role="37wK5m">
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <node concept="2OqwBi" id="7f2RN42pZLG" role="37wK5m">
+                <node concept="13iPFW" id="7f2RN42pZLH" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="7f2RN42q0ah" role="2OqNvi">
+                  <ref role="3TtcxE" to="l3hf:7f2RN42kMnU" resolve="variantTypeParameters" />
+                </node>
+              </node>
+            </node>
+            <node concept="iy90A" id="7f2RN42pZLJ" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7f2RN42mxnl" role="3clF46">
+        <property role="TrG5h" value="kind" />
+        <node concept="3bZ5Sz" id="7f2RN42mxnm" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7f2RN42mxnn" role="3clF46">
+        <property role="TrG5h" value="child" />
+        <node concept="3Tqbb2" id="7f2RN42mxno" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="7f2RN42mxnp" role="3clF45">
+        <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
+    </node>
+  </node>
 </model>
 

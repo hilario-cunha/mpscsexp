@@ -125,6 +125,7 @@
     <property role="EcuMT" value="9180851455412203745" />
     <property role="TrG5h" value="CsTypeDeclaration" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="7XCVW6Bux4Q">
@@ -198,7 +199,7 @@
     <property role="EcuMT" value="2186983749168080332" />
     <property role="TrG5h" value="CsIntType" />
     <property role="34LRSv" value="int" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1TpIy7UHMnd" role="PzmwI">
       <ref role="PrY4T" node="1TpIy7UGVxU" resolve="CsEnumBaseType" />
@@ -212,7 +213,7 @@
   </node>
   <node concept="1TIwiD" id="1TpIy7UK75J">
     <property role="EcuMT" value="2186983749168689519" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
     <property role="TrG5h" value="CsSByteType" />
     <property role="34LRSv" value="sbyte" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -228,7 +229,7 @@
   </node>
   <node concept="1TIwiD" id="1TpIy7UK75L">
     <property role="EcuMT" value="2186983749168689521" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
     <property role="TrG5h" value="CsShortType" />
     <property role="34LRSv" value="short" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -244,7 +245,7 @@
   </node>
   <node concept="1TIwiD" id="1TpIy7UK75N">
     <property role="EcuMT" value="2186983749168689523" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
     <property role="TrG5h" value="CsUShortType" />
     <property role="34LRSv" value="ushort" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -262,7 +263,7 @@
     <property role="EcuMT" value="2186983749168689525" />
     <property role="TrG5h" value="CsUIntType" />
     <property role="34LRSv" value="uint" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1TpIy7UK75Q" role="PzmwI">
       <ref role="PrY4T" node="1TpIy7UGVxU" resolve="CsEnumBaseType" />
@@ -276,7 +277,7 @@
   </node>
   <node concept="1TIwiD" id="1TpIy7UK75R">
     <property role="EcuMT" value="2186983749168689527" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
     <property role="TrG5h" value="CsLongType" />
     <property role="34LRSv" value="long" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -292,7 +293,7 @@
   </node>
   <node concept="1TIwiD" id="1TpIy7UK75T">
     <property role="EcuMT" value="2186983749168689529" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
     <property role="TrG5h" value="CsULongType" />
     <property role="34LRSv" value="ulong" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -315,7 +316,7 @@
   </node>
   <node concept="1TIwiD" id="4MuTFUopS8q">
     <property role="EcuMT" value="5521103899477901850" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
     <property role="TrG5h" value="CsByteType" />
     <property role="34LRSv" value="byte" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -359,7 +360,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="inheritedTypes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7f2RN41IaB6" resolve="CsClassTypeReference" />
+      <ref role="20lvS9" node="7f2RN41IaB6" resolve="CsInheritableTypeReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Be">
@@ -482,7 +483,7 @@
   </node>
   <node concept="PlHQZ" id="5ZIt4JpCfIs">
     <property role="EcuMT" value="6912590347182865308" />
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="Types" />
     <property role="TrG5h" value="CsInheritableType" />
     <node concept="1TJgyj" id="2DfHAVr443e" role="1TKVEi">
       <property role="IQ2ns" value="3048856059991048398" />
@@ -497,7 +498,7 @@
   </node>
   <node concept="1TIwiD" id="5ZIt4JpCfI$">
     <property role="EcuMT" value="6912590347182865316" />
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="References" />
     <property role="TrG5h" value="CsUserDefinedTypeReference" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5ZIt4JpCfI_" role="1TKVEi">
@@ -576,7 +577,7 @@
   </node>
   <node concept="1TIwiD" id="2DfHAVrdE2c">
     <property role="EcuMT" value="3048856059993563276" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="References" />
     <property role="TrG5h" value="CsBuiltInTypeReference" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2DfHAVrdE2d" role="1TKVEi">
@@ -593,6 +594,7 @@
   <node concept="PlHQZ" id="2DfHAVrdE2g">
     <property role="TrG5h" value="CsTypeReference" />
     <property role="EcuMT" value="3048856059993563279" />
+    <property role="3GE5qa" value="References" />
   </node>
   <node concept="PlHQZ" id="2DfHAVriDaX">
     <property role="TrG5h" value="CsBuiltInType" />
@@ -607,22 +609,10 @@
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2DfHAVrBQm7">
-    <property role="EcuMT" value="3048856060000429447" />
-    <property role="3GE5qa" value="" />
-    <property role="TrG5h" value="CsInheritableTypeReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2DfHAVrBQm8" role="1TKVEi">
-      <property role="IQ2ns" value="3048856060000429448" />
-      <property role="20kJfa" value="ref" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="5ZIt4JpCfIs" resolve="CsInheritableType" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="7f2RN41IaB6">
     <property role="EcuMT" value="8341474861418850758" />
-    <property role="3GE5qa" value="Class" />
-    <property role="TrG5h" value="CsClassTypeReference" />
+    <property role="3GE5qa" value="References" />
+    <property role="TrG5h" value="CsInheritableTypeReference" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7f2RN41IaB7" role="1TKVEi">
       <property role="IQ2ns" value="8341474861418850759" />
@@ -636,6 +626,34 @@
       <property role="20kJfa" value="innerTypes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2DfHAVrdE2g" resolve="CsTypeReference" />
+    </node>
+  </node>
+  <node concept="Az7Fb" id="7f2RN41YnQL">
+    <property role="3F6X1D" value="8341474861423099313" />
+    <property role="3GE5qa" value="Literals" />
+    <property role="TrG5h" value="CsStringValue" />
+    <property role="FLfZY" value="&quot;.*&quot;" />
+  </node>
+  <node concept="1TIwiD" id="7f2RN41YnQM">
+    <property role="EcuMT" value="8341474861423099314" />
+    <property role="TrG5h" value="CsStringLiteral" />
+    <property role="3GE5qa" value="Literals" />
+    <property role="34LRSv" value="string literal" />
+    <ref role="1TJDcQ" node="1TpIy7UT6aw" resolve="CsLiteral" />
+    <node concept="1TJgyi" id="7f2RN41YnQN" role="1TKVEl">
+      <property role="IQ2nx" value="8341474861423099315" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="7f2RN41YnQL" resolve="CsStringValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7f2RN41YnQO">
+    <property role="EcuMT" value="8341474861423099316" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
+    <property role="TrG5h" value="CsStringType" />
+    <property role="34LRSv" value="string" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7f2RN41YnQR" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
     </node>
   </node>
 </model>

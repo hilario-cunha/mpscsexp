@@ -84,7 +84,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="5ZIt4JpExGR">
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="References" />
     <ref role="1M2myG" to="l3hf:5ZIt4JpCfI$" resolve="CsUserDefinedTypeReference" />
     <node concept="1N5Pfh" id="5ZIt4JpExGS" role="1Mr941">
       <ref role="1N5Vy1" to="l3hf:5ZIt4JpCfI_" resolve="ref" />
@@ -149,19 +149,9 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="2DfHAVrDdyg">
-    <property role="3GE5qa" value="" />
-    <ref role="1M2myG" to="l3hf:2DfHAVrBQm7" resolve="CsInheritableTypeReference" />
-    <node concept="1N5Pfh" id="2DfHAVrDdyh" role="1Mr941">
-      <ref role="1N5Vy1" to="l3hf:2DfHAVrBQm8" resolve="ref" />
-      <node concept="1dDu$B" id="2DfHAVrDdzV" role="1N6uqs">
-        <ref role="1dDu$A" to="l3hf:5ZIt4JpCfIs" resolve="CsInheritableType" />
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="7f2RN41JzU2">
-    <property role="3GE5qa" value="Class" />
-    <ref role="1M2myG" to="l3hf:7f2RN41IaB6" resolve="CsClassTypeReference" />
+    <property role="3GE5qa" value="References" />
+    <ref role="1M2myG" to="l3hf:7f2RN41IaB6" resolve="CsInheritableTypeReference" />
     <node concept="1N5Pfh" id="7f2RN41MOWG" role="1Mr941">
       <ref role="1N5Vy1" to="l3hf:7f2RN41IaB7" resolve="ref" />
       <node concept="1dDu$B" id="7f2RN41MOZY" role="1N6uqs">

@@ -487,7 +487,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5ZIt4JpD0qS">
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="References" />
     <ref role="1XX52x" to="l3hf:5ZIt4JpCfI$" resolve="CsUserDefinedTypeReference" />
     <node concept="1iCGBv" id="5ZIt4JpD0qU" role="2wV5jI">
       <ref role="1NtTu8" to="l3hf:5ZIt4JpCfI_" resolve="ref" />
@@ -667,7 +667,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2DfHAVrjVpx">
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="References" />
     <ref role="1XX52x" to="l3hf:2DfHAVrdE2c" resolve="CsBuiltInTypeReference" />
     <node concept="1kIj98" id="2DfHAVrqrsi" role="2wV5jI">
       <node concept="3F1sOY" id="2DfHAVrqrsm" role="1kIj9b">
@@ -685,25 +685,12 @@
     </node>
   </node>
   <node concept="22mcaB" id="2DfHAVrrKLF">
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="References" />
     <ref role="aqKnT" to="l3hf:2DfHAVrdE2c" resolve="CsBuiltInTypeReference" />
     <node concept="22hDWj" id="2DfHAVrrKLG" role="22hAXT" />
   </node>
-  <node concept="24kQdi" id="2DfHAVrDdwU">
-    <property role="3GE5qa" value="" />
-    <ref role="1XX52x" to="l3hf:2DfHAVrBQm7" resolve="CsInheritableTypeReference" />
-    <node concept="1iCGBv" id="2DfHAVrDdwW" role="2wV5jI">
-      <ref role="1NtTu8" to="l3hf:2DfHAVrBQm8" resolve="ref" />
-      <node concept="1sVBvm" id="2DfHAVrDdwX" role="1sWHZn">
-        <node concept="3F0A7n" id="2DfHAVrDdwY" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="325Ffw" id="7f2RN41zC0c">
-    <property role="3GE5qa" value="Interface" />
+    <property role="3GE5qa" value="References" />
     <property role="TrG5h" value="CsTypeReference_InnerType_Next" />
     <ref role="1chiOs" to="l3hf:2DfHAVrdE2g" resolve="CsTypeReference" />
     <node concept="2PxR9H" id="7f2RN41zC0d" role="2QnnpI">
@@ -730,6 +717,7 @@
   </node>
   <node concept="1h_SRR" id="7f2RN41Affz">
     <property role="TrG5h" value="CsTypeReference_InnerType_ActionMap" />
+    <property role="3GE5qa" value="References" />
     <ref role="1h_SK9" to="l3hf:2DfHAVrdE2g" resolve="CsTypeReference" />
     <node concept="1hA7zw" id="7f2RN41Aff$" role="1h_SK8">
       <property role="1hAc7j" value="7P1WhNABvta/backspace_action_id" />
@@ -759,8 +747,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="7f2RN41IaKH">
-    <property role="3GE5qa" value="Class" />
-    <ref role="1XX52x" to="l3hf:7f2RN41IaB6" resolve="CsClassTypeReference" />
+    <property role="3GE5qa" value="References" />
+    <ref role="1XX52x" to="l3hf:7f2RN41IaB6" resolve="CsInheritableTypeReference" />
     <node concept="3EZMnI" id="7f2RN41IaKJ" role="2wV5jI">
       <node concept="2iRfu4" id="7f2RN41IaKK" role="2iSdaV" />
       <node concept="1iCGBv" id="7f2RN41IaKL" role="3EZMnx">

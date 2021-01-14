@@ -54,7 +54,8 @@
       <concept id="3048856059993563276" name="CsExp.structure.CsBuiltInTypeReference" flags="ng" index="3Luhry">
         <child id="3048856059993563277" name="type" index="3Luhrz" />
       </concept>
-      <concept id="8341474861418850758" name="CsExp.structure.CsClassTypeReference" flags="ng" index="1MuBrR">
+      <concept id="8341474861423099316" name="CsExp.structure.CsStringType" flags="ng" index="1MeUa5" />
+      <concept id="8341474861418850758" name="CsExp.structure.CsInheritableTypeReference" flags="ng" index="1MuBrR">
         <reference id="8341474861418850759" name="ref" index="1MuBrQ" />
         <child id="8341474861418850760" name="innerTypes" index="1MuBrT" />
       </concept>
@@ -134,6 +135,12 @@
       <node concept="3o4JVR" id="7f2RN41RZ49" role="3o41Wj" />
       <node concept="26BTIS" id="7f2RN41RZ54" role="3o41Wj">
         <property role="TrG5h" value="C1" />
+        <node concept="1MuBrR" id="7f2RN41YnKX" role="26s71u">
+          <ref role="1MuBrQ" node="7f2RN41RYZp" resolve="I2" />
+          <node concept="3Luhry" id="7f2RN41YnL4" role="1MuBrT">
+            <node concept="1MeUa5" id="7f2RN41ZVu0" role="3Luhrz" />
+          </node>
+        </node>
       </node>
       <node concept="3o4JVR" id="7f2RN41RZ5z" role="3o41Wj" />
       <node concept="26BTIS" id="7f2RN41RZ6y" role="3o41Wj">
@@ -148,17 +155,17 @@
       <node concept="3o4JVR" id="7f2RN41RZ76" role="3o41Wj" />
       <node concept="26BTIS" id="7f2RN41RZ8b" role="3o41Wj">
         <property role="TrG5h" value="C3" />
-        <node concept="1MuBrR" id="7f2RN41Tzgx" role="26s71u">
+        <node concept="3LnZq_" id="7f2RN41YnKy" role="3LnZqw">
+          <property role="TrG5h" value="T" />
+        </node>
+        <node concept="1MuBrR" id="7f2RN41YnKF" role="26s71u">
           <ref role="1MuBrQ" node="7f2RN41RZ6y" resolve="C2" />
-          <node concept="26jCZJ" id="7f2RN41TzgF" role="1MuBrT">
-            <ref role="26jCZI" node="7f2RN41TzgD" resolve="T" />
-          </node>
-          <node concept="26jCZJ" id="7f2RN41TzgJ" role="1MuBrT">
+          <node concept="26jCZJ" id="7f2RN41YnKM" role="1MuBrT">
             <ref role="26jCZI" node="7f2RN41RZ54" resolve="C1" />
           </node>
-        </node>
-        <node concept="3LnZq_" id="7f2RN41TzgD" role="3LnZqw">
-          <property role="TrG5h" value="T" />
+          <node concept="26jCZJ" id="7f2RN41YnKQ" role="1MuBrT">
+            <ref role="26jCZI" node="7f2RN41YnKy" resolve="T" />
+          </node>
         </node>
       </node>
     </node>

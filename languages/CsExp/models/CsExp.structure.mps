@@ -535,6 +535,9 @@
     <node concept="PrWs8" id="5ZIt4JpO8w9" role="PzmwI">
       <ref role="PrY4T" node="5ZIt4JpCfIs" resolve="CsInheritableType" />
     </node>
+    <node concept="PrWs8" id="7f2RN41cDm4" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4JpR_Nh">
     <property role="EcuMT" value="6912590347186887889" />
@@ -562,6 +565,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2DfHAVr443c" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+    <node concept="PrWs8" id="7f2RN41aRe5" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVrx8v_" resolve="CsUserDefinedType" />
     </node>
   </node>
   <node concept="1TIwiD" id="2DfHAVrdE2c">

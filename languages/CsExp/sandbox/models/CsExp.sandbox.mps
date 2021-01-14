@@ -14,6 +14,7 @@
       <concept id="6912590347185981445" name="CsExp.structure.CsInterfaceDeclaration" flags="ng" index="26fJLe">
         <child id="6912590347186887891" name="baseInterfaces" index="26c2yo" />
         <child id="6912590347185981447" name="modifiers" index="26fJLc" />
+        <child id="8341474861423958807" name="members" index="1LL4gA" />
       </concept>
       <concept id="6912590347182865308" name="CsExp.structure.CsInheritableType" flags="ng" index="26jCZn">
         <child id="3048856059991048398" name="variantTypeParameters" index="3LnZqw" />
@@ -54,6 +55,7 @@
       <concept id="3048856059993563276" name="CsExp.structure.CsBuiltInTypeReference" flags="ng" index="3Luhry">
         <child id="3048856059993563277" name="type" index="3Luhrz" />
       </concept>
+      <concept id="8341474861423551934" name="CsExp.structure.CsEmptyInterfaceMemberDeclaration" flags="ng" index="1LKFEf" />
       <concept id="8341474861423099316" name="CsExp.structure.CsStringType" flags="ng" index="1MeUa5" />
       <concept id="8341474861418850758" name="CsExp.structure.CsInheritableTypeReference" flags="ng" index="1MuBrR">
         <reference id="8341474861418850759" name="ref" index="1MuBrQ" />
@@ -112,6 +114,7 @@
       <node concept="3o4JVR" id="5ZIt4JpA0Ej" role="3o41Wj" />
       <node concept="26fJLe" id="5ZIt4JpQGHP" role="3o41Wj">
         <property role="TrG5h" value="I1" />
+        <node concept="1LKFEf" id="7f2RN42cJ$A" role="1LL4gA" />
         <node concept="26A2Q5" id="5ZIt4JpQGIL" role="26fJLc" />
         <node concept="26qms_" id="5ZIt4JpQGIT" role="26fJLc" />
       </node>

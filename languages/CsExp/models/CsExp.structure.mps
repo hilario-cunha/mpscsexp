@@ -537,6 +537,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5ZIt4JpR_Nh" resolve="CsInterfaceTypeReference" />
     </node>
+    <node concept="1TJgyj" id="7f2RN421DGn" role="1TKVEi">
+      <property role="IQ2ns" value="8341474861423958807" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="members" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7f2RN4206mX" resolve="CsInterfaceMemberDeclaration" />
+    </node>
     <node concept="PrWs8" id="5ZIt4JpO8w9" role="PzmwI">
       <ref role="PrY4T" node="5ZIt4JpCfIs" resolve="CsInheritableType" />
     </node>
@@ -655,6 +662,19 @@
     <node concept="PrWs8" id="7f2RN41YnQR" role="PzmwI">
       <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7f2RN4206mX">
+    <property role="EcuMT" value="8341474861423551933" />
+    <property role="3GE5qa" value="Interface" />
+    <property role="TrG5h" value="CsInterfaceMemberDeclaration" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="7f2RN4206mY">
+    <property role="EcuMT" value="8341474861423551934" />
+    <property role="3GE5qa" value="Interface" />
+    <property role="TrG5h" value="CsEmptyInterfaceMemberDeclaration" />
+    <ref role="1TJDcQ" node="7f2RN4206mX" resolve="CsInterfaceMemberDeclaration" />
   </node>
 </model>
 

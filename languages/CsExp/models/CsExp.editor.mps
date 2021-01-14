@@ -588,6 +588,32 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F2HdR" id="7f2RN421DKQ" role="3EZMnx">
+        <ref role="1NtTu8" to="l3hf:7f2RN421DGn" resolve="members" />
+        <node concept="l2Vlx" id="7f2RN421DKS" role="2czzBx" />
+        <node concept="pVoyu" id="7f2RN421DLx" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="7f2RN421DLz" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pj6Ft" id="7f2RN423e5u" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="4$FPG" id="7f2RN426pvU" role="4_6I_">
+          <node concept="3clFbS" id="7f2RN426pvV" role="2VODD2">
+            <node concept="3clFbF" id="7f2RN426pxP" role="3cqZAp">
+              <node concept="2ShNRf" id="7f2RN426pxN" role="3clFbG">
+                <node concept="3zrR0B" id="7f2RN426pF0" role="2ShVmc">
+                  <node concept="3Tqbb2" id="7f2RN426pF2" role="3zrR0E">
+                    <ref role="ehGHo" to="l3hf:7f2RN4206mY" resolve="CsEmptyInterfaceMemberDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="5ZIt4JpQGKI" role="3EZMnx">
         <property role="3F0ifm" value="}" />
         <node concept="pVoyu" id="5ZIt4JpQGKW" role="3F10Kt">
@@ -808,6 +834,20 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="24kQdi" id="7f2RN4206np">
+    <property role="3GE5qa" value="Interface" />
+    <ref role="1XX52x" to="l3hf:7f2RN4206mY" resolve="CsEmptyInterfaceMemberDeclaration" />
+    <node concept="3F0ifn" id="7f2RN4206nr" role="2wV5jI">
+      <node concept="VPxyj" id="7f2RN424NLK" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="22mcaB" id="7f2RN4206nS">
+    <property role="3GE5qa" value="Interface" />
+    <ref role="aqKnT" to="l3hf:7f2RN4206mY" resolve="CsEmptyInterfaceMemberDeclaration" />
+    <node concept="22hDWj" id="7f2RN4206nT" role="22hAXT" />
   </node>
 </model>
 

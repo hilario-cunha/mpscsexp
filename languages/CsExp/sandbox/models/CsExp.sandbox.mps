@@ -23,9 +23,11 @@
         <reference id="6912590347182865317" name="ref" index="26jCZI" />
       </concept>
       <concept id="6912590347181167470" name="CsExp.structure.CsPartialModifier" flags="ng" index="26qms_" />
+      <concept id="6912590347180651454" name="CsExp.structure.CsSealedModifier" flags="ng" index="26$kvP" />
       <concept id="6912590347180071374" name="CsExp.structure.CsPublicModifier" flags="ng" index="26A2Q5" />
       <concept id="6912590347180071379" name="CsExp.structure.CsPrivateModifier" flags="ng" index="26A2Qo" />
       <concept id="6912590347179782131" name="CsExp.structure.CsClassDeclaration" flags="ng" index="26BTIS">
+        <child id="6912590347180797762" name="modifiers" index="26rLG9" />
         <child id="6912590347182670869" name="inheritedTypes" index="26s71u" />
       </concept>
       <concept id="5521103899477901850" name="CsExp.structure.CsByteType" flags="ng" index="3kYmi$" />
@@ -203,6 +205,7 @@
             <node concept="1MeUa5" id="7f2RN41ZVu0" role="3Luhrz" />
           </node>
         </node>
+        <node concept="26$kvP" id="6DHf9mxage1" role="26rLG9" />
       </node>
       <node concept="3o4JVR" id="7f2RN41RZ5z" role="3o41Wj" />
       <node concept="26BTIS" id="7f2RN41RZ6y" role="3o41Wj">

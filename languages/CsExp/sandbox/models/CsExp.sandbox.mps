@@ -4,7 +4,9 @@
   <languages>
     <use id="8b52b239-5ffe-49c7-b425-cd04be7b015d" name="CsExp" version="0" />
   </languages>
-  <imports />
+  <imports>
+    <import index="sfu3" ref="r:67aabab1-bb6b-4e87-acfd-169de2661580(CsExp.Core)" />
+  </imports>
   <registry>
     <language id="8b52b239-5ffe-49c7-b425-cd04be7b015d" name="CsExp">
       <concept id="6912590347186887889" name="CsExp.structure.CsInterfaceTypeReference" flags="ng" index="26c2yq">
@@ -49,6 +51,7 @@
       <concept id="9180851455412343084" name="CsExp.structure.CsEnumMemberDeclaration" flags="ng" index="3o4ZVH">
         <child id="6135045524127273946" name="value" index="1JkdMW" />
       </concept>
+      <concept id="2186983749168689527" name="CsExp.structure.CsLongType" flags="ng" index="3$AsHm" />
       <concept id="2186983749168080332" name="CsExp.structure.CsIntType" flags="ng" index="3$VDZH" />
       <concept id="6135045524127475732" name="CsExp.structure.CsIntLiteral" flags="ng" index="1JkYtM">
         <property id="6135045524127632712" name="value" index="1Jn$8I" />
@@ -226,12 +229,12 @@
         <node concept="3LnZq_" id="7f2RN41YnKy" role="3LnZqw">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="1MuBrR" id="7f2RN41YnKF" role="26s71u">
+        <node concept="1MuBrR" id="6DHf9mxtovn" role="26s71u">
           <ref role="1MuBrQ" node="7f2RN41RZ6y" resolve="C2" />
-          <node concept="26jCZJ" id="7f2RN41YnKM" role="1MuBrT">
-            <ref role="26jCZI" node="7f2RN41RZ54" resolve="C1" />
+          <node concept="3Luhry" id="6DHf9mxy4HF" role="1MuBrT">
+            <node concept="3$AsHm" id="6DHf9mxy4HD" role="3Luhrz" />
           </node>
-          <node concept="26jCZJ" id="7f2RN41YnKQ" role="1MuBrT">
+          <node concept="26jCZJ" id="6DHf9mydXau" role="1MuBrT">
             <ref role="26jCZI" node="7f2RN41YnKy" resolve="T" />
           </node>
         </node>
@@ -244,6 +247,30 @@
         </node>
         <node concept="3LnZq_" id="6DHf9mxljKd" role="3b806V">
           <property role="TrG5h" value="T2" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3o42fW" id="6DHf9mxCycg">
+    <property role="TrG5h" value="a.cs" />
+    <node concept="3o43_L" id="6DHf9mxCych" role="3o41W3">
+      <property role="TrG5h" value="a" />
+      <node concept="26fJLe" id="6DHf9mxZ9OB" role="3o41Wj">
+        <property role="TrG5h" value="b" />
+      </node>
+      <node concept="26fJLe" id="6DHf9myLv7t" role="3o41Wj">
+        <property role="TrG5h" value="a" />
+        <node concept="26c2yq" id="6CZFCKV81v3" role="26c2yo">
+          <ref role="26c2yp" to="sfu3:6CZFCKUVGvl" resolve="DummyCoreInterface" />
+        </node>
+      </node>
+      <node concept="26BTIS" id="6CZFCKVanby" role="3o41Wj">
+        <property role="TrG5h" value="c" />
+        <node concept="1MuBrR" id="6CZFCKVanbF" role="26s71u">
+          <ref role="1MuBrQ" node="7f2RN41RYZp" resolve="I2" />
+          <node concept="26jCZJ" id="6CZFCKVanbK" role="1MuBrT">
+            <ref role="26jCZI" node="6DHf9mxfDPE" resolve="s1" />
+          </node>
         </node>
       </node>
     </node>

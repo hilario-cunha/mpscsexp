@@ -30,6 +30,9 @@
         <child id="6912590347180797762" name="modifiers" index="26rLG9" />
         <child id="6912590347182670869" name="inheritedTypes" index="26s71u" />
       </concept>
+      <concept id="7668852353834368200" name="CsExp.structure.CsStructDeclaration" flags="ng" index="3bmw1t">
+        <child id="7668852353835810094" name="variantTypeParameters" index="3b806V" />
+      </concept>
       <concept id="5521103899477901850" name="CsExp.structure.CsByteType" flags="ng" index="3kYmi$" />
       <concept id="9180851455412203729" name="CsExp.structure.CsEnumDeclaration" flags="ng" index="3o41Wg">
         <child id="9180851455412343087" name="members" index="3o4ZVI" />
@@ -231,6 +234,16 @@
           <node concept="26jCZJ" id="7f2RN41YnKQ" role="1MuBrT">
             <ref role="26jCZI" node="7f2RN41YnKy" resolve="T" />
           </node>
+        </node>
+      </node>
+      <node concept="3o4JVR" id="6DHf9mxljKm" role="3o41Wj" />
+      <node concept="3bmw1t" id="6DHf9mxfDPE" role="3o41Wj">
+        <property role="TrG5h" value="s1" />
+        <node concept="3LnZq_" id="6DHf9mxljKb" role="3b806V">
+          <property role="TrG5h" value="T1" />
+        </node>
+        <node concept="3LnZq_" id="6DHf9mxljKd" role="3b806V">
+          <property role="TrG5h" value="T2" />
         </node>
       </node>
     </node>

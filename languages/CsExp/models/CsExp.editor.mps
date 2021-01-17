@@ -706,7 +706,7 @@
   <node concept="24kQdi" id="2DfHAVr5eHE">
     <property role="3GE5qa" value="Interface" />
     <ref role="1XX52x" to="l3hf:2DfHAVr443b" resolve="CsVariantTypeParameter" />
-    <node concept="3F0A7n" id="2DfHAVr5eHG" role="2wV5jI">
+    <node concept="3F0A7n" id="1RK_TH4CUjv" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
@@ -1036,6 +1036,11 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="22mcaB" id="1RK_TH4F1SQ">
+    <property role="3GE5qa" value="Interface" />
+    <ref role="aqKnT" to="l3hf:2DfHAVr443b" resolve="CsVariantTypeParameter" />
+    <node concept="22hDWj" id="1RK_TH4F1SR" role="22hAXT" />
   </node>
 </model>
 

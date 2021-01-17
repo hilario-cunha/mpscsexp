@@ -43,6 +43,7 @@
       <concept id="9180851455412343084" name="CsExp.structure.CsEnumMemberDeclaration" flags="ng" index="3o4ZVH">
         <child id="6135045524127273946" name="value" index="1JkdMW" />
       </concept>
+      <concept id="2186983749168689523" name="CsExp.structure.CsUShortType" flags="ng" index="3$AsHi" />
       <concept id="2186983749168080332" name="CsExp.structure.CsIntType" flags="ng" index="3$VDZH" />
       <concept id="6135045524127475732" name="CsExp.structure.CsIntLiteral" flags="ng" index="1JkYtM">
         <property id="6135045524127632712" name="value" index="1Jn$8I" />
@@ -186,18 +187,35 @@
       <node concept="26fJLe" id="6DHf9mxZ9OB" role="3o41Wj">
         <property role="TrG5h" value="b" />
       </node>
+      <node concept="3o4JVR" id="1RK_TH4JfLp" role="3o41Wj" />
       <node concept="26fJLe" id="6DHf9myLv7t" role="3o41Wj">
         <property role="TrG5h" value="a" />
+        <node concept="1LWtMQ" id="1RK_TH4H8Mg" role="1LL4gA">
+          <property role="TrG5h" value="M1" />
+          <node concept="1LWtMx" id="1RK_TH4JfL4" role="1LWtMX">
+            <property role="TrG5h" value="p1" />
+            <node concept="3$AsHi" id="1RK_TH4JfL8" role="1LWtMy" />
+          </node>
+          <node concept="1MeUa5" id="1RK_TH4JfL1" role="1LWtMV" />
+        </node>
         <node concept="26c2yq" id="6CZFCKV81v3" role="26c2yo">
           <ref role="26c2yp" to="sfu3:6CZFCKUVGvl" resolve="DummyCoreInterface" />
         </node>
       </node>
+      <node concept="3o4JVR" id="1RK_TH4JfLb" role="3o41Wj" />
       <node concept="26BTIS" id="6CZFCKVanby" role="3o41Wj">
         <property role="TrG5h" value="c" />
-        <node concept="1MuBrR" id="4Zb0ascjep0" role="26s71u">
+        <node concept="1MuBrR" id="1RK_TH4$E0I" role="26s71u">
           <ref role="1MuBrQ" node="4Zb0ascjeo3" resolve="C1" />
-          <node concept="1MeUa5" id="4Zb0ascjep7" role="1MuBrT" />
-          <node concept="3$VDZH" id="4Zb0ascjepb" role="1MuBrT" />
+          <node concept="26jCZJ" id="1RK_TH4JfKu" role="1MuBrT">
+            <ref role="26jCZI" node="1RK_TH4H8M6" resolve="T1" />
+          </node>
+          <node concept="26jCZJ" id="1RK_TH4JfKy" role="1MuBrT">
+            <ref role="26jCZI" node="5ZIt4JpQGHP" resolve="I1" />
+          </node>
+        </node>
+        <node concept="3LnZq_" id="1RK_TH4H8M6" role="3LnZqw">
+          <property role="TrG5h" value="T1" />
         </node>
       </node>
     </node>

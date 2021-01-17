@@ -500,13 +500,6 @@
     <property role="EcuMT" value="6912590347182865308" />
     <property role="3GE5qa" value="Types" />
     <property role="TrG5h" value="CsInheritableType" />
-    <node concept="1TJgyj" id="2DfHAVr443e" role="1TKVEi">
-      <property role="IQ2ns" value="3048856059991048398" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="variantTypeParameters" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2DfHAVr443b" resolve="CsVariantTypeParameter" />
-    </node>
     <node concept="PrWs8" id="2DfHAVrx8vD" role="PrDN$">
       <ref role="PrY4T" node="2DfHAVrx8v_" resolve="CsUserDefinedType" />
     </node>
@@ -522,8 +515,8 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2DfHAVrx8v_" resolve="CsUserDefinedType" />
     </node>
-    <node concept="PrWs8" id="2DfHAVrdE2h" role="PzmwI">
-      <ref role="PrY4T" node="2DfHAVrdE2g" resolve="CsTypeReference" />
+    <node concept="PrWs8" id="4Zb0asbGA4R" role="PzmwI">
+      <ref role="PrY4T" node="4Zb0asbGA4G" resolve="CsType" />
     </node>
   </node>
   <node concept="PlHQZ" id="5ZIt4JpNmw1">
@@ -582,7 +575,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="innerTypes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2DfHAVrdE2g" resolve="CsTypeReference" />
+      <ref role="20lvS9" node="4Zb0asbGA4G" resolve="CsType" />
     </node>
   </node>
   <node concept="1TIwiD" id="2DfHAVr443b">
@@ -597,41 +590,30 @@
       <ref role="PrY4T" node="2DfHAVrx8v_" resolve="CsUserDefinedType" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2DfHAVrdE2c">
-    <property role="EcuMT" value="3048856059993563276" />
-    <property role="3GE5qa" value="References" />
-    <property role="TrG5h" value="CsBuiltInTypeReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2DfHAVrdE2d" role="1TKVEi">
-      <property role="IQ2ns" value="3048856059993563277" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2DfHAVriDaX" resolve="CsBuiltInType" />
-    </node>
-    <node concept="PrWs8" id="2DfHAVrdE2j" role="PzmwI">
-      <ref role="PrY4T" node="2DfHAVrdE2g" resolve="CsTypeReference" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="2DfHAVrdE2g">
-    <property role="TrG5h" value="CsTypeReference" />
-    <property role="EcuMT" value="3048856059993563279" />
-    <property role="3GE5qa" value="References" />
-    <node concept="PrWs8" id="7f2RN42ttff" role="PrDN$">
-      <ref role="PrY4T" node="7f2RN42rIkO" resolve="CsTypeOrVoidReference" />
-    </node>
-  </node>
   <node concept="PlHQZ" id="2DfHAVriDaX">
     <property role="TrG5h" value="CsBuiltInType" />
     <property role="3GE5qa" value="Types" />
     <property role="EcuMT" value="3048856059994870460" />
+    <node concept="PrWs8" id="4Zb0asbGA4H" role="PrDN$">
+      <ref role="PrY4T" node="4Zb0asbGA4G" resolve="CsType" />
+    </node>
   </node>
   <node concept="PlHQZ" id="2DfHAVrx8v_">
     <property role="EcuMT" value="3048856059998668773" />
     <property role="3GE5qa" value="Types" />
     <property role="TrG5h" value="CsUserDefinedType" />
+    <node concept="1TJgyj" id="2DfHAVr443e" role="1TKVEi">
+      <property role="IQ2ns" value="3048856059991048398" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="variantTypeParameters" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2DfHAVr443b" resolve="CsVariantTypeParameter" />
+    </node>
     <node concept="PrWs8" id="5ZIt4JpDLbN" role="PrDN$">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+    <node concept="PrWs8" id="4Zb0ascjepz" role="PrDN$">
+      <ref role="PrY4T" node="4Zb0asbGA4G" resolve="CsType" />
     </node>
   </node>
   <node concept="1TIwiD" id="7f2RN41IaB6">
@@ -650,7 +632,10 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="innerTypes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2DfHAVrdE2g" resolve="CsTypeReference" />
+      <ref role="20lvS9" node="4Zb0asbGA4G" resolve="CsType" />
+    </node>
+    <node concept="PrWs8" id="4Zb0asbR1K6" role="PzmwI">
+      <ref role="PrY4T" node="4Zb0asbGA4G" resolve="CsType" />
     </node>
   </node>
   <node concept="Az7Fb" id="7f2RN41YnQL">
@@ -740,7 +725,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2DfHAVrdE2g" resolve="CsTypeReference" />
+      <ref role="20lvS9" node="4Zb0asbGA4G" resolve="CsType" />
     </node>
   </node>
   <node concept="1TIwiD" id="7f2RN42rIkk">
@@ -774,18 +759,19 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6DHf9mxdNNb" resolve="CsStructModifier" />
     </node>
-    <node concept="1TJgyj" id="6DHf9mxjjOI" role="1TKVEi">
-      <property role="IQ2ns" value="7668852353835810094" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="variantTypeParameters" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="2DfHAVr443b" resolve="CsVariantTypeParameter" />
-    </node>
   </node>
   <node concept="PlHQZ" id="6DHf9mxdNNb">
     <property role="EcuMT" value="7668852353834368203" />
     <property role="3GE5qa" value="Struct" />
     <property role="TrG5h" value="CsStructModifier" />
+  </node>
+  <node concept="PlHQZ" id="4Zb0asbGA4G">
+    <property role="EcuMT" value="5749690066724348204" />
+    <property role="3GE5qa" value="Types" />
+    <property role="TrG5h" value="CsType" />
+    <node concept="PrWs8" id="4Zb0asbIT_M" role="PrDN$">
+      <ref role="PrY4T" node="7f2RN42rIkO" resolve="CsTypeOrVoidReference" />
+    </node>
   </node>
 </model>
 

@@ -1467,7 +1467,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7f2RN42mxmZ">
-    <property role="3GE5qa" value="Interface" />
+    <property role="3GE5qa" value="Interface.Members" />
     <ref role="13h7C2" to="l3hf:7f2RN42cKe7" resolve="CsInterfaceMemberMethodDeclaration" />
     <node concept="13hLZK" id="7f2RN42mxn0" role="13h7CW">
       <node concept="3clFbS" id="7f2RN42mxn1" role="2VODD2" />

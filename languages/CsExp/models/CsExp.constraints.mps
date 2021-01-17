@@ -83,16 +83,6 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
     </language>
   </registry>
-  <node concept="1M2fIO" id="5ZIt4JpExGR">
-    <property role="3GE5qa" value="References" />
-    <ref role="1M2myG" to="l3hf:5ZIt4JpCfI$" resolve="CsUserDefinedTypeReference" />
-    <node concept="1N5Pfh" id="5ZIt4JpExGS" role="1Mr941">
-      <ref role="1N5Vy1" to="l3hf:5ZIt4JpCfI_" resolve="ref" />
-      <node concept="1dDu$B" id="5ZIt4JpExHE" role="1N6uqs">
-        <ref role="1dDu$A" to="l3hf:2DfHAVrx8v_" resolve="CsUserDefinedType" />
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="5ZIt4JpTEJX">
     <property role="3GE5qa" value="Interface" />
     <ref role="1M2myG" to="l3hf:5ZIt4JpR_Nh" resolve="CsInterfaceTypeReference" />
@@ -150,8 +140,8 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7f2RN41JzU2">
-    <property role="3GE5qa" value="References" />
-    <ref role="1M2myG" to="l3hf:7f2RN41IaB6" resolve="CsInheritableTypeReference" />
+    <property role="3GE5qa" value="Class" />
+    <ref role="1M2myG" to="l3hf:7f2RN41IaB6" resolve="CsClassTypeReference" />
     <node concept="1N5Pfh" id="7f2RN41MOWG" role="1Mr941">
       <ref role="1N5Vy1" to="l3hf:7f2RN41IaB7" resolve="ref" />
       <node concept="1dDu$B" id="7f2RN41MOZY" role="1N6uqs">
@@ -202,6 +192,16 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="5ZIt4JpExGR">
+    <property role="3GE5qa" value="References" />
+    <ref role="1M2myG" to="l3hf:5ZIt4JpCfI$" resolve="CsUserDefinedTypeReference" />
+    <node concept="1N5Pfh" id="5ZIt4JpExGS" role="1Mr941">
+      <ref role="1N5Vy1" to="l3hf:5ZIt4JpCfI_" resolve="ref" />
+      <node concept="1dDu$B" id="5ZIt4JpExHE" role="1N6uqs">
+        <ref role="1dDu$A" to="l3hf:2DfHAVrx8v_" resolve="CsUserDefinedType" />
       </node>
     </node>
   </node>

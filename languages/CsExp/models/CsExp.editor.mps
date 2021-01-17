@@ -506,19 +506,6 @@
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
-  <node concept="24kQdi" id="5ZIt4JpD0qS">
-    <property role="3GE5qa" value="References" />
-    <ref role="1XX52x" to="l3hf:5ZIt4JpCfI$" resolve="CsUserDefinedTypeReference" />
-    <node concept="1iCGBv" id="5ZIt4JpD0qU" role="2wV5jI">
-      <ref role="1NtTu8" to="l3hf:5ZIt4JpCfI_" resolve="ref" />
-      <node concept="1sVBvm" id="5ZIt4JpD0qW" role="1sWHZn">
-        <node concept="3F0A7n" id="5ZIt4JpDLbP" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="5ZIt4JpOVgm">
     <property role="3GE5qa" value="Interface" />
     <ref role="1XX52x" to="l3hf:5ZIt4JpO8w5" resolve="CsInterfaceDeclaration" />
@@ -704,15 +691,15 @@
     </node>
   </node>
   <node concept="24kQdi" id="2DfHAVr5eHE">
-    <property role="3GE5qa" value="Interface" />
+    <property role="3GE5qa" value="Types" />
     <ref role="1XX52x" to="l3hf:2DfHAVr443b" resolve="CsVariantTypeParameter" />
     <node concept="3F0A7n" id="1RK_TH4CUjv" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
   <node concept="24kQdi" id="7f2RN41IaKH">
-    <property role="3GE5qa" value="References" />
-    <ref role="1XX52x" to="l3hf:7f2RN41IaB6" resolve="CsInheritableTypeReference" />
+    <property role="3GE5qa" value="Class" />
+    <ref role="1XX52x" to="l3hf:7f2RN41IaB6" resolve="CsClassTypeReference" />
     <node concept="3EZMnI" id="7f2RN41IaKJ" role="2wV5jI">
       <node concept="2iRfu4" id="7f2RN41IaKK" role="2iSdaV" />
       <node concept="1iCGBv" id="7f2RN41IaKL" role="3EZMnx">
@@ -775,7 +762,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7f2RN4206np">
-    <property role="3GE5qa" value="Interface" />
+    <property role="3GE5qa" value="Interface.Members" />
     <ref role="1XX52x" to="l3hf:7f2RN4206mY" resolve="CsEmptyInterfaceMemberDeclaration" />
     <node concept="3F0ifn" id="7f2RN4206nr" role="2wV5jI">
       <node concept="VPxyj" id="7f2RN424NLK" role="3F10Kt">
@@ -784,7 +771,7 @@
     </node>
   </node>
   <node concept="22mcaB" id="7f2RN4206nS">
-    <property role="3GE5qa" value="Interface" />
+    <property role="3GE5qa" value="Interface.Members" />
     <ref role="aqKnT" to="l3hf:7f2RN4206mY" resolve="CsEmptyInterfaceMemberDeclaration" />
     <node concept="22hDWj" id="7f2RN4206nT" role="22hAXT" />
   </node>
@@ -801,7 +788,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7f2RN42cKfA">
-    <property role="3GE5qa" value="Interface" />
+    <property role="3GE5qa" value="Interface.Members" />
     <ref role="1XX52x" to="l3hf:7f2RN42cKe7" resolve="CsInterfaceMemberMethodDeclaration" />
     <node concept="3EZMnI" id="7f2RN42cKfC" role="2wV5jI">
       <node concept="2iRfu4" id="7f2RN42cKfF" role="2iSdaV" />
@@ -869,8 +856,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="7f2RN42rIkJ">
-    <property role="3GE5qa" value="References" />
-    <ref role="1XX52x" to="l3hf:7f2RN42rIkk" resolve="CsVoidTypeReference" />
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="l3hf:7f2RN42rIkk" resolve="CsVoidType" />
     <node concept="3F0ifn" id="7f2RN42rIkL" role="2wV5jI">
       <property role="3F0ifm" value="void" />
     </node>
@@ -959,9 +946,9 @@
     </node>
   </node>
   <node concept="325Ffw" id="4Zb0asbX_3e">
-    <property role="3GE5qa" value="References" />
+    <property role="3GE5qa" value="Class" />
     <property role="TrG5h" value="CsInheritableTypeReference_KeyMap" />
-    <ref role="1chiOs" to="l3hf:7f2RN41IaB6" resolve="CsInheritableTypeReference" />
+    <ref role="1chiOs" to="l3hf:7f2RN41IaB6" resolve="CsClassTypeReference" />
     <node concept="2PxR9H" id="4Zb0asbX_3f" role="2QnnpI">
       <node concept="2Py5lD" id="4Zb0asbX_3g" role="2PyaAO">
         <property role="2PWKIS" value="VK_COMMA" />
@@ -1007,9 +994,9 @@
     </node>
   </node>
   <node concept="1h_SRR" id="4Zb0ascdmPg">
-    <property role="3GE5qa" value="References" />
+    <property role="3GE5qa" value="Class" />
     <property role="TrG5h" value="CsInheritableTypeReference_Actions" />
-    <ref role="1h_SK9" to="l3hf:7f2RN41IaB6" resolve="CsInheritableTypeReference" />
+    <ref role="1h_SK9" to="l3hf:7f2RN41IaB6" resolve="CsClassTypeReference" />
     <node concept="1hA7zw" id="4Zb0ascdmPl" role="1h_SK8">
       <property role="1hAc7j" value="7P1WhNABvta/backspace_action_id" />
       <node concept="1hAIg9" id="4Zb0ascdmPm" role="1hA7z_">
@@ -1038,9 +1025,22 @@
     </node>
   </node>
   <node concept="22mcaB" id="1RK_TH4F1SQ">
-    <property role="3GE5qa" value="Interface" />
+    <property role="3GE5qa" value="Types" />
     <ref role="aqKnT" to="l3hf:2DfHAVr443b" resolve="CsVariantTypeParameter" />
     <node concept="22hDWj" id="1RK_TH4F1SR" role="22hAXT" />
+  </node>
+  <node concept="24kQdi" id="5ZIt4JpD0qS">
+    <property role="3GE5qa" value="References" />
+    <ref role="1XX52x" to="l3hf:5ZIt4JpCfI$" resolve="CsUserDefinedTypeReference" />
+    <node concept="1iCGBv" id="5ZIt4JpD0qU" role="2wV5jI">
+      <ref role="1NtTu8" to="l3hf:5ZIt4JpCfI_" resolve="ref" />
+      <node concept="1sVBvm" id="5ZIt4JpD0qW" role="1sWHZn">
+        <node concept="3F0A7n" id="5ZIt4JpDLbP" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

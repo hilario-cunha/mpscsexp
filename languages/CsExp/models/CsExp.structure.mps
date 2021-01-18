@@ -757,6 +757,13 @@
     <property role="3GE5qa" value="References" />
     <property role="TrG5h" value="CsUserDefinedTypeReference" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7OH22NXIBxf" role="1TKVEi">
+      <property role="IQ2ns" value="9019874618021410895" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="innerTypes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4Zb0asbGA4G" resolve="CsType" />
+    </node>
     <node concept="1TJgyj" id="5ZIt4JpCfI_" role="1TKVEi">
       <property role="IQ2ns" value="6912590347182865317" />
       <property role="20kJfa" value="ref" />

@@ -203,6 +203,52 @@
       <node concept="1dDu$B" id="5ZIt4JpExHE" role="1N6uqs">
         <ref role="1dDu$A" to="l3hf:2DfHAVrx8v_" resolve="CsUserDefinedType" />
       </node>
+      <node concept="3k9gUc" id="7OH22NXKOhB" role="3kmjI7">
+        <node concept="3clFbS" id="7OH22NXKOhC" role="2VODD2">
+          <node concept="3clFbF" id="7OH22NXKQvG" role="3cqZAp">
+            <node concept="2OqwBi" id="7OH22NXKQvH" role="3clFbG">
+              <node concept="2OqwBi" id="7OH22NXKQvI" role="2Oq$k0">
+                <node concept="3kakTB" id="7OH22NXKQvJ" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="7OH22NXKQvK" role="2OqNvi">
+                  <ref role="3TtcxE" to="l3hf:7OH22NXIBxf" resolve="innerTypes" />
+                </node>
+              </node>
+              <node concept="2Kehj3" id="7OH22NXKQvL" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="7OH22NXKQvM" role="3cqZAp">
+            <node concept="2OqwBi" id="7OH22NXKQvN" role="3clFbG">
+              <node concept="2OqwBi" id="7OH22NXKQvO" role="2Oq$k0">
+                <node concept="3khVwk" id="7OH22NXKQvP" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="7OH22NXKQvQ" role="2OqNvi">
+                  <ref role="3TtcxE" to="l3hf:2DfHAVr443e" resolve="variantTypeParameters" />
+                </node>
+              </node>
+              <node concept="2es0OD" id="7OH22NXKQvR" role="2OqNvi">
+                <node concept="1bVj0M" id="7OH22NXKQvS" role="23t8la">
+                  <node concept="3clFbS" id="7OH22NXKQvT" role="1bW5cS">
+                    <node concept="3clFbF" id="7OH22NXKQvU" role="3cqZAp">
+                      <node concept="2OqwBi" id="7OH22NXKQvV" role="3clFbG">
+                        <node concept="2OqwBi" id="7OH22NXKQvW" role="2Oq$k0">
+                          <node concept="3kakTB" id="7OH22NXKQvX" role="2Oq$k0" />
+                          <node concept="3Tsc0h" id="7OH22NXKQvY" role="2OqNvi">
+                            <ref role="3TtcxE" to="l3hf:7OH22NXIBxf" resolve="innerTypes" />
+                          </node>
+                        </node>
+                        <node concept="WFELt" id="7OH22NXKQvZ" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="7OH22NXKQw0" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="7OH22NXKQw1" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

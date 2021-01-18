@@ -20,6 +20,7 @@
       </concept>
       <concept id="6912590347182865316" name="CsExp.structure.CsUserDefinedTypeReference" flags="ng" index="26jCZJ">
         <reference id="6912590347182865317" name="ref" index="26jCZI" />
+        <child id="9019874618021410895" name="innerTypes" index="20_R1z" />
       </concept>
       <concept id="6912590347181167470" name="CsExp.structure.CsPartialModifier" flags="ng" index="26qms_" />
       <concept id="6912590347180071374" name="CsExp.structure.CsPublicModifier" flags="ng" index="26A2Q5" />
@@ -207,8 +208,11 @@
         <property role="TrG5h" value="I5" />
         <node concept="26c2yq" id="61NJQEDryBR" role="26c2yo">
           <ref role="26c2yp" node="4Zb0asbX_1M" resolve="I2" />
-          <node concept="26jCZJ" id="7OH22NXI_6r" role="3LuhrV">
-            <ref role="26jCZI" node="5ZIt4JpQGHP" resolve="I1" />
+          <node concept="26jCZJ" id="7OH22NXN970" role="3LuhrV">
+            <ref role="26jCZI" node="61NJQEDp_zf" resolve="I5" />
+            <node concept="26jCZJ" id="7OH22NXN97n" role="20_R1z">
+              <ref role="26jCZI" node="61NJQEDryC7" resolve="T" />
+            </node>
           </node>
           <node concept="26jCZJ" id="7OH22NXIAfw" role="3LuhrV">
             <ref role="26jCZI" node="61NJQEDryC7" resolve="T" />

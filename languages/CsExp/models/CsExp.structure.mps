@@ -781,5 +781,50 @@
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2FzuLUFtdB8">
+    <property role="EcuMT" value="3090449140962089416" />
+    <property role="3GE5qa" value="Interface.Members" />
+    <property role="TrG5h" value="CsInterfaceMemberPropertyDeclaration" />
+    <property role="34LRSv" value="property" />
+    <ref role="1TJDcQ" node="7f2RN4206mX" resolve="CsInterfaceMemberDeclaration" />
+    <node concept="1TJgyj" id="2FzuLUFtdBb" role="1TKVEi">
+      <property role="IQ2ns" value="3090449140962089419" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4Zb0asbGA4G" resolve="CsType" />
+    </node>
+    <node concept="1TJgyj" id="2FzuLUFtdCT" role="1TKVEi">
+      <property role="IQ2ns" value="3090449140962089529" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="accessors" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="2FzuLUFtdCo" resolve="CsInterfaceMemberPropertyDeclaration_Accessor" />
+    </node>
+    <node concept="PrWs8" id="2FzuLUFtdB9" role="PzmwI">
+      <ref role="PrY4T" node="7OH22NYmCbD" resolve="CsIValidIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2FzuLUFtdCo">
+    <property role="EcuMT" value="3090449140962089496" />
+    <property role="3GE5qa" value="Interface.Members" />
+    <property role="TrG5h" value="CsInterfaceMemberPropertyDeclaration_Accessor" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="2FzuLUFtdCp">
+    <property role="EcuMT" value="3090449140962089497" />
+    <property role="3GE5qa" value="Interface.Members" />
+    <property role="TrG5h" value="CsInterfaceMemberPropertyDeclaration_AccessorGet" />
+    <property role="34LRSv" value="get" />
+    <ref role="1TJDcQ" node="2FzuLUFtdCo" resolve="CsInterfaceMemberPropertyDeclaration_Accessor" />
+  </node>
+  <node concept="1TIwiD" id="2FzuLUFtdCq">
+    <property role="EcuMT" value="3090449140962089498" />
+    <property role="3GE5qa" value="Interface.Members" />
+    <property role="TrG5h" value="CsInterfaceMemberPropertyDeclaration_AccessorSet" />
+    <property role="34LRSv" value="set" />
+    <ref role="1TJDcQ" node="2FzuLUFtdCo" resolve="CsInterfaceMemberPropertyDeclaration_Accessor" />
+  </node>
 </model>
 

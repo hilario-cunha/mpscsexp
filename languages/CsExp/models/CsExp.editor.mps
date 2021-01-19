@@ -1384,5 +1384,48 @@
     </node>
     <node concept="22hDWj" id="7OH22NXP_6j" role="22hAXT" />
   </node>
+  <node concept="24kQdi" id="2FzuLUFtdBB">
+    <property role="3GE5qa" value="Interface.Members" />
+    <ref role="1XX52x" to="l3hf:2FzuLUFtdB8" resolve="CsInterfaceMemberPropertyDeclaration" />
+    <node concept="3EZMnI" id="2FzuLUFtdBD" role="2wV5jI">
+      <node concept="3F1sOY" id="2FzuLUFtdBK" role="3EZMnx">
+        <ref role="1NtTu8" to="l3hf:2FzuLUFtdBb" resolve="type" />
+      </node>
+      <node concept="3F0A7n" id="2FzuLUFtdBQ" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="2FzuLUFtdBY" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+      </node>
+      <node concept="3F2HdR" id="2FzuLUFve1s" role="3EZMnx">
+        <ref role="1NtTu8" to="l3hf:2FzuLUFtdCT" resolve="accessors" />
+        <node concept="l2Vlx" id="2FzuLUFve1u" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="2FzuLUFtdC8" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+      </node>
+      <node concept="l2Vlx" id="2FzuLUFtdBG" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2FzuLUFDgZC">
+    <property role="3GE5qa" value="Interface.Members" />
+    <ref role="1XX52x" to="l3hf:2FzuLUFtdCp" resolve="CsInterfaceMemberPropertyDeclaration_AccessorGet" />
+    <node concept="3F0ifn" id="2FzuLUFDgZE" role="2wV5jI">
+      <property role="3F0ifm" value="get;" />
+      <node concept="VPM3Z" id="2FzuLUFDgZH" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2FzuLUFDh09">
+    <property role="3GE5qa" value="Interface.Members" />
+    <ref role="1XX52x" to="l3hf:2FzuLUFtdCq" resolve="CsInterfaceMemberPropertyDeclaration_AccessorSet" />
+    <node concept="3F0ifn" id="2FzuLUFDh0b" role="2wV5jI">
+      <property role="3F0ifm" value="set;" />
+      <node concept="VPM3Z" id="2FzuLUFDh0e" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
 </model>
 

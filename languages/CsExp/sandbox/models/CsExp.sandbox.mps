@@ -9,6 +9,12 @@
   </imports>
   <registry>
     <language id="8b52b239-5ffe-49c7-b425-cd04be7b015d" name="CsExp">
+      <concept id="3090449140962089498" name="CsExp.structure.CsInterfaceMemberPropertyDeclaration_AccessorSet" flags="ng" index="21_U44" />
+      <concept id="3090449140962089497" name="CsExp.structure.CsInterfaceMemberPropertyDeclaration_AccessorGet" flags="ng" index="21_U47" />
+      <concept id="3090449140962089416" name="CsExp.structure.CsInterfaceMemberPropertyDeclaration" flags="ng" index="21_Ubm">
+        <child id="3090449140962089529" name="accessors" index="21_U4B" />
+        <child id="3090449140962089419" name="type" index="21_Ubl" />
+      </concept>
       <concept id="6912590347186887889" name="CsExp.structure.CsInterfaceTypeReference" flags="ng" index="26c2yq">
         <reference id="6912590347186887890" name="ref" index="26c2yp" />
         <child id="3048856059993563285" name="innerTypes" index="3LuhrV" />
@@ -199,6 +205,12 @@
             </node>
           </node>
           <node concept="1MeUa5" id="1RK_TH4JfL1" role="1LWtMV" />
+        </node>
+        <node concept="21_Ubm" id="2FzuLUFJilG" role="1LL4gA">
+          <property role="TrG5h" value="P1" />
+          <node concept="1MeUa5" id="2FzuLUFJilS" role="21_Ubl" />
+          <node concept="21_U47" id="2FzuLUFJilV" role="21_U4B" />
+          <node concept="21_U44" id="2FzuLUFJimr" role="21_U4B" />
         </node>
         <node concept="26c2yq" id="6CZFCKV81v3" role="26c2yo">
           <ref role="26c2yp" to="sfu3:6CZFCKUVGvl" resolve="DummyCoreInterface" />

@@ -208,9 +208,9 @@
         </node>
         <node concept="21_Ubm" id="2FzuLUFJilG" role="1LL4gA">
           <property role="TrG5h" value="P1" />
+          <node concept="21_U47" id="2FzuLUFTFdU" role="21_U4B" />
           <node concept="1MeUa5" id="2FzuLUFJilS" role="21_Ubl" />
-          <node concept="21_U47" id="2FzuLUFJilV" role="21_U4B" />
-          <node concept="21_U44" id="2FzuLUFJimr" role="21_U4B" />
+          <node concept="21_U44" id="2FzuLUFTFdE" role="21_U4B" />
         </node>
         <node concept="26c2yq" id="6CZFCKV81v3" role="26c2yo">
           <ref role="26c2yp" to="sfu3:6CZFCKUVGvl" resolve="DummyCoreInterface" />

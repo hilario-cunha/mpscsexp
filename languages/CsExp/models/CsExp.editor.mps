@@ -130,6 +130,7 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -165,6 +166,12 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -172,6 +179,10 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
     </language>
     <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
@@ -207,6 +218,7 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
@@ -1400,6 +1412,40 @@
       <node concept="3F2HdR" id="2FzuLUFve1s" role="3EZMnx">
         <ref role="1NtTu8" to="l3hf:2FzuLUFtdCT" resolve="accessors" />
         <node concept="l2Vlx" id="2FzuLUFve1u" role="2czzBx" />
+        <node concept="4$FPG" id="2FzuLUFLlD8" role="4_6I_">
+          <node concept="3clFbS" id="2FzuLUFLlD9" role="2VODD2">
+            <node concept="3clFbJ" id="2FzuLUFLpzV" role="3cqZAp">
+              <node concept="3clFbS" id="2FzuLUFLpzX" role="3clFbx">
+                <node concept="3cpWs6" id="2FzuLUFLsDF" role="3cqZAp">
+                  <node concept="10Nm6u" id="2FzuLUFLsN_" role="3cqZAk" />
+                </node>
+              </node>
+              <node concept="2d3UOw" id="2FzuLUFLsy7" role="3clFbw">
+                <node concept="3cmrfG" id="2FzuLUFLszK" role="3uHU7w">
+                  <property role="3cmrfH" value="2" />
+                </node>
+                <node concept="2OqwBi" id="2FzuLUFLnKg" role="3uHU7B">
+                  <node concept="2OqwBi" id="2FzuLUFLlQK" role="2Oq$k0">
+                    <node concept="pncrf" id="2FzuLUFLlF1" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="2FzuLUFLm7U" role="2OqNvi">
+                      <ref role="3TtcxE" to="l3hf:2FzuLUFtdCT" resolve="accessors" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="2FzuLUFLplh" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="2FzuLUFLtCK" role="3cqZAp">
+              <node concept="2ShNRf" id="2FzuLUFLtGp" role="3cqZAk">
+                <node concept="3zrR0B" id="2FzuLUFLtOM" role="2ShVmc">
+                  <node concept="3Tqbb2" id="2FzuLUFLtOO" role="3zrR0E">
+                    <ref role="ehGHo" to="l3hf:2FzuLUFtdCo" resolve="CsInterfaceMemberPropertyDeclaration_Accessor" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="2FzuLUFtdC8" role="3EZMnx">
         <property role="3F0ifm" value="}" />

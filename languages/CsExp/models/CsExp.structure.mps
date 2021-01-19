@@ -799,7 +799,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="accessors" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="2FzuLUFtdCo" resolve="CsInterfaceMemberPropertyDeclaration_Accessor" />
+      <ref role="20lvS9" node="2FzuLUFtdCo" resolve="CsInterfaceMemberAccessor" />
     </node>
     <node concept="PrWs8" id="2FzuLUFtdB9" role="PzmwI">
       <ref role="PrY4T" node="7OH22NYmCbD" resolve="CsIValidIdentifier" />
@@ -808,23 +808,23 @@
   <node concept="1TIwiD" id="2FzuLUFtdCo">
     <property role="EcuMT" value="3090449140962089496" />
     <property role="3GE5qa" value="Interface.Members" />
-    <property role="TrG5h" value="CsInterfaceMemberPropertyDeclaration_Accessor" />
+    <property role="TrG5h" value="CsInterfaceMemberAccessor" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="2FzuLUFtdCp">
     <property role="EcuMT" value="3090449140962089497" />
     <property role="3GE5qa" value="Interface.Members" />
-    <property role="TrG5h" value="CsInterfaceMemberPropertyDeclaration_AccessorGet" />
+    <property role="TrG5h" value="CsInterfaceMemberAccessorGet" />
     <property role="34LRSv" value="get" />
-    <ref role="1TJDcQ" node="2FzuLUFtdCo" resolve="CsInterfaceMemberPropertyDeclaration_Accessor" />
+    <ref role="1TJDcQ" node="2FzuLUFtdCo" resolve="CsInterfaceMemberAccessor" />
   </node>
   <node concept="1TIwiD" id="2FzuLUFtdCq">
     <property role="EcuMT" value="3090449140962089498" />
     <property role="3GE5qa" value="Interface.Members" />
-    <property role="TrG5h" value="CsInterfaceMemberPropertyDeclaration_AccessorSet" />
+    <property role="TrG5h" value="CsInterfaceMemberAccessorSet" />
     <property role="34LRSv" value="set" />
-    <ref role="1TJDcQ" node="2FzuLUFtdCo" resolve="CsInterfaceMemberPropertyDeclaration_Accessor" />
+    <ref role="1TJDcQ" node="2FzuLUFtdCo" resolve="CsInterfaceMemberAccessor" />
   </node>
   <node concept="1TIwiD" id="2FzuLUFTIXX">
     <property role="EcuMT" value="3090449140969566077" />
@@ -841,6 +841,34 @@
     </node>
     <node concept="PrWs8" id="2FzuLUFTIZf" role="PzmwI">
       <ref role="PrY4T" node="7OH22NYmCbD" resolve="CsIValidIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2FzuLUFVMEF">
+    <property role="EcuMT" value="3090449140970105515" />
+    <property role="3GE5qa" value="Interface.Members" />
+    <property role="TrG5h" value="CsInterfaceMemberIndexerDeclaration" />
+    <property role="34LRSv" value="indexer" />
+    <ref role="1TJDcQ" node="7f2RN4206mX" resolve="CsInterfaceMemberDeclaration" />
+    <node concept="1TJgyj" id="2FzuLUFVMEG" role="1TKVEi">
+      <property role="IQ2ns" value="3090449140970105516" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4Zb0asbGA4G" resolve="CsType" />
+    </node>
+    <node concept="1TJgyj" id="2FzuLUFVMEL" role="1TKVEi">
+      <property role="IQ2ns" value="3090449140970105521" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="params" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="7f2RN42cKeg" resolve="CsFormalParameter" />
+    </node>
+    <node concept="1TJgyj" id="2FzuLUFVMHi" role="1TKVEi">
+      <property role="IQ2ns" value="3090449140970105682" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="accessors" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="2FzuLUFtdCo" resolve="CsInterfaceMemberAccessor" />
     </node>
   </node>
 </model>

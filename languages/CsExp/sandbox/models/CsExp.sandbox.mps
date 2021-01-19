@@ -12,8 +12,13 @@
       <concept id="3090449140969566077" name="CsExp.structure.CsInterfaceMemberEventDeclaration" flags="ng" index="211phz">
         <child id="3090449140969566162" name="type" index="211pjc" />
       </concept>
-      <concept id="3090449140962089498" name="CsExp.structure.CsInterfaceMemberPropertyDeclaration_AccessorSet" flags="ng" index="21_U44" />
-      <concept id="3090449140962089497" name="CsExp.structure.CsInterfaceMemberPropertyDeclaration_AccessorGet" flags="ng" index="21_U47" />
+      <concept id="3090449140970105515" name="CsExp.structure.CsInterfaceMemberIndexerDeclaration" flags="ng" index="21356P">
+        <child id="3090449140970105682" name="accessors" index="21351c" />
+        <child id="3090449140970105521" name="params" index="21356J" />
+        <child id="3090449140970105516" name="type" index="21356M" />
+      </concept>
+      <concept id="3090449140962089498" name="CsExp.structure.CsInterfaceMemberAccessorSet" flags="ng" index="21_U44" />
+      <concept id="3090449140962089497" name="CsExp.structure.CsInterfaceMemberAccessorGet" flags="ng" index="21_U47" />
       <concept id="3090449140962089416" name="CsExp.structure.CsInterfaceMemberPropertyDeclaration" flags="ng" index="21_Ubm">
         <child id="3090449140962089529" name="accessors" index="21_U4B" />
         <child id="3090449140962089419" name="type" index="21_Ubl" />
@@ -218,6 +223,19 @@
         <node concept="211phz" id="2FzuLUFVKYp" role="1LL4gA">
           <property role="TrG5h" value="E1" />
           <node concept="1MeUa5" id="2FzuLUFVKYA" role="211pjc" />
+        </node>
+        <node concept="21356P" id="2FzuLUFXPP8" role="1LL4gA">
+          <node concept="21_U47" id="2FzuLUFXPPy" role="21351c" />
+          <node concept="21_U44" id="2FzuLUG3XpV" role="21351c" />
+          <node concept="1MeUa5" id="2FzuLUFXPPq" role="21356M" />
+          <node concept="1LWtMx" id="2FzuLUFZSff" role="21356J">
+            <property role="TrG5h" value="n" />
+            <node concept="1MeUa5" id="2FzuLUFZSfj" role="1LWtMy" />
+          </node>
+          <node concept="1LWtMx" id="2FzuLUFZSfm" role="21356J">
+            <property role="TrG5h" value="i" />
+            <node concept="3$VDZH" id="2FzuLUFZSfs" role="1LWtMy" />
+          </node>
         </node>
         <node concept="26c2yq" id="6CZFCKV81v3" role="26c2yo">
           <ref role="26c2yp" to="sfu3:6CZFCKUVGvl" resolve="DummyCoreInterface" />

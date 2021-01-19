@@ -9,6 +9,9 @@
   </imports>
   <registry>
     <language id="8b52b239-5ffe-49c7-b425-cd04be7b015d" name="CsExp">
+      <concept id="3090449140969566077" name="CsExp.structure.CsInterfaceMemberEventDeclaration" flags="ng" index="211phz">
+        <child id="3090449140969566162" name="type" index="211pjc" />
+      </concept>
       <concept id="3090449140962089498" name="CsExp.structure.CsInterfaceMemberPropertyDeclaration_AccessorSet" flags="ng" index="21_U44" />
       <concept id="3090449140962089497" name="CsExp.structure.CsInterfaceMemberPropertyDeclaration_AccessorGet" flags="ng" index="21_U47" />
       <concept id="3090449140962089416" name="CsExp.structure.CsInterfaceMemberPropertyDeclaration" flags="ng" index="21_Ubm">
@@ -211,6 +214,10 @@
           <node concept="21_U47" id="2FzuLUFTFdU" role="21_U4B" />
           <node concept="1MeUa5" id="2FzuLUFJilS" role="21_Ubl" />
           <node concept="21_U44" id="2FzuLUFTFdE" role="21_U4B" />
+        </node>
+        <node concept="211phz" id="2FzuLUFVKYp" role="1LL4gA">
+          <property role="TrG5h" value="E1" />
+          <node concept="1MeUa5" id="2FzuLUFVKYA" role="211pjc" />
         </node>
         <node concept="26c2yq" id="6CZFCKV81v3" role="26c2yo">
           <ref role="26c2yp" to="sfu3:6CZFCKUVGvl" resolve="DummyCoreInterface" />

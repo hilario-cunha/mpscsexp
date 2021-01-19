@@ -826,5 +826,22 @@
     <property role="34LRSv" value="set" />
     <ref role="1TJDcQ" node="2FzuLUFtdCo" resolve="CsInterfaceMemberPropertyDeclaration_Accessor" />
   </node>
+  <node concept="1TIwiD" id="2FzuLUFTIXX">
+    <property role="EcuMT" value="3090449140969566077" />
+    <property role="3GE5qa" value="Interface.Members" />
+    <property role="TrG5h" value="CsInterfaceMemberEventDeclaration" />
+    <property role="34LRSv" value="event" />
+    <ref role="1TJDcQ" node="7f2RN4206mX" resolve="CsInterfaceMemberDeclaration" />
+    <node concept="1TJgyj" id="2FzuLUFTIZi" role="1TKVEi">
+      <property role="IQ2ns" value="3090449140969566162" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4Zb0asbGA4G" resolve="CsType" />
+    </node>
+    <node concept="PrWs8" id="2FzuLUFTIZf" role="PzmwI">
+      <ref role="PrY4T" node="7OH22NYmCbD" resolve="CsIValidIdentifier" />
+    </node>
+  </node>
 </model>
 

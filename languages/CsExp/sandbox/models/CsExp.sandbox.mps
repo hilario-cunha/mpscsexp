@@ -87,6 +87,7 @@
         <reference id="8341474861418850759" name="ref" index="1MuBrQ" />
         <child id="8341474861418850760" name="innerTypes" index="1MuBrT" />
       </concept>
+      <concept id="8947701173724225502" name="CsExp.structure.CsEmptyLine" flags="ng" index="3W0g4h" />
       <concept id="8947701173726132140" name="CsExp.structure.CsConstantDeclarator" flags="ng" index="3Wpy_z">
         <child id="8947701173726170489" name="expression" index="3WpXeQ" />
       </concept>
@@ -105,7 +106,9 @@
       <concept id="8947701173750277723" name="CsExp.structure.CsMethodDeclaration" flags="ng" index="3X_Vyk">
         <child id="8947701173750277754" name="params" index="3X_VyP" />
         <child id="8947701173751800691" name="returnType" index="3XZJQW" />
+        <child id="8947701173755400829" name="body" index="3Y9sMM" />
       </concept>
+      <concept id="8947701173756940945" name="CsExp.structure.ReturnStatement" flags="ng" index="3Y34Lu" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -338,12 +341,14 @@
         </node>
         <node concept="3X_Vyk" id="7KGBGY1RvX$" role="3W0g4G">
           <property role="TrG5h" value="M" />
-          <node concept="1LF3C_" id="7KGBGY1RvXP" role="3XZJQW" />
+          <node concept="1LF3C_" id="7KGBGY1Zp1$" role="3XZJQW" />
           <node concept="1LWtMx" id="7KGBGY1RvXS" role="3X_VyP">
             <property role="TrG5h" value="p1" />
             <node concept="1MeUa5" id="7KGBGY1RvXW" role="1LWtMy" />
           </node>
+          <node concept="3Y34Lu" id="7KGBGY2baw7" role="3Y9sMM" />
         </node>
+        <node concept="3W0g4h" id="7KGBGY22l44" role="3W0g4G" />
       </node>
       <node concept="3o4JVR" id="7KGBGY0bpYL" role="3o41Wj" />
       <node concept="26BTIS" id="7KGBGY0bpWE" role="3o41Wj">

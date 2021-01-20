@@ -542,7 +542,7 @@
               <node concept="2ShNRf" id="7KGBGY0btTV" role="3clFbG">
                 <node concept="3zrR0B" id="7KGBGY0btTW" role="2ShVmc">
                   <node concept="3Tqbb2" id="7KGBGY0btTX" role="3zrR0E">
-                    <ref role="ehGHo" to="l3hf:7KGBGY0bpZu" resolve="CsEmptyClassMemberDeclaration" />
+                    <ref role="ehGHo" to="l3hf:7KGBGY0bpZu" resolve="CsEmptyLine" />
                   </node>
                 </node>
               </node>
@@ -1591,12 +1591,12 @@
   </node>
   <node concept="22mcaB" id="7KGBGY0e7FH">
     <property role="3GE5qa" value="Class" />
-    <ref role="aqKnT" to="l3hf:7KGBGY0bpZu" resolve="CsEmptyClassMemberDeclaration" />
+    <ref role="aqKnT" to="l3hf:7KGBGY0bpZu" resolve="CsEmptyLine" />
     <node concept="22hDWj" id="7KGBGY0e7FI" role="22hAXT" />
   </node>
   <node concept="24kQdi" id="7KGBGY0e7Ga">
     <property role="3GE5qa" value="Class" />
-    <ref role="1XX52x" to="l3hf:7KGBGY0bpZu" resolve="CsEmptyClassMemberDeclaration" />
+    <ref role="1XX52x" to="l3hf:7KGBGY0bpZu" resolve="CsEmptyLine" />
     <node concept="3F0ifn" id="7KGBGY0e7Gf" role="2wV5jI">
       <node concept="VPxyj" id="7KGBGY0got4" role="3F10Kt">
         <property role="VOm3f" value="true" />
@@ -1818,12 +1818,68 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F2HdR" id="7KGBGY22ld9" role="3EZMnx">
+        <ref role="1NtTu8" to="l3hf:7KGBGY22l9X" resolve="body" />
+        <node concept="l2Vlx" id="7KGBGY22ldb" role="2czzBx" />
+        <node concept="pVoyu" id="7KGBGY22ldK" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="7KGBGY22ldM" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pj6Ft" id="7KGBGY22ldP" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="4$FPG" id="7KGBGY25gz0" role="4_6I_">
+          <node concept="3clFbS" id="7KGBGY25gz1" role="2VODD2">
+            <node concept="3clFbF" id="7KGBGY25g$V" role="3cqZAp">
+              <node concept="2ShNRf" id="7KGBGY25g$T" role="3clFbG">
+                <node concept="3zrR0B" id="7KGBGY25gG$" role="2ShVmc">
+                  <node concept="3Tqbb2" id="7KGBGY25gGA" role="3zrR0E">
+                    <ref role="ehGHo" to="l3hf:7KGBGY0bpZu" resolve="CsEmptyLine" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="7KGBGY1IMBm" role="3EZMnx">
         <property role="3F0ifm" value="}" />
         <node concept="pVoyu" id="7KGBGY1IMBT" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7KGBGY28daL">
+    <property role="3GE5qa" value="Class.Method" />
+    <ref role="1XX52x" to="l3hf:7KGBGY28dah" resolve="ReturnStatement" />
+    <node concept="3EZMnI" id="7KGBGY28daQ" role="2wV5jI">
+      <node concept="3F0ifn" id="7KGBGY28daS" role="3EZMnx">
+        <property role="3F0ifm" value="return" />
+      </node>
+      <node concept="_tjkj" id="7KGBGY2bawg" role="3EZMnx">
+        <node concept="3F1sOY" id="7KGBGY2bawp" role="_tjki">
+          <ref role="1NtTu8" to="l3hf:7KGBGY2baw9" resolve="expression" />
+        </node>
+        <node concept="ZYGn8" id="7KGBGY2baws" role="ZWbT9">
+          <node concept="3clFbS" id="7KGBGY2bawt" role="2VODD2">
+            <node concept="3clFbF" id="7KGBGY2bax6" role="3cqZAp">
+              <node concept="Xl_RD" id="7KGBGY2bax5" role="3clFbG">
+                <property role="Xl_RC" value=" " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7KGBGY28db0" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="7KGBGY28db4" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="7KGBGY28daT" role="2iSdaV" />
     </node>
   </node>
 </model>

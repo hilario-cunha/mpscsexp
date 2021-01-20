@@ -373,7 +373,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="members" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7KGBGY0bpZt" resolve="CsClassMemberDeclaration" />
+      <ref role="20lvS9" node="7KGBGY1Zpc2" resolve="CsClassMemberDeclaration" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Be">
@@ -606,7 +606,7 @@
       <ref role="AX2Wp" node="7f2RN41YnQL" resolve="CsStringValue" />
     </node>
     <node concept="PrWs8" id="7KGBGY0soO7" role="PzmwI">
-      <ref role="PrY4T" node="7KGBGY0iFuM" resolve="Expression" />
+      <ref role="PrY4T" node="7KGBGY0iFuM" resolve="CsExpression" />
     </node>
   </node>
   <node concept="1TIwiD" id="7f2RN41YnQO">
@@ -848,25 +848,23 @@
       <ref role="20lvS9" node="2FzuLUFtdCo" resolve="CsInterfaceMemberAccessor" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7KGBGY0bpZt">
-    <property role="EcuMT" value="8947701173724225501" />
-    <property role="3GE5qa" value="Class" />
-    <property role="TrG5h" value="CsClassMemberDeclaration" />
-    <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
   <node concept="1TIwiD" id="7KGBGY0bpZu">
     <property role="EcuMT" value="8947701173724225502" />
     <property role="3GE5qa" value="Class" />
-    <property role="TrG5h" value="CsEmptyClassMemberDeclaration" />
-    <ref role="1TJDcQ" node="7KGBGY0bpZt" resolve="CsClassMemberDeclaration" />
+    <property role="TrG5h" value="CsEmptyLine" />
+    <node concept="PrWs8" id="7KGBGY1Zpc3" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY1Zpc2" resolve="CsClassMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="7KGBGY1Zpc8" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY1Zpc1" resolve="CsMethodStatementDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7KGBGY0iEGs">
     <property role="EcuMT" value="8947701173726128924" />
     <property role="3GE5qa" value="Class.Constant" />
     <property role="TrG5h" value="CsConstantDeclaration" />
     <property role="34LRSv" value="const" />
-    <ref role="1TJDcQ" node="7KGBGY0bpZt" resolve="CsClassMemberDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7KGBGY15TTQ" role="1TKVEi">
       <property role="IQ2ns" value="8947701173739560566" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -888,6 +886,9 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="7KGBGY0iFuG" resolve="CsConstantDeclarator" />
     </node>
+    <node concept="PrWs8" id="7KGBGY1Zpcc" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY1Zpc2" resolve="CsClassMemberDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7KGBGY0iFuG">
     <property role="EcuMT" value="8947701173726132140" />
@@ -902,11 +903,11 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7KGBGY0iFuM" resolve="Expression" />
+      <ref role="20lvS9" node="7KGBGY0iFuM" resolve="CsExpression" />
     </node>
   </node>
   <node concept="PlHQZ" id="7KGBGY0iFuM">
-    <property role="TrG5h" value="Expression" />
+    <property role="TrG5h" value="CsExpression" />
     <property role="EcuMT" value="8947701173726132143" />
   </node>
   <node concept="PlHQZ" id="7KGBGY0pZCz">
@@ -927,7 +928,7 @@
     <property role="3GE5qa" value="Class.Field" />
     <property role="TrG5h" value="CsFieldDeclaration" />
     <property role="34LRSv" value="field" />
-    <ref role="1TJDcQ" node="7KGBGY0bpZt" resolve="CsClassMemberDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7KGBGY1f_c0" role="1TKVEi">
       <property role="IQ2ns" value="8947701173742097152" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -948,6 +949,9 @@
       <property role="20kJfa" value="variableDeclarators" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="7KGBGY1f_c9" resolve="CsVariableDeclarator" />
+    </node>
+    <node concept="PrWs8" id="7KGBGY1ZpdB" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY1Zpc2" resolve="CsClassMemberDeclaration" />
     </node>
   </node>
   <node concept="PlHQZ" id="7KGBGY1f_bX">
@@ -970,7 +974,7 @@
       <property role="IQ2ns" value="8947701173742097166" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expression" />
-      <ref role="20lvS9" node="7KGBGY0iFuM" resolve="Expression" />
+      <ref role="20lvS9" node="7KGBGY0iFuM" resolve="CsExpression" />
     </node>
   </node>
   <node concept="PlHQZ" id="7KGBGY1pYVj">
@@ -1007,7 +1011,7 @@
     <property role="3GE5qa" value="Class.Method" />
     <property role="TrG5h" value="CsMethodDeclaration" />
     <property role="34LRSv" value="method" />
-    <ref role="1TJDcQ" node="7KGBGY0bpZt" resolve="CsClassMemberDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7KGBGY1IMpL" role="1TKVEi">
       <property role="IQ2ns" value="8947701173750277745" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1036,8 +1040,18 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7f2RN42cKeg" resolve="CsFormalParameter" />
     </node>
+    <node concept="1TJgyj" id="7KGBGY22l9X" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173755400829" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7KGBGY1Zpc1" resolve="CsMethodStatementDeclaration" />
+    </node>
     <node concept="PrWs8" id="7KGBGY1IMq4" role="PzmwI">
       <ref role="PrY4T" node="7OH22NYmCbD" resolve="CsIValidIdentifier" />
+    </node>
+    <node concept="PrWs8" id="7KGBGY1ZpdG" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY1Zpc2" resolve="CsClassMemberDeclaration" />
     </node>
   </node>
   <node concept="PlHQZ" id="7KGBGY1IMps">
@@ -1046,6 +1060,32 @@
     <property role="TrG5h" value="CsMethodModifier" />
     <node concept="PrWs8" id="7KGBGY1IMpt" role="PrDN$">
       <ref role="PrY4T" node="7KGBGY0Hn1I" resolve="CsModifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7KGBGY1Zpc1">
+    <property role="TrG5h" value="CsMethodStatementDeclaration" />
+    <property role="3GE5qa" value="Class.Method" />
+    <property role="EcuMT" value="8947701173754630859" />
+  </node>
+  <node concept="PlHQZ" id="7KGBGY1Zpc2">
+    <property role="TrG5h" value="CsClassMemberDeclaration" />
+    <property role="3GE5qa" value="Class" />
+    <property role="EcuMT" value="8947701173724225501" />
+  </node>
+  <node concept="1TIwiD" id="7KGBGY28dah">
+    <property role="EcuMT" value="8947701173756940945" />
+    <property role="3GE5qa" value="Class.Method" />
+    <property role="TrG5h" value="ReturnStatement" />
+    <property role="34LRSv" value="return" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7KGBGY28dak" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY1Zpc1" resolve="CsMethodStatementDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="7KGBGY2baw9" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173757716489" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <ref role="20lvS9" node="7KGBGY0iFuM" resolve="CsExpression" />
     </node>
   </node>
 </model>

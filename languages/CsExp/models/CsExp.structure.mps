@@ -365,6 +365,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7f2RN41IaB6" resolve="CsClassTypeReference" />
     </node>
+    <node concept="1TJgyj" id="7KGBGY0bpZz" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173724225507" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="members" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7KGBGY0bpZt" resolve="CsClassMemberDeclaration" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Be">
     <property role="EcuMT" value="6912590347180071374" />
@@ -870,6 +877,19 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="2FzuLUFtdCo" resolve="CsInterfaceMemberAccessor" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7KGBGY0bpZt">
+    <property role="EcuMT" value="8947701173724225501" />
+    <property role="3GE5qa" value="Class" />
+    <property role="TrG5h" value="CsClassMemberDeclaration" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="7KGBGY0bpZu">
+    <property role="EcuMT" value="8947701173724225502" />
+    <property role="3GE5qa" value="Class.Members" />
+    <property role="TrG5h" value="CsEmptyClassMemberDeclaration" />
+    <ref role="1TJDcQ" node="7KGBGY0bpZt" resolve="CsClassMemberDeclaration" />
   </node>
 </model>
 

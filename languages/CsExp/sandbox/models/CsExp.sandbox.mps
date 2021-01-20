@@ -40,7 +40,9 @@
       <concept id="6912590347180071374" name="CsExp.structure.CsPublicModifier" flags="ng" index="26A2Q5" />
       <concept id="6912590347180071379" name="CsExp.structure.CsPrivateModifier" flags="ng" index="26A2Qo" />
       <concept id="6912590347179782131" name="CsExp.structure.CsClassDeclaration" flags="ng" index="26BTIS">
+        <child id="6912590347180797762" name="modifiers" index="26rLG9" />
         <child id="6912590347182670869" name="inheritedTypes" index="26s71u" />
+        <child id="8947701173724225507" name="members" index="3W0g4G" />
       </concept>
       <concept id="5521103899477901850" name="CsExp.structure.CsByteType" flags="ng" index="3kYmi$" />
       <concept id="9180851455412203729" name="CsExp.structure.CsEnumDeclaration" flags="ng" index="3o41Wg">
@@ -82,6 +84,7 @@
         <reference id="8341474861418850759" name="ref" index="1MuBrQ" />
         <child id="8341474861418850760" name="innerTypes" index="1MuBrT" />
       </concept>
+      <concept id="8947701173724225502" name="CsExp.structure.CsEmptyClassMemberDeclaration" flags="ng" index="3W0g4h" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -280,6 +283,16 @@
             <ref role="26jCZI" node="7OH22NXP_19" resolve="T" />
           </node>
         </node>
+      </node>
+      <node concept="3o4JVR" id="7KGBGY0bpVp" role="3o41Wj" />
+      <node concept="26BTIS" id="7KGBGY0bpY5" role="3o41Wj">
+        <property role="TrG5h" value="ConstSample" />
+        <node concept="3W0g4h" id="7KGBGY0e7Ff" role="3W0g4G" />
+      </node>
+      <node concept="3o4JVR" id="7KGBGY0bpYL" role="3o41Wj" />
+      <node concept="26BTIS" id="7KGBGY0bpWE" role="3o41Wj">
+        <property role="TrG5h" value="Unit" />
+        <node concept="26A2Q5" id="7KGBGY0bpXn" role="26rLG9" />
       </node>
     </node>
   </node>

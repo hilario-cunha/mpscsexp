@@ -40,7 +40,6 @@
       <concept id="6912590347180071374" name="CsExp.structure.CsPublicModifier" flags="ng" index="26A2Q5" />
       <concept id="6912590347180071379" name="CsExp.structure.CsPrivateModifier" flags="ng" index="26A2Qo" />
       <concept id="6912590347179782131" name="CsExp.structure.CsClassDeclaration" flags="ng" index="26BTIS">
-        <child id="6912590347180797762" name="modifiers" index="26rLG9" />
         <child id="6912590347182670869" name="inheritedTypes" index="26s71u" />
         <child id="8947701173724225507" name="members" index="3W0g4G" />
       </concept>
@@ -336,7 +335,6 @@
       <node concept="3o4JVR" id="7KGBGY0bpYL" role="3o41Wj" />
       <node concept="26BTIS" id="7KGBGY0bpWE" role="3o41Wj">
         <property role="TrG5h" value="Unit" />
-        <node concept="26A2Q5" id="7KGBGY0bpXn" role="26rLG9" />
       </node>
     </node>
   </node>

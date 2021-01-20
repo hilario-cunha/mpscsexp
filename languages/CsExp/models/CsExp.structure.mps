@@ -380,91 +380,40 @@
     <property role="EcuMT" value="6912590347180071374" />
     <property role="TrG5h" value="CsPublicModifier" />
     <property role="34LRSv" value="public" />
-    <property role="3GE5qa" value="Modifiers" />
+    <property role="3GE5qa" value="Modifiers.Accessibility" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5ZIt4Jpt_Bf" role="PzmwI">
-      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
-    </node>
-    <node concept="PrWs8" id="5ZIt4JpvNfs" role="PzmwI">
-      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
-    </node>
-    <node concept="PrWs8" id="5ZIt4JpNmwC" role="PzmwI">
-      <ref role="PrY4T" node="5ZIt4JpNmw1" resolve="CsInterfaceModifier" />
-    </node>
-    <node concept="PrWs8" id="6DHf9mxdNNh" role="PzmwI">
-      <ref role="PrY4T" node="6DHf9mxdNNb" resolve="CsStructModifier" />
-    </node>
-    <node concept="PrWs8" id="7KGBGY0pZCE" role="PzmwI">
-      <ref role="PrY4T" node="7KGBGY0pZCz" resolve="CsConstantModifier" />
-    </node>
-    <node concept="PrWs8" id="7KGBGY1kK_o" role="PzmwI">
-      <ref role="PrY4T" node="7KGBGY1f_bX" resolve="CsFieldModifier" />
+    <node concept="PrWs8" id="7KGBGY1pYVP" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY1pYVj" resolve="CsIAccessibility" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Bh">
     <property role="EcuMT" value="6912590347180071377" />
     <property role="TrG5h" value="CsProtectedModifier" />
     <property role="34LRSv" value="protected" />
-    <property role="3GE5qa" value="Modifiers" />
+    <property role="3GE5qa" value="Modifiers.Accessibility" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5ZIt4Jpt_Bi" role="PzmwI">
-      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
-    </node>
-    <node concept="PrWs8" id="5ZIt4JpvNfl" role="PzmwI">
-      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
-    </node>
-    <node concept="PrWs8" id="5ZIt4JpNmwv" role="PzmwI">
-      <ref role="PrY4T" node="5ZIt4JpNmw1" resolve="CsInterfaceModifier" />
-    </node>
-    <node concept="PrWs8" id="6DHf9mxdNNs" role="PzmwI">
-      <ref role="PrY4T" node="6DHf9mxdNNb" resolve="CsStructModifier" />
-    </node>
-    <node concept="PrWs8" id="7KGBGY0pZCR" role="PzmwI">
-      <ref role="PrY4T" node="7KGBGY0pZCz" resolve="CsConstantModifier" />
+    <node concept="PrWs8" id="7KGBGY1pYVB" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY1pYVj" resolve="CsIAccessibility" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Bj">
     <property role="EcuMT" value="6912590347180071379" />
     <property role="TrG5h" value="CsPrivateModifier" />
     <property role="34LRSv" value="private" />
-    <property role="3GE5qa" value="Modifiers" />
+    <property role="3GE5qa" value="Modifiers.Accessibility" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5ZIt4Jpt_Bk" role="PzmwI">
-      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
-    </node>
-    <node concept="PrWs8" id="5ZIt4JpvNfe" role="PzmwI">
-      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
-    </node>
-    <node concept="PrWs8" id="5ZIt4JpNmwm" role="PzmwI">
-      <ref role="PrY4T" node="5ZIt4JpNmw1" resolve="CsInterfaceModifier" />
-    </node>
-    <node concept="PrWs8" id="6DHf9mxdNNM" role="PzmwI">
-      <ref role="PrY4T" node="6DHf9mxdNNb" resolve="CsStructModifier" />
-    </node>
-    <node concept="PrWs8" id="7KGBGY0pZD4" role="PzmwI">
-      <ref role="PrY4T" node="7KGBGY0pZCz" resolve="CsConstantModifier" />
+    <node concept="PrWs8" id="7KGBGY1pYW4" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY1pYVj" resolve="CsIAccessibility" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Bl">
     <property role="EcuMT" value="6912590347180071381" />
     <property role="TrG5h" value="CsInternalModifier" />
-    <property role="3GE5qa" value="Modifiers" />
+    <property role="3GE5qa" value="Modifiers.Accessibility" />
     <property role="34LRSv" value="internal" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5ZIt4Jpt_Bm" role="PzmwI">
-      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
-    </node>
-    <node concept="PrWs8" id="5ZIt4JpvNf7" role="PzmwI">
-      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
-    </node>
-    <node concept="PrWs8" id="5ZIt4JpNmw6" role="PzmwI">
-      <ref role="PrY4T" node="5ZIt4JpNmw1" resolve="CsInterfaceModifier" />
-    </node>
-    <node concept="PrWs8" id="6DHf9mxdNNB" role="PzmwI">
-      <ref role="PrY4T" node="6DHf9mxdNNb" resolve="CsStructModifier" />
-    </node>
-    <node concept="PrWs8" id="7KGBGY0pZDh" role="PzmwI">
-      <ref role="PrY4T" node="7KGBGY0pZCz" resolve="CsConstantModifier" />
+    <node concept="PrWs8" id="7KGBGY1DA7_" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY1pYVj" resolve="CsIAccessibility" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4JpvNeW">
@@ -501,9 +450,6 @@
     <property role="TrG5h" value="CsClassModifier" />
     <property role="3GE5qa" value="Class" />
     <property role="EcuMT" value="6912590347180651457" />
-    <node concept="PrWs8" id="7KGBGY0JMdj" role="PrDN$">
-      <ref role="PrY4T" node="7KGBGY0Hn1I" resolve="CsModifier" />
-    </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4JpxLdI">
     <property role="EcuMT" value="6912590347181167470" />
@@ -1025,6 +971,32 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expression" />
       <ref role="20lvS9" node="7KGBGY0iFuM" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7KGBGY1pYVj">
+    <property role="EcuMT" value="8947701173744824019" />
+    <property role="3GE5qa" value="Modifiers.Accessibility" />
+    <property role="TrG5h" value="CsIAccessibility" />
+    <node concept="PrWs8" id="7KGBGY1$p8V" role="PrDN$">
+      <ref role="PrY4T" node="7KGBGY0Hn1I" resolve="CsModifier" />
+    </node>
+    <node concept="PrWs8" id="7KGBGY1$p8Z" role="PrDN$">
+      <ref role="PrY4T" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+    <node concept="PrWs8" id="5ZIt4Jpt_Bi" role="PrDN$">
+      <ref role="PrY4T" node="1TpIy7UHeMR" resolve="CsEnumModifier" />
+    </node>
+    <node concept="PrWs8" id="5ZIt4JpNmw6" role="PrDN$">
+      <ref role="PrY4T" node="5ZIt4JpNmw1" resolve="CsInterfaceModifier" />
+    </node>
+    <node concept="PrWs8" id="6DHf9mxdNNB" role="PrDN$">
+      <ref role="PrY4T" node="6DHf9mxdNNb" resolve="CsStructModifier" />
+    </node>
+    <node concept="PrWs8" id="7KGBGY0pZDh" role="PrDN$">
+      <ref role="PrY4T" node="7KGBGY0pZCz" resolve="CsConstantModifier" />
+    </node>
+    <node concept="PrWs8" id="7KGBGY1Gcnc" role="PrDN$">
+      <ref role="PrY4T" node="7KGBGY1f_bX" resolve="CsFieldModifier" />
     </node>
   </node>
 </model>

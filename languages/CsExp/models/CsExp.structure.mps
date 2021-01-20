@@ -391,6 +391,9 @@
     <node concept="PrWs8" id="6DHf9mxdNNh" role="PzmwI">
       <ref role="PrY4T" node="6DHf9mxdNNb" resolve="CsStructModifier" />
     </node>
+    <node concept="PrWs8" id="7KGBGY0pZCE" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY0pZCz" resolve="CsConstantModifier" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Bh">
     <property role="EcuMT" value="6912590347180071377" />
@@ -409,6 +412,9 @@
     </node>
     <node concept="PrWs8" id="6DHf9mxdNNs" role="PzmwI">
       <ref role="PrY4T" node="6DHf9mxdNNb" resolve="CsStructModifier" />
+    </node>
+    <node concept="PrWs8" id="7KGBGY0pZCR" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY0pZCz" resolve="CsConstantModifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Bj">
@@ -429,6 +435,9 @@
     <node concept="PrWs8" id="6DHf9mxdNNM" role="PzmwI">
       <ref role="PrY4T" node="6DHf9mxdNNb" resolve="CsStructModifier" />
     </node>
+    <node concept="PrWs8" id="7KGBGY0pZD4" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY0pZCz" resolve="CsConstantModifier" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpt_Bl">
     <property role="EcuMT" value="6912590347180071381" />
@@ -447,6 +456,9 @@
     </node>
     <node concept="PrWs8" id="6DHf9mxdNNB" role="PzmwI">
       <ref role="PrY4T" node="6DHf9mxdNNb" resolve="CsStructModifier" />
+    </node>
+    <node concept="PrWs8" id="7KGBGY0pZDh" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY0pZCz" resolve="CsConstantModifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="5ZIt4Jpu97P">
@@ -640,6 +652,9 @@
       <property role="IQ2nx" value="8341474861423099315" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" node="7f2RN41YnQL" resolve="CsStringValue" />
+    </node>
+    <node concept="PrWs8" id="7KGBGY0soO7" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY0iFuM" resolve="Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="7f2RN41YnQO">
@@ -890,6 +905,72 @@
     <property role="3GE5qa" value="Class.Members" />
     <property role="TrG5h" value="CsEmptyClassMemberDeclaration" />
     <ref role="1TJDcQ" node="7KGBGY0bpZt" resolve="CsClassMemberDeclaration" />
+  </node>
+  <node concept="1TIwiD" id="7KGBGY0iEGs">
+    <property role="EcuMT" value="8947701173726128924" />
+    <property role="3GE5qa" value="Class.Constant" />
+    <property role="TrG5h" value="CsConstantDeclaration" />
+    <property role="34LRSv" value="const" />
+    <ref role="1TJDcQ" node="7KGBGY0bpZt" resolve="CsClassMemberDeclaration" />
+    <node concept="1TJgyj" id="7KGBGY0iEG$" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173726128932" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="modifiers" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+    </node>
+    <node concept="1TJgyj" id="7KGBGY0iEGt" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173726128925" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4Zb0asbGA4G" resolve="CsType" />
+    </node>
+    <node concept="1TJgyj" id="7KGBGY0iOPY" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173726170494" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="constants" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7KGBGY0iOPV" resolve="CsConstantDeclaratorList" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7KGBGY0iFuG">
+    <property role="EcuMT" value="8947701173726132140" />
+    <property role="3GE5qa" value="Class.Constant" />
+    <property role="TrG5h" value="CsConstantDeclarator" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7KGBGY0iFuH" role="PzmwI">
+      <ref role="PrY4T" node="7OH22NYmCbD" resolve="CsIValidIdentifier" />
+    </node>
+    <node concept="1TJgyj" id="7KGBGY0iOPT" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173726170489" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7KGBGY0iFuM" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7KGBGY0iFuM">
+    <property role="TrG5h" value="Expression" />
+    <property role="EcuMT" value="8947701173726132143" />
+  </node>
+  <node concept="1TIwiD" id="7KGBGY0iOPV">
+    <property role="EcuMT" value="8947701173726170491" />
+    <property role="3GE5qa" value="Class.Constant" />
+    <property role="TrG5h" value="CsConstantDeclaratorList" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7KGBGY0iOPW" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173726170492" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="constants" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="7KGBGY0iFuG" resolve="CsConstantDeclarator" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7KGBGY0pZCz">
+    <property role="TrG5h" value="CsConstantModifier" />
+    <property role="3GE5qa" value="Class.Constant" />
+    <property role="EcuMT" value="8947701173728049698" />
   </node>
 </model>
 

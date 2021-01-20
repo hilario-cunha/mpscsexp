@@ -87,17 +87,20 @@
         <reference id="8341474861418850759" name="ref" index="1MuBrQ" />
         <child id="8341474861418850760" name="innerTypes" index="1MuBrT" />
       </concept>
-      <concept id="8947701173724225502" name="CsExp.structure.CsEmptyClassMemberDeclaration" flags="ng" index="3W0g4h" />
       <concept id="8947701173726132140" name="CsExp.structure.CsConstantDeclarator" flags="ng" index="3Wpy_z">
         <child id="8947701173726170489" name="expression" index="3WpXeQ" />
       </concept>
       <concept id="8947701173726128924" name="CsExp.structure.CsConstantDeclaration" flags="ng" index="3Wpznj">
         <child id="8947701173726128925" name="type" index="3Wpzni" />
-        <child id="8947701173726128932" name="modifiers" index="3WpznF" />
-        <child id="8947701173726170494" name="constants" index="3WpXeL" />
+        <child id="8947701173726170494" name="constantsDeclarators" index="3WpXeL" />
       </concept>
-      <concept id="8947701173726170491" name="CsExp.structure.CsConstantDeclaratorList" flags="ng" index="3WpXeO">
-        <child id="8947701173726170492" name="constants" index="3WpXeN" />
+      <concept id="8947701173742097148" name="CsExp.structure.CsFieldDeclaration" flags="ng" index="3X4GKN">
+        <child id="8947701173742097157" name="type" index="3X4GRa" />
+        <child id="8947701173742097154" name="variableDeclarators" index="3X4GRd" />
+        <child id="8947701173742097152" name="modifiers" index="3X4GRf" />
+      </concept>
+      <concept id="8947701173742097161" name="CsExp.structure.CsVariableDeclarator" flags="ng" index="3X4GR6">
+        <child id="8947701173742097166" name="expression" index="3X4GR1" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -301,25 +304,34 @@
       <node concept="3o4JVR" id="7KGBGY0bpVp" role="3o41Wj" />
       <node concept="26BTIS" id="7KGBGY0bpY5" role="3o41Wj">
         <property role="TrG5h" value="ConstSample" />
-        <node concept="3Wpznj" id="7KGBGY0z_Sy" role="3W0g4G">
-          <node concept="1MeUa5" id="7KGBGY0z_SG" role="3Wpzni" />
-          <node concept="3WpXeO" id="7KGBGY0z_S$" role="3WpXeL">
-            <node concept="3Wpy_z" id="7KGBGY0z_S_" role="3WpXeN">
-              <property role="TrG5h" value="a" />
-              <node concept="1MeUa3" id="7KGBGY0z_SP" role="3WpXeQ">
-                <property role="1MeUa2" value="&quot;a&quot;" />
-              </node>
-            </node>
-            <node concept="3Wpy_z" id="7KGBGY0Cuhb" role="3WpXeN">
-              <property role="TrG5h" value="b" />
-              <node concept="1MeUa3" id="7KGBGY0ETwx" role="3WpXeQ">
-                <property role="1MeUa2" value="&quot;b&quot;" />
-              </node>
+        <node concept="3Wpznj" id="7KGBGY1aKgz" role="3W0g4G">
+          <node concept="1MeUa5" id="7KGBGY1aKgF" role="3Wpzni" />
+          <node concept="3Wpy_z" id="7KGBGY1aKg_" role="3WpXeL">
+            <property role="TrG5h" value="a" />
+            <node concept="1MeUa3" id="7KGBGY1aKgQ" role="3WpXeQ">
+              <property role="1MeUa2" value="&quot;a&quot;" />
             </node>
           </node>
-          <node concept="26A2Q5" id="7KGBGY0HlmI" role="3WpznF" />
+          <node concept="3Wpy_z" id="7KGBGY1aKlu" role="3WpXeL">
+            <property role="TrG5h" value="b" />
+            <node concept="1MeUa3" id="7KGBGY1aKlG" role="3WpXeQ">
+              <property role="1MeUa2" value="&quot;b&quot;" />
+            </node>
+          </node>
         </node>
-        <node concept="3W0g4h" id="7KGBGY0A2KI" role="3W0g4G" />
+        <node concept="3X4GKN" id="7KGBGY1kK$T" role="3W0g4G">
+          <node concept="1MeUa5" id="7KGBGY1kK_7" role="3X4GRa" />
+          <node concept="3X4GR6" id="7KGBGY1kK$W" role="3X4GRd">
+            <property role="TrG5h" value="f" />
+          </node>
+          <node concept="3X4GR6" id="7KGBGY1nn83" role="3X4GRd">
+            <property role="TrG5h" value="g" />
+            <node concept="1MeUa3" id="7KGBGY1nn8f" role="3X4GR1">
+              <property role="1MeUa2" value="&quot;g&quot;" />
+            </node>
+          </node>
+          <node concept="26A2Q5" id="7KGBGY1nn80" role="3X4GRf" />
+        </node>
       </node>
       <node concept="3o4JVR" id="7KGBGY0bpYL" role="3o41Wj" />
       <node concept="26BTIS" id="7KGBGY0bpWE" role="3o41Wj">

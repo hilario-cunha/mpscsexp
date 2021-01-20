@@ -561,7 +561,7 @@
   </node>
   <node concept="24kQdi" id="5ZIt4Jpu98g">
     <property role="3GE5qa" value="Modifiers" />
-    <ref role="1XX52x" to="l3hf:5ZIt4Jpu97P" resolve="CsModifier" />
+    <ref role="1XX52x" to="l3hf:7KGBGY0Hn1I" resolve="CsModifier" />
     <node concept="PMmxH" id="5ZIt4Jpu98l" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
@@ -1607,14 +1607,14 @@
     <property role="3GE5qa" value="Class.Constant" />
     <ref role="1XX52x" to="l3hf:7KGBGY0iEGs" resolve="CsConstantDeclaration" />
     <node concept="3EZMnI" id="7KGBGY0iOQu" role="2wV5jI">
-      <node concept="_tjkj" id="7KGBGY0iP2K" role="3EZMnx">
-        <node concept="3F2HdR" id="7KGBGY0iP2L" role="_tjki">
-          <ref role="1NtTu8" to="l3hf:7KGBGY0iEG$" resolve="modifiers" />
+      <node concept="_tjkj" id="7KGBGY15TQV" role="3EZMnx">
+        <node concept="3F2HdR" id="7KGBGY15TQW" role="_tjki">
+          <ref role="1NtTu8" to="l3hf:7KGBGY15TTQ" resolve="modifiers" />
         </node>
-        <node concept="ZYGn8" id="7KGBGY0iP2M" role="ZWbT9">
-          <node concept="3clFbS" id="7KGBGY0iP2N" role="2VODD2">
-            <node concept="3clFbF" id="7KGBGY0iP2O" role="3cqZAp">
-              <node concept="Xl_RD" id="7KGBGY0iP2P" role="3clFbG">
+        <node concept="ZYGn8" id="7KGBGY15TQX" role="ZWbT9">
+          <node concept="3clFbS" id="7KGBGY15TQY" role="2VODD2">
+            <node concept="3clFbF" id="7KGBGY15TQZ" role="3cqZAp">
+              <node concept="Xl_RD" id="7KGBGY15TR0" role="3clFbG">
                 <property role="Xl_RC" value=" " />
               </node>
             </node>
@@ -1627,21 +1627,18 @@
       <node concept="3F1sOY" id="7KGBGY0iP4l" role="3EZMnx">
         <ref role="1NtTu8" to="l3hf:7KGBGY0iEGt" resolve="type" />
       </node>
-      <node concept="3F1sOY" id="7KGBGY0iP4W" role="3EZMnx">
-        <ref role="1NtTu8" to="l3hf:7KGBGY0iOPY" resolve="constants" />
+      <node concept="3F2HdR" id="7KGBGY0MiM8" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="l3hf:7KGBGY0iOPY" resolve="constantsDeclarators" />
+        <node concept="2iRfu4" id="7KGBGY0MiMa" role="2czzBx" />
       </node>
       <node concept="3F0ifn" id="7KGBGY0CuiH" role="3EZMnx">
         <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="7KGBGY1aKmZ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="2iRfu4" id="7KGBGY0iOQx" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="7KGBGY0n_jr">
-    <property role="3GE5qa" value="Class.Constant" />
-    <ref role="1XX52x" to="l3hf:7KGBGY0iOPV" resolve="CsConstantDeclaratorList" />
-    <node concept="3F2HdR" id="7KGBGY0n_jt" role="2wV5jI">
-      <property role="2czwfO" value="," />
-      <ref role="1NtTu8" to="l3hf:7KGBGY0iOPW" resolve="constants" />
     </node>
   </node>
   <node concept="24kQdi" id="7KGBGY0n_jU">
@@ -1667,6 +1664,72 @@
       <node concept="3F0A7n" id="7KGBGY0xaKW" role="1kIj9b">
         <ref role="1NtTu8" to="l3hf:7f2RN41YnQN" resolve="value" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7KGBGY1f_cE">
+    <property role="3GE5qa" value="Class.Field" />
+    <ref role="1XX52x" to="l3hf:7KGBGY1f_c9" resolve="CsVariableDeclarator" />
+    <node concept="3EZMnI" id="7KGBGY1f_cG" role="2wV5jI">
+      <node concept="3F0A7n" id="7KGBGY1f_cN" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="_tjkj" id="7KGBGY1f_cT" role="3EZMnx">
+        <node concept="3EZMnI" id="7KGBGY1f_d0" role="_tjki">
+          <node concept="3F0ifn" id="7KGBGY1f_d9" role="3EZMnx">
+            <property role="3F0ifm" value="=" />
+          </node>
+          <node concept="3F1sOY" id="7KGBGY1f_dj" role="3EZMnx">
+            <ref role="1NtTu8" to="l3hf:7KGBGY1f_ce" resolve="expression" />
+          </node>
+          <node concept="2iRfu4" id="7KGBGY1f_d3" role="2iSdaV" />
+          <node concept="VPM3Z" id="7KGBGY1f_d4" role="3F10Kt" />
+        </node>
+        <node concept="ZYGn8" id="7KGBGY1f_dn" role="ZWbT9">
+          <node concept="3clFbS" id="7KGBGY1f_do" role="2VODD2">
+            <node concept="3clFbF" id="7KGBGY1f_e1" role="3cqZAp">
+              <node concept="Xl_RD" id="7KGBGY1f_e0" role="3clFbG">
+                <property role="Xl_RC" value="=" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="7KGBGY1f_cJ" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7KGBGY1f_fO">
+    <property role="3GE5qa" value="Class.Field" />
+    <ref role="1XX52x" to="l3hf:7KGBGY1f_bW" resolve="CsFieldDeclaration" />
+    <node concept="3EZMnI" id="7KGBGY1f_fQ" role="2wV5jI">
+      <node concept="_tjkj" id="7KGBGY1f_hi" role="3EZMnx">
+        <node concept="3F2HdR" id="7KGBGY1f_hj" role="_tjki">
+          <ref role="1NtTu8" to="l3hf:7KGBGY1f_c0" resolve="modifiers" />
+        </node>
+        <node concept="ZYGn8" id="7KGBGY1f_hk" role="ZWbT9">
+          <node concept="3clFbS" id="7KGBGY1f_hl" role="2VODD2">
+            <node concept="3clFbF" id="7KGBGY1f_hm" role="3cqZAp">
+              <node concept="Xl_RD" id="7KGBGY1f_hn" role="3clFbG">
+                <property role="Xl_RC" value=" " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F1sOY" id="7KGBGY1f_iR" role="3EZMnx">
+        <ref role="1NtTu8" to="l3hf:7KGBGY1f_c5" resolve="type" />
+      </node>
+      <node concept="3F2HdR" id="7KGBGY1f_j9" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="l3hf:7KGBGY1f_c2" resolve="variableDeclarators" />
+        <node concept="2iRfu4" id="7KGBGY1f_jb" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="7KGBGY1f_jy" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="7KGBGY1f_jI" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="7KGBGY1f_fT" role="2iSdaV" />
     </node>
   </node>
 </model>

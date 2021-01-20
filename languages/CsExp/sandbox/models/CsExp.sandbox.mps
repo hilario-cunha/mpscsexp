@@ -67,6 +67,7 @@
         <property id="6135045524127919355" name="value" index="1JmEet" />
       </concept>
       <concept id="3048856059991048395" name="CsExp.structure.CsVariantTypeParameter" flags="ng" index="3LnZq_" />
+      <concept id="8341474861430793492" name="CsExp.structure.CsVoidType" flags="ng" index="1LF3C_" />
       <concept id="3048856059998668773" name="CsExp.structure.CsUserDefinedType" flags="ng" index="3LMN6b">
         <child id="3048856059991048398" name="variantTypeParameters" index="3LnZqw" />
       </concept>
@@ -100,6 +101,10 @@
       </concept>
       <concept id="8947701173742097161" name="CsExp.structure.CsVariableDeclarator" flags="ng" index="3X4GR6">
         <child id="8947701173742097166" name="expression" index="3X4GR1" />
+      </concept>
+      <concept id="8947701173750277723" name="CsExp.structure.CsMethodDeclaration" flags="ng" index="3X_Vyk">
+        <child id="8947701173750277754" name="params" index="3X_VyP" />
+        <child id="8947701173751800691" name="returnType" index="3XZJQW" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -302,7 +307,7 @@
       </node>
       <node concept="3o4JVR" id="7KGBGY0bpVp" role="3o41Wj" />
       <node concept="26BTIS" id="7KGBGY0bpY5" role="3o41Wj">
-        <property role="TrG5h" value="ConstSample" />
+        <property role="TrG5h" value="Sample" />
         <node concept="3Wpznj" id="7KGBGY1aKgz" role="3W0g4G">
           <node concept="1MeUa5" id="7KGBGY1aKgF" role="3Wpzni" />
           <node concept="3Wpy_z" id="7KGBGY1aKg_" role="3WpXeL">
@@ -330,6 +335,14 @@
             </node>
           </node>
           <node concept="26A2Q5" id="7KGBGY1nn80" role="3X4GRf" />
+        </node>
+        <node concept="3X_Vyk" id="7KGBGY1RvX$" role="3W0g4G">
+          <property role="TrG5h" value="M" />
+          <node concept="1LF3C_" id="7KGBGY1RvXP" role="3XZJQW" />
+          <node concept="1LWtMx" id="7KGBGY1RvXS" role="3X_VyP">
+            <property role="TrG5h" value="p1" />
+            <node concept="1MeUa5" id="7KGBGY1RvXW" role="1LWtMy" />
+          </node>
         </node>
       </node>
       <node concept="3o4JVR" id="7KGBGY0bpYL" role="3o41Wj" />

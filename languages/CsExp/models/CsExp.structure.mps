@@ -857,7 +857,7 @@
   </node>
   <node concept="1TIwiD" id="7KGBGY0bpZu">
     <property role="EcuMT" value="8947701173724225502" />
-    <property role="3GE5qa" value="Class.Members" />
+    <property role="3GE5qa" value="Class" />
     <property role="TrG5h" value="CsEmptyClassMemberDeclaration" />
     <ref role="1TJDcQ" node="7KGBGY0bpZt" resolve="CsClassMemberDeclaration" />
   </node>
@@ -997,6 +997,55 @@
     </node>
     <node concept="PrWs8" id="7KGBGY1Gcnc" role="PrDN$">
       <ref role="PrY4T" node="7KGBGY1f_bX" resolve="CsFieldModifier" />
+    </node>
+    <node concept="PrWs8" id="7KGBGY1IMpB" role="PrDN$">
+      <ref role="PrY4T" node="7KGBGY1IMps" resolve="CsMethodModifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7KGBGY1IMpr">
+    <property role="EcuMT" value="8947701173750277723" />
+    <property role="3GE5qa" value="Class.Method" />
+    <property role="TrG5h" value="CsMethodDeclaration" />
+    <property role="34LRSv" value="method" />
+    <ref role="1TJDcQ" node="7KGBGY0bpZt" resolve="CsClassMemberDeclaration" />
+    <node concept="1TJgyj" id="7KGBGY1IMpL" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173750277745" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="modifiers" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7KGBGY1IMps" resolve="CsMethodModifier" />
+    </node>
+    <node concept="1TJgyj" id="7KGBGY1OAdN" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173751800691" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="returnType" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7f2RN42rIkO" resolve="CsTypeOrVoid" />
+    </node>
+    <node concept="1TJgyj" id="7KGBGY1IMpT" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173750277753" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="variantTypeParameters" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="2DfHAVr443b" resolve="CsVariantTypeParameter" />
+    </node>
+    <node concept="1TJgyj" id="7KGBGY1IMpU" role="1TKVEi">
+      <property role="IQ2ns" value="8947701173750277754" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="params" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7f2RN42cKeg" resolve="CsFormalParameter" />
+    </node>
+    <node concept="PrWs8" id="7KGBGY1IMq4" role="PzmwI">
+      <ref role="PrY4T" node="7OH22NYmCbD" resolve="CsIValidIdentifier" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7KGBGY1IMps">
+    <property role="EcuMT" value="8947701173750277724" />
+    <property role="3GE5qa" value="Class.Method" />
+    <property role="TrG5h" value="CsMethodModifier" />
+    <node concept="PrWs8" id="7KGBGY1IMpt" role="PrDN$">
+      <ref role="PrY4T" node="7KGBGY0Hn1I" resolve="CsModifier" />
     </node>
   </node>
 </model>

@@ -1630,6 +1630,9 @@
       <node concept="3F1sOY" id="7KGBGY0iP4W" role="3EZMnx">
         <ref role="1NtTu8" to="l3hf:7KGBGY0iOPY" resolve="constants" />
       </node>
+      <node concept="3F0ifn" id="7KGBGY0CuiH" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+      </node>
       <node concept="2iRfu4" id="7KGBGY0iOQx" role="2iSdaV" />
     </node>
   </node>
@@ -1637,6 +1640,7 @@
     <property role="3GE5qa" value="Class.Constant" />
     <ref role="1XX52x" to="l3hf:7KGBGY0iOPV" resolve="CsConstantDeclaratorList" />
     <node concept="3F2HdR" id="7KGBGY0n_jt" role="2wV5jI">
+      <property role="2czwfO" value="," />
       <ref role="1NtTu8" to="l3hf:7KGBGY0iOPW" resolve="constants" />
     </node>
   </node>

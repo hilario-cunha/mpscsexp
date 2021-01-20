@@ -917,7 +917,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="modifiers" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5ZIt4JpvNf1" resolve="CsClassModifier" />
+      <ref role="20lvS9" node="7KGBGY0pZCz" resolve="CsConstantModifier" />
     </node>
     <node concept="1TJgyj" id="7KGBGY0iEGt" role="1TKVEi">
       <property role="IQ2ns" value="8947701173726128925" />

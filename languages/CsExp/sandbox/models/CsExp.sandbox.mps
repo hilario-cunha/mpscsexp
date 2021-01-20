@@ -87,11 +87,13 @@
         <reference id="8341474861418850759" name="ref" index="1MuBrQ" />
         <child id="8341474861418850760" name="innerTypes" index="1MuBrT" />
       </concept>
+      <concept id="8947701173724225502" name="CsExp.structure.CsEmptyClassMemberDeclaration" flags="ng" index="3W0g4h" />
       <concept id="8947701173726132140" name="CsExp.structure.CsConstantDeclarator" flags="ng" index="3Wpy_z">
         <child id="8947701173726170489" name="expression" index="3WpXeQ" />
       </concept>
       <concept id="8947701173726128924" name="CsExp.structure.CsConstantDeclaration" flags="ng" index="3Wpznj">
         <child id="8947701173726128925" name="type" index="3Wpzni" />
+        <child id="8947701173726128932" name="modifiers" index="3WpznF" />
         <child id="8947701173726170494" name="constants" index="3WpXeL" />
       </concept>
       <concept id="8947701173726170491" name="CsExp.structure.CsConstantDeclaratorList" flags="ng" index="3WpXeO">
@@ -305,11 +307,19 @@
             <node concept="3Wpy_z" id="7KGBGY0z_S_" role="3WpXeN">
               <property role="TrG5h" value="a" />
               <node concept="1MeUa3" id="7KGBGY0z_SP" role="3WpXeQ">
-                <property role="1MeUa2" value="&quot;&quot;" />
+                <property role="1MeUa2" value="&quot;a&quot;" />
+              </node>
+            </node>
+            <node concept="3Wpy_z" id="7KGBGY0Cuhb" role="3WpXeN">
+              <property role="TrG5h" value="b" />
+              <node concept="1MeUa3" id="7KGBGY0ETwx" role="3WpXeQ">
+                <property role="1MeUa2" value="&quot;b&quot;" />
               </node>
             </node>
           </node>
+          <node concept="26A2Q5" id="7KGBGY0HlmI" role="3WpznF" />
         </node>
+        <node concept="3W0g4h" id="7KGBGY0A2KI" role="3W0g4G" />
       </node>
       <node concept="3o4JVR" id="7KGBGY0bpYL" role="3o41Wj" />
       <node concept="26BTIS" id="7KGBGY0bpWE" role="3o41Wj">

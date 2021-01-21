@@ -68,7 +68,6 @@
         <property id="6135045524127919355" name="value" index="1JmEet" />
       </concept>
       <concept id="3048856059991048395" name="CsExp.structure.CsVariantTypeParameter" flags="ng" index="3LnZq_" />
-      <concept id="8341474861430793492" name="CsExp.structure.CsVoidType" flags="ng" index="1LF3C_" />
       <concept id="3048856059998668773" name="CsExp.structure.CsUserDefinedType" flags="ng" index="3LMN6b">
         <child id="3048856059991048398" name="variantTypeParameters" index="3LnZqw" />
       </concept>
@@ -109,7 +108,9 @@
         <child id="8947701173751800691" name="returnType" index="3XZJQW" />
         <child id="8947701173755400829" name="body" index="3Y9sMM" />
       </concept>
-      <concept id="8947701173756940945" name="CsExp.structure.ReturnStatement" flags="ng" index="3Y34Lu" />
+      <concept id="8947701173756940945" name="CsExp.structure.ReturnStatement" flags="ng" index="3Y34Lu">
+        <child id="8947701173757716489" name="expression" index="3Y03r6" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -313,7 +314,7 @@
       <node concept="26BTIS" id="7KGBGY0bpY5" role="3o41Wj">
         <property role="TrG5h" value="Sample" />
         <node concept="3Wpznj" id="7KGBGY1aKgz" role="3W0g4G">
-          <node concept="1MeUa5" id="7KGBGY1aKgF" role="3Wpzni" />
+          <node concept="1MeUa5" id="1V6hozrutoZ" role="3Wpzni" />
           <node concept="3Wpy_z" id="7KGBGY1aKg_" role="3WpXeL">
             <property role="TrG5h" value="a" />
             <node concept="1MeUa3" id="7KGBGY1aKgQ" role="3WpXeQ">
@@ -345,12 +346,16 @@
         </node>
         <node concept="3X_Vyk" id="7KGBGY1RvX$" role="3W0g4G">
           <property role="TrG5h" value="M" />
-          <node concept="1LF3C_" id="7KGBGY1Zp1$" role="3XZJQW" />
           <node concept="1LWtMx" id="7KGBGY1RvXS" role="3X_VyP">
             <property role="TrG5h" value="p1" />
             <node concept="1MeUa5" id="7KGBGY1RvXW" role="1LWtMy" />
           </node>
-          <node concept="3Y34Lu" id="7KGBGY2baw7" role="3Y9sMM" />
+          <node concept="3Y34Lu" id="7KGBGY2baw7" role="3Y9sMM">
+            <node concept="1MeUa3" id="1V6hozrEx3m" role="3Y03r6">
+              <property role="1MeUa2" value="&quot;a&quot;" />
+            </node>
+          </node>
+          <node concept="1MeUa5" id="1V6hozrEx3T" role="3XZJQW" />
         </node>
         <node concept="3W0g4h" id="7KGBGY22l44" role="3W0g4G" />
       </node>

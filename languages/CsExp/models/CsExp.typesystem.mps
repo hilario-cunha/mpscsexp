@@ -1093,5 +1093,81 @@
       <ref role="1YaFvo" to="l3hf:1V6hozros9w" resolve="CsCharType" />
     </node>
   </node>
+  <node concept="1YbPZF" id="1V6hozrrsDS">
+    <property role="TrG5h" value="typeof_CsConstantDeclaration" />
+    <property role="3GE5qa" value="Class.Constant" />
+    <node concept="3clFbS" id="1V6hozrrsDT" role="18ibNy">
+      <node concept="1Z5TYs" id="1V6hozrrsN1" role="3cqZAp">
+        <node concept="mw_s8" id="1V6hozrrsN2" role="1ZfhKB">
+          <node concept="1Z2H0r" id="1V6hozrrsN3" role="mwGJk">
+            <node concept="2OqwBi" id="1V6hozrrsN4" role="1Z2MuG">
+              <node concept="1YBJjd" id="1V6hozrrtrR" role="2Oq$k0">
+                <ref role="1YBMHb" node="1V6hozrrsDV" resolve="csConstantDeclaration" />
+              </node>
+              <node concept="3TrEf2" id="1V6hozrrw5F" role="2OqNvi">
+                <ref role="3Tt5mk" to="l3hf:7KGBGY0iEGt" resolve="type" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="1V6hozrrsN7" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1V6hozrrsN8" role="mwGJk">
+            <node concept="1YBJjd" id="1V6hozrrtb3" role="1Z2MuG">
+              <ref role="1YBMHb" node="1V6hozrrsDV" resolve="csConstantDeclaration" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1V6hozrrsNa" role="3cqZAp" />
+      <node concept="1DcWWT" id="1V6hozrrsNb" role="3cqZAp">
+        <node concept="3cpWsn" id="1V6hozrrsNc" role="1Duv9x">
+          <property role="TrG5h" value="valueExpression" />
+          <node concept="3Tqbb2" id="1V6hozrrsNd" role="1tU5fm">
+            <ref role="ehGHo" to="l3hf:7KGBGY0iFuM" resolve="CsExpression" />
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1V6hozrrsNe" role="1DdaDG">
+          <node concept="2OqwBi" id="1V6hozrrsNf" role="2Oq$k0">
+            <node concept="1YBJjd" id="1V6hozrrtyi" role="2Oq$k0">
+              <ref role="1YBMHb" node="1V6hozrrsDV" resolve="csConstantDeclaration" />
+            </node>
+            <node concept="3Tsc0h" id="1V6hozrrtOq" role="2OqNvi">
+              <ref role="3TtcxE" to="l3hf:7KGBGY0iOPY" resolve="constantsDeclarators" />
+            </node>
+          </node>
+          <node concept="13MTOL" id="1V6hozrrvVy" role="2OqNvi">
+            <ref role="13MTZf" to="l3hf:7KGBGY0iOPT" resolve="expression" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="1V6hozrrsNj" role="2LFqv$">
+          <node concept="1Z5TYs" id="1V6hozrrsNk" role="3cqZAp">
+            <node concept="mw_s8" id="1V6hozrrsNl" role="1ZfhKB">
+              <node concept="1Z2H0r" id="1V6hozrrsNm" role="mwGJk">
+                <node concept="37vLTw" id="1V6hozrrsNn" role="1Z2MuG">
+                  <ref role="3cqZAo" node="1V6hozrrsNc" resolve="valueExpression" />
+                </node>
+              </node>
+            </node>
+            <node concept="mw_s8" id="1V6hozrrsNo" role="1ZfhK$">
+              <node concept="1Z2H0r" id="1V6hozrrsNp" role="mwGJk">
+                <node concept="2OqwBi" id="1V6hozrrsNq" role="1Z2MuG">
+                  <node concept="1YBJjd" id="1V6hozrrtj$" role="2Oq$k0">
+                    <ref role="1YBMHb" node="1V6hozrrsDV" resolve="csConstantDeclaration" />
+                  </node>
+                  <node concept="3TrEf2" id="1V6hozrrw4D" role="2OqNvi">
+                    <ref role="3Tt5mk" to="l3hf:7KGBGY0iEGt" resolve="type" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1V6hozrrsDV" role="1YuTPh">
+      <property role="TrG5h" value="csConstantDeclaration" />
+      <ref role="1YaFvo" to="l3hf:7KGBGY0iEGs" resolve="CsConstantDeclaration" />
+    </node>
+  </node>
 </model>
 

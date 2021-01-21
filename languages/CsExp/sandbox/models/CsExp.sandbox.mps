@@ -43,6 +43,7 @@
         <child id="6912590347182670869" name="inheritedTypes" index="26s71u" />
         <child id="8947701173724225507" name="members" index="3W0g4G" />
       </concept>
+      <concept id="2217536320625033824" name="CsExp.structure.CsCharType" flags="ng" index="35DSvC" />
       <concept id="5521103899477901850" name="CsExp.structure.CsByteType" flags="ng" index="3kYmi$" />
       <concept id="9180851455412203729" name="CsExp.structure.CsEnumDeclaration" flags="ng" index="3o41Wg">
         <child id="9180851455412343087" name="members" index="3o4ZVI" />
@@ -327,14 +328,17 @@
           </node>
         </node>
         <node concept="3X4GKN" id="7KGBGY1kK$T" role="3W0g4G">
-          <node concept="1MeUa5" id="7KGBGY1kK_7" role="3X4GRa" />
+          <node concept="35DSvC" id="1V6hozrrpxr" role="3X4GRa" />
           <node concept="3X4GR6" id="7KGBGY1kK$W" role="3X4GRd">
             <property role="TrG5h" value="f" />
+            <node concept="1JmEeh" id="1V6hozrrpxU" role="3X4GR1">
+              <property role="1JmEet" value="'1'" />
+            </node>
           </node>
           <node concept="3X4GR6" id="7KGBGY1nn83" role="3X4GRd">
             <property role="TrG5h" value="g" />
-            <node concept="1MeUa3" id="7KGBGY1nn8f" role="3X4GR1">
-              <property role="1MeUa2" value="&quot;g&quot;" />
+            <node concept="1JmEeh" id="1V6hozrrpxe" role="3X4GR1">
+              <property role="1JmEet" value="'1'" />
             </node>
           </node>
           <node concept="26A2Q5" id="7KGBGY1nn80" role="3X4GRf" />

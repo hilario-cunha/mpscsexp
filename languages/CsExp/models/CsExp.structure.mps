@@ -319,6 +319,9 @@
     <property role="TrG5h" value="CsLiteral" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1V6hozqZZ2j" role="PzmwI">
+      <ref role="PrY4T" node="7KGBGY0iFuM" resolve="CsExpression" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4MuTFUopS8q">
     <property role="EcuMT" value="5521103899477901850" />
@@ -604,9 +607,6 @@
       <property role="IQ2nx" value="8341474861423099315" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" node="7f2RN41YnQL" resolve="CsStringValue" />
-    </node>
-    <node concept="PrWs8" id="7KGBGY0soO7" role="PzmwI">
-      <ref role="PrY4T" node="7KGBGY0iFuM" resolve="CsExpression" />
     </node>
   </node>
   <node concept="1TIwiD" id="7f2RN41YnQO">
@@ -1086,6 +1086,16 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expression" />
       <ref role="20lvS9" node="7KGBGY0iFuM" resolve="CsExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1V6hozros9w">
+    <property role="EcuMT" value="2217536320625033824" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
+    <property role="TrG5h" value="CsCharType" />
+    <property role="34LRSv" value="char" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1V6hozrosaY" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
     </node>
   </node>
 </model>

@@ -43,6 +43,11 @@
         <child id="6912590347182670869" name="inheritedTypes" index="26s71u" />
         <child id="8947701173724225507" name="members" index="3W0g4G" />
       </concept>
+      <concept id="2217536320640889233" name="CsExp.structure.CsMethodReference" flags="ng" index="32_vgp">
+        <reference id="2217536320640889236" name="ref" index="32_vgs" />
+        <child id="2217536320647199623" name="innerTypes" index="32trSf" />
+        <child id="2217536320656029665" name="params" index="33Zf9D" />
+      </concept>
       <concept id="2217536320625033824" name="CsExp.structure.CsCharType" flags="ng" index="35DSvC" />
       <concept id="5521103899477901850" name="CsExp.structure.CsByteType" flags="ng" index="3kYmi$" />
       <concept id="9180851455412203729" name="CsExp.structure.CsEnumDeclaration" flags="ng" index="3o41Wg">
@@ -105,6 +110,7 @@
       </concept>
       <concept id="8947701173750277723" name="CsExp.structure.CsMethodDeclaration" flags="ng" index="3X_Vyk">
         <child id="8947701173750277754" name="params" index="3X_VyP" />
+        <child id="8947701173750277753" name="variantTypeParameters" index="3X_VyQ" />
         <child id="8947701173751800691" name="returnType" index="3XZJQW" />
         <child id="8947701173755400829" name="body" index="3Y9sMM" />
       </concept>
@@ -309,6 +315,10 @@
             <ref role="26jCZI" node="7OH22NXP_19" resolve="T" />
           </node>
         </node>
+        <node concept="3X_Vyk" id="1V6hozrH$oc" role="3W0g4G">
+          <property role="TrG5h" value="M5" />
+          <node concept="1MeUa5" id="1V6hozrH$oi" role="3XZJQW" />
+        </node>
       </node>
       <node concept="3o4JVR" id="7KGBGY0bpVp" role="3o41Wj" />
       <node concept="26BTIS" id="7KGBGY0bpY5" role="3o41Wj">
@@ -345,10 +355,14 @@
           <node concept="26A2Q5" id="7KGBGY1nn80" role="3X4GRf" />
         </node>
         <node concept="3X_Vyk" id="7KGBGY1RvX$" role="3W0g4G">
-          <property role="TrG5h" value="M" />
+          <property role="TrG5h" value="M1" />
           <node concept="1LWtMx" id="7KGBGY1RvXS" role="3X_VyP">
             <property role="TrG5h" value="p1" />
             <node concept="1MeUa5" id="7KGBGY1RvXW" role="1LWtMy" />
+          </node>
+          <node concept="1LWtMx" id="1V6hoztlkya" role="3X_VyP">
+            <property role="TrG5h" value="p2" />
+            <node concept="1MeUa5" id="1V6hoztlkyZ" role="1LWtMy" />
           </node>
           <node concept="3Y34Lu" id="7KGBGY2baw7" role="3Y9sMM">
             <node concept="1MeUa3" id="1V6hozrEx3m" role="3Y03r6">
@@ -356,8 +370,25 @@
             </node>
           </node>
           <node concept="1MeUa5" id="1V6hozrEx3T" role="3XZJQW" />
+          <node concept="3LnZq_" id="1V6hozsN22i" role="3X_VyQ">
+            <property role="TrG5h" value="T" />
+          </node>
         </node>
         <node concept="3W0g4h" id="7KGBGY22l44" role="3W0g4G" />
+        <node concept="3X_Vyk" id="1V6hozrH$oO" role="3W0g4G">
+          <property role="TrG5h" value="M2" />
+          <node concept="1MeUa5" id="1V6hozrH$pf" role="3XZJQW" />
+          <node concept="32_vgp" id="1V6hoztlkz9" role="3Y9sMM">
+            <ref role="32_vgs" node="7KGBGY1RvX$" resolve="M1" />
+            <node concept="1MeUa5" id="1V6hoztlkzj" role="32trSf" />
+            <node concept="1MeUa3" id="1V6hoztlk$a" role="33Zf9D">
+              <property role="1MeUa2" value="&quot;a&quot;" />
+            </node>
+            <node concept="1MeUa3" id="1V6hoztlk$J" role="33Zf9D">
+              <property role="1MeUa2" value="&quot;b&quot;" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3o4JVR" id="7KGBGY0bpYL" role="3o41Wj" />
       <node concept="26BTIS" id="7KGBGY0bpWE" role="3o41Wj">

@@ -1863,5 +1863,61 @@
       <ref role="1YaFvo" to="l3hf:7f2RN42rIkk" resolve="CsVoidType" />
     </node>
   </node>
+  <node concept="1YbPZF" id="6LxUoSMQYtK">
+    <property role="TrG5h" value="typeof_CsBoolType" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
+    <node concept="3clFbS" id="6LxUoSMQYtL" role="18ibNy">
+      <node concept="1Z5TYs" id="6LxUoSMQYDP" role="3cqZAp">
+        <node concept="mw_s8" id="6LxUoSMQYE9" role="1ZfhKB">
+          <node concept="2ShNRf" id="6LxUoSMQYE5" role="mwGJk">
+            <node concept="3zrR0B" id="6LxUoSMQYQM" role="2ShVmc">
+              <node concept="3Tqbb2" id="6LxUoSMQYQO" role="3zrR0E">
+                <ref role="ehGHo" to="l3hf:6LxUoSMO0At" resolve="CsBoolType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6LxUoSMQYDS" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6LxUoSMQYtR" role="mwGJk">
+            <node concept="1YBJjd" id="6LxUoSMQYvF" role="1Z2MuG">
+              <ref role="1YBMHb" node="6LxUoSMQYtN" resolve="csBoolType" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6LxUoSMQYtN" role="1YuTPh">
+      <property role="TrG5h" value="csBoolType" />
+      <ref role="1YaFvo" to="l3hf:6LxUoSMO0At" resolve="CsBoolType" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6LxUoSMWTd1">
+    <property role="TrG5h" value="typeof_CsBoolLiteral" />
+    <property role="3GE5qa" value="Literals" />
+    <node concept="3clFbS" id="6LxUoSMWTd2" role="18ibNy">
+      <node concept="1Z5TYs" id="6LxUoSMWTki" role="3cqZAp">
+        <node concept="mw_s8" id="6LxUoSMWTkA" role="1ZfhKB">
+          <node concept="2ShNRf" id="6LxUoSMWTky" role="mwGJk">
+            <node concept="3zrR0B" id="6LxUoSMWTw_" role="2ShVmc">
+              <node concept="3Tqbb2" id="6LxUoSMWTwB" role="3zrR0E">
+                <ref role="ehGHo" to="l3hf:6LxUoSMO0At" resolve="CsBoolType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6LxUoSMWTkl" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6LxUoSMWTd8" role="mwGJk">
+            <node concept="1YBJjd" id="6LxUoSMWTeW" role="1Z2MuG">
+              <ref role="1YBMHb" node="6LxUoSMWTd4" resolve="csBoolLiteral" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6LxUoSMWTd4" role="1YuTPh">
+      <property role="TrG5h" value="csBoolLiteral" />
+      <ref role="1YaFvo" to="l3hf:6LxUoSLC2KB" resolve="CsBoolLiteral" />
+    </node>
+  </node>
 </model>
 

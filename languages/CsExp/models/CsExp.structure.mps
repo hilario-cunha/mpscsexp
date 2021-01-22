@@ -1133,7 +1133,7 @@
     <property role="3GE5qa" value="Literals" />
     <property role="TrG5h" value="CsBoolLiteral" />
     <property role="34LRSv" value="bool literal" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="1TpIy7UT6aw" resolve="CsLiteral" />
     <node concept="1TJgyi" id="6LxUoSLC2KD" role="1TKVEl">
       <property role="IQ2nx" value="7809780025764359209" />
       <property role="TrG5h" value="value" />
@@ -1163,11 +1163,21 @@
     <property role="EcuMT" value="7809780025764360752" />
     <property role="3GE5qa" value="Literals" />
     <property role="TrG5h" value="CsRealLiteral" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="1TpIy7UT6aw" resolve="CsLiteral" />
     <node concept="1TJgyi" id="6LxUoSLC38L" role="1TKVEl">
       <property role="IQ2nx" value="7809780025764360753" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" node="6LxUoSLC38J" resolve="CsRealValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LxUoSMO0At">
+    <property role="EcuMT" value="7809780025784273309" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
+    <property role="TrG5h" value="CsBoolType" />
+    <property role="34LRSv" value="bool" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6LxUoSMO0Au" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
     </node>
   </node>
 </model>

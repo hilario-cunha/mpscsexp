@@ -168,7 +168,7 @@
     <property role="3F6X1D" value="6135045524127632711" />
     <property role="TrG5h" value="CsIntValue" />
     <property role="FLfZY" value="([0-9]+|0[xX][0-9A-Fa-f]+)([Uu]?[Ll]?|[Ll]?[Uu]?)" />
-    <property role="3GE5qa" value="Literals" />
+    <property role="3GE5qa" value="Literals.Values" />
   </node>
   <node concept="1TIwiD" id="5k$3QoUvENR">
     <property role="EcuMT" value="6135045524127919351" />
@@ -186,7 +186,7 @@
     <property role="3F6X1D" value="6135045524127919353" />
     <property role="TrG5h" value="CsCharValue" />
     <property role="FLfZY" value="'(\\\\u[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]|\\\\U[0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f]|\\\\'|\\\\\&quot;|\\\\\\\\|\\\\0|\\\\a|\\\\b|\\\\f|\\\\n|\\\\r|\\\\t|\\\\v|\\\\x[0-9A-Fa-f][0-9A-Fa-f]?[0-9A-Fa-f]?[0-9A-Fa-f]?|[^\\\\'])'" />
-    <property role="3GE5qa" value="Literals" />
+    <property role="3GE5qa" value="Literals.Values" />
   </node>
   <node concept="PlHQZ" id="1TpIy7UGVxU">
     <property role="EcuMT" value="2186983749167855738" />
@@ -593,7 +593,7 @@
   </node>
   <node concept="Az7Fb" id="7f2RN41YnQL">
     <property role="3F6X1D" value="8341474861423099313" />
-    <property role="3GE5qa" value="Literals" />
+    <property role="3GE5qa" value="Literals.Values" />
     <property role="TrG5h" value="CsStringValue" />
     <property role="FLfZY" value="&quot;.*&quot;" />
   </node>
@@ -1126,6 +1126,48 @@
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7KGBGY1IMpr" resolve="CsMethodDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LxUoSLC2KB">
+    <property role="EcuMT" value="7809780025764359207" />
+    <property role="3GE5qa" value="Literals" />
+    <property role="TrG5h" value="CsBoolLiteral" />
+    <property role="34LRSv" value="bool literal" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6LxUoSLC2KD" role="1TKVEl">
+      <property role="IQ2nx" value="7809780025764359209" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="6LxUoSLC2KC" resolve="CsBoolValue" />
+    </node>
+  </node>
+  <node concept="Az7Fb" id="6LxUoSLC2KC">
+    <property role="3F6X1D" value="7809780025764359208" />
+    <property role="3GE5qa" value="Literals.Values" />
+    <property role="TrG5h" value="CsBoolValue" />
+    <property role="FLfZY" value="(true|false)" />
+  </node>
+  <node concept="1TIwiD" id="6LxUoSLC2KF">
+    <property role="EcuMT" value="7809780025764359211" />
+    <property role="3GE5qa" value="Literals" />
+    <property role="TrG5h" value="CsNullLiteral" />
+    <property role="34LRSv" value="null" />
+    <ref role="1TJDcQ" node="1TpIy7UT6aw" resolve="CsLiteral" />
+  </node>
+  <node concept="Az7Fb" id="6LxUoSLC38J">
+    <property role="3F6X1D" value="7809780025764360751" />
+    <property role="3GE5qa" value="Literals.Values" />
+    <property role="TrG5h" value="CsRealValue" />
+    <property role="FLfZY" value="(((([0-9]*\\.[0-9]+([eE][+-]?[0-9]+)?)|([0-9]+[eE][+-]?[0-9]+))[Ff]?[Dd]?[Mm]?)|[0-9]+([Ff]|[Dd]|[Mm]))" />
+  </node>
+  <node concept="1TIwiD" id="6LxUoSLC38K">
+    <property role="EcuMT" value="7809780025764360752" />
+    <property role="3GE5qa" value="Literals" />
+    <property role="TrG5h" value="CsRealLiteral" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6LxUoSLC38L" role="1TKVEl">
+      <property role="IQ2nx" value="7809780025764360753" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="6LxUoSLC38J" resolve="CsRealValue" />
     </node>
   </node>
 </model>

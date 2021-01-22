@@ -328,6 +328,76 @@
         <ref role="3uigEE" to="xlxw:~BigInteger" resolve="BigInteger" />
       </node>
     </node>
+    <node concept="13i0hz" id="6LxUoSLCkvD" role="13h7CS">
+      <property role="TrG5h" value="GetBigIntegerFromCharLiteral" />
+      <property role="2Ki8OM" value="true" />
+      <node concept="37vLTG" id="6LxUoSLCkTI" role="3clF46">
+        <property role="TrG5h" value="literalNode" />
+        <node concept="3Tqbb2" id="6LxUoSLCkTJ" role="1tU5fm">
+          <ref role="ehGHo" to="l3hf:5k$3QoUvENR" resolve="CsCharLiteral" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6LxUoSLCkvE" role="1B3o_S" />
+      <node concept="3uibUv" id="6LxUoSLCkOm" role="3clF45">
+        <ref role="3uigEE" to="xlxw:~BigInteger" resolve="BigInteger" />
+      </node>
+      <node concept="3clFbS" id="6LxUoSLCkvG" role="3clF47">
+        <node concept="3clFbF" id="6LxUoSLCla7" role="3cqZAp">
+          <node concept="2YIFZM" id="6LxUoSLCkTZ" role="3clFbG">
+            <ref role="37wK5l" to="xlxw:~BigInteger.valueOf(long)" resolve="valueOf" />
+            <ref role="1Pybhc" to="xlxw:~BigInteger" resolve="BigInteger" />
+            <node concept="BsUDl" id="6LxUoSLCkU0" role="37wK5m">
+              <ref role="37wK5l" node="5ZIt4Jpe3wX" resolve="GetValueFromCharLiteral" />
+              <node concept="37vLTw" id="6LxUoSLCkU3" role="37wK5m">
+                <ref role="3cqZAo" node="6LxUoSLCkTI" resolve="literalNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="6LxUoSLClD8" role="13h7CS">
+      <property role="TrG5h" value="GetBigIntegerFromIntLiteral" />
+      <property role="2Ki8OM" value="true" />
+      <node concept="37vLTG" id="6LxUoSLClD9" role="3clF46">
+        <property role="TrG5h" value="literalNode" />
+        <node concept="3Tqbb2" id="6LxUoSLClDa" role="1tU5fm">
+          <ref role="ehGHo" to="l3hf:5k$3QoUtYwk" resolve="CsIntLiteral" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6LxUoSLClDb" role="1B3o_S" />
+      <node concept="3uibUv" id="6LxUoSLClDc" role="3clF45">
+        <ref role="3uigEE" to="xlxw:~BigInteger" resolve="BigInteger" />
+      </node>
+      <node concept="3clFbS" id="6LxUoSLClDd" role="3clF47">
+        <node concept="3clFbF" id="6LxUoSLClDe" role="3cqZAp">
+          <node concept="2ShNRf" id="6LxUoSLCmaH" role="3clFbG">
+            <node concept="1pGfFk" id="6LxUoSLCmaI" role="2ShVmc">
+              <ref role="37wK5l" to="xlxw:~BigInteger.&lt;init&gt;(java.lang.String)" resolve="BigInteger" />
+              <node concept="2OqwBi" id="6LxUoSMoN_v" role="37wK5m">
+                <node concept="2OqwBi" id="6LxUoSLCmaJ" role="2Oq$k0">
+                  <node concept="37vLTw" id="6LxUoSLCmaK" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6LxUoSLClD9" resolve="literalNode" />
+                  </node>
+                  <node concept="3TrcHB" id="6LxUoSLCmaL" role="2OqNvi">
+                    <ref role="3TsBF5" to="l3hf:5k$3QoUu$P8" resolve="value" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6LxUoSMoNTS" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String)" resolve="replaceAll" />
+                  <node concept="Xl_RD" id="6LxUoSMoQB2" role="37wK5m">
+                    <property role="Xl_RC" value="([Uu]?[Ll]?|[Ll]?[Uu]?)" />
+                  </node>
+                  <node concept="Xl_RD" id="6LxUoSMoQKr" role="37wK5m">
+                    <property role="Xl_RC" value="" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="5ZIt4JpiVlY" role="13h7CS">
       <property role="13i0it" value="true" />
       <property role="TrG5h" value="CanImplicityConvertFromCharLiteral" />
@@ -361,20 +431,10 @@
             <node concept="3uibUv" id="5ZIt4Jpj2_X" role="1tU5fm">
               <ref role="3uigEE" to="xlxw:~BigInteger" resolve="BigInteger" />
             </node>
-            <node concept="2YIFZM" id="5ZIt4Jpm0AI" role="33vP2m">
-              <ref role="1Pybhc" to="xlxw:~BigInteger" resolve="BigInteger" />
-              <ref role="37wK5l" to="xlxw:~BigInteger.valueOf(long)" resolve="valueOf" />
-              <node concept="BsUDl" id="5ZIt4Jpm0AJ" role="37wK5m">
-                <ref role="37wK5l" node="5ZIt4Jpe3wX" resolve="GetValueFromCharLiteral" />
-                <node concept="1PxgMI" id="5ZIt4Jpm0Un" role="37wK5m">
-                  <property role="1BlNFB" value="true" />
-                  <node concept="chp4Y" id="5ZIt4Jpm0Vo" role="3oSUPX">
-                    <ref role="cht4Q" to="l3hf:5k$3QoUvENR" resolve="CsCharLiteral" />
-                  </node>
-                  <node concept="37vLTw" id="5ZIt4Jpm0AK" role="1m5AlR">
-                    <ref role="3cqZAo" node="4MuTFUovsd2" resolve="literalNode" />
-                  </node>
-                </node>
+            <node concept="BsUDl" id="6LxUoSLCmzN" role="33vP2m">
+              <ref role="37wK5l" node="6LxUoSLCkvD" resolve="GetBigIntegerFromCharLiteral" />
+              <node concept="37vLTw" id="6LxUoSLCm$R" role="37wK5m">
+                <ref role="3cqZAo" node="4MuTFUovsd2" resolve="literalNode" />
               </node>
             </node>
           </node>
@@ -409,17 +469,10 @@
             <node concept="3uibUv" id="5ZIt4JpiQ4_" role="1tU5fm">
               <ref role="3uigEE" to="xlxw:~BigInteger" resolve="BigInteger" />
             </node>
-            <node concept="2ShNRf" id="5ZIt4Jpm1QX" role="33vP2m">
-              <node concept="1pGfFk" id="5ZIt4Jpm1QY" role="2ShVmc">
-                <ref role="37wK5l" to="xlxw:~BigInteger.&lt;init&gt;(java.lang.String)" resolve="BigInteger" />
-                <node concept="2OqwBi" id="5ZIt4Jpm1QZ" role="37wK5m">
-                  <node concept="37vLTw" id="5ZIt4Jpm1R2" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5ZIt4JpiQ4t" resolve="literalNode" />
-                  </node>
-                  <node concept="3TrcHB" id="5ZIt4Jpm1R3" role="2OqNvi">
-                    <ref role="3TsBF5" to="l3hf:5k$3QoUu$P8" resolve="value" />
-                  </node>
-                </node>
+            <node concept="BsUDl" id="6LxUoSLCmFk" role="33vP2m">
+              <ref role="37wK5l" node="6LxUoSLClD8" resolve="GetBigIntegerFromIntLiteral" />
+              <node concept="37vLTw" id="6LxUoSLCmGt" role="37wK5m">
+                <ref role="3cqZAo" node="5ZIt4JpiQ4t" resolve="literalNode" />
               </node>
             </node>
           </node>
@@ -553,6 +606,7 @@
     </node>
     <node concept="13i0hz" id="5ZIt4Jpe3wX" role="13h7CS">
       <property role="TrG5h" value="GetValueFromCharLiteral" />
+      <property role="2Ki8OM" value="true" />
       <node concept="37vLTG" id="5ZIt4Jpe3FY" role="3clF46">
         <property role="TrG5h" value="charLiteralNode" />
         <node concept="3Tqbb2" id="5ZIt4Jpe3Gm" role="1tU5fm">

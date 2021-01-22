@@ -1180,5 +1180,35 @@
       <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6LxUoSNbZMh">
+    <property role="EcuMT" value="7809780025790561425" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
+    <property role="TrG5h" value="CsFloatType" />
+    <property role="34LRSv" value="float" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6LxUoSNbZMi" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LxUoSNc0ab">
+    <property role="EcuMT" value="7809780025790562955" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
+    <property role="TrG5h" value="CsDoubleType" />
+    <property role="34LRSv" value="double" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6LxUoSNc0ac" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6LxUoSNc0wN">
+    <property role="EcuMT" value="7809780025790564403" />
+    <property role="3GE5qa" value="Types.BuiltIns" />
+    <property role="TrG5h" value="CsDecimalType" />
+    <property role="34LRSv" value="decimal" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6LxUoSNc0xe" role="PzmwI">
+      <ref role="PrY4T" node="2DfHAVriDaX" resolve="CsBuiltInType" />
+    </node>
+  </node>
 </model>
 

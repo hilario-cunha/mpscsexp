@@ -65,10 +65,6 @@
       <concept id="9180851455412343084" name="CsExp.structure.CsEnumMemberDeclaration" flags="ng" index="3o4ZVH">
         <child id="6135045524127273946" name="value" index="1JkdMW" />
       </concept>
-      <concept id="7809780025764359207" name="CsExp.structure.CsBoolLiteral" flags="ng" index="1tKsmD">
-        <property id="7809780025764359209" name="value" index="1tKsmB" />
-      </concept>
-      <concept id="7809780025784273309" name="CsExp.structure.CsBoolType" flags="ng" index="1uGu0j" />
       <concept id="2186983749168080332" name="CsExp.structure.CsIntType" flags="ng" index="3$VDZH" />
       <concept id="6135045524127475732" name="CsExp.structure.CsIntLiteral" flags="ng" index="1JkYtM">
         <property id="6135045524127632712" name="value" index="1Jn$8I" />
@@ -361,11 +357,11 @@
         <node concept="3X4GKN" id="6LxUoSLC8li" role="3W0g4G">
           <node concept="3X4GR6" id="6LxUoSLC8ll" role="3X4GRd">
             <property role="TrG5h" value="y" />
-            <node concept="1tKsmD" id="6LxUoSMWTcl" role="3X4GR1">
-              <property role="1tKsmB" value="true" />
+            <node concept="1JkYtM" id="6LxUoSN34g5" role="3X4GR1">
+              <property role="1Jn$8I" value="1" />
             </node>
           </node>
-          <node concept="1uGu0j" id="6LxUoSMZQst" role="3X4GRa" />
+          <node concept="3$VDZH" id="6LxUoSNf4pS" role="3X4GRa" />
         </node>
         <node concept="3X_Vyk" id="7KGBGY1RvX$" role="3W0g4G">
           <property role="TrG5h" value="M1" />

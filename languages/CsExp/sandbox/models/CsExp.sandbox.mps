@@ -66,6 +66,11 @@
         <child id="6135045524127273946" name="value" index="1JkdMW" />
       </concept>
       <concept id="2186983749168080332" name="CsExp.structure.CsIntType" flags="ng" index="3$VDZH" />
+      <concept id="6296739775008344946" name="CsExp.structure.CsPlusExpression" flags="ng" index="3F48w4" />
+      <concept id="6296739775008344848" name="CsExp.structure.CsBinaryExpression" flags="ng" index="3F48xA">
+        <child id="6296739775008344851" name="leftExpression" index="3F48x_" />
+        <child id="6296739775008344858" name="rightExpression" index="3F48xG" />
+      </concept>
       <concept id="6135045524127475732" name="CsExp.structure.CsIntLiteral" flags="ng" index="1JkYtM">
         <property id="6135045524127632712" name="value" index="1Jn$8I" />
       </concept>
@@ -357,11 +362,16 @@
         <node concept="3X4GKN" id="6LxUoSLC8li" role="3W0g4G">
           <node concept="3X4GR6" id="6LxUoSLC8ll" role="3X4GRd">
             <property role="TrG5h" value="y" />
-            <node concept="1MeUa3" id="6LxUoSNousk" role="3X4GR1">
-              <property role="1MeUa2" value="&quot;a&quot;" />
+            <node concept="3F48w4" id="5tywRqWGl8k" role="3X4GR1">
+              <node concept="1MeUa3" id="5tywRqWGlae" role="3F48x_">
+                <property role="1MeUa2" value="&quot;1&quot;" />
+              </node>
+              <node concept="1MeUa3" id="5tywRqWGl9g" role="3F48xG">
+                <property role="1MeUa2" value="&quot;1&quot;" />
+              </node>
             </node>
           </node>
-          <node concept="1MeUa5" id="6LxUoSNlwI2" role="3X4GRa" />
+          <node concept="1MeUa5" id="5tywRqWGl6k" role="3X4GRa" />
         </node>
         <node concept="3X_Vyk" id="7KGBGY1RvX$" role="3W0g4G">
           <property role="TrG5h" value="M1" />
